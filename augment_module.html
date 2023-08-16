@@ -30,7 +30,7 @@
                         </button>
                         
                         <!-- Items inside Navbar -->
-                        <div class="collapse show navbar-collapse" id="navbarNavDropdown">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6 nav-pills">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="index.html" target="_self" rel="noopener noreferrer">Home</a>
@@ -89,14 +89,22 @@
             <!-- Margin Buffer -->
             <div class="row mb-3"></div>
 
-            <h1 id="title">
+            <!-- Title -->
+            <h1 id="home">
                 <p class="fs-2 h1">
-                    <u>Augment Module Guide</u>
+                    <b>
+                        <u>Augment Module Guide</u>
+                    </b>
                 </p>
             </h1>
+
+            <!-- Version Number -->
+            <p style="text-align: center;">
+                <b>Current Version</b>: 3.0.0 | <b>Last Updated</b>: August 15th, 2023
+            </p>
             <br>
                 
-                <h3>Crafting/Upgrading Mechanics</h3><hr class="bg-light border-2 border-top border-light">
+                <h2>Crafting/Upgrading Mechanics</h2><hr class="bg-light border-2 border-top border-light">
                     <p>
                         <i>Main Article: <a href="https://azurlane.koumakan.jp/wiki/Augmentation#Crafting_and_Enhancing" target="_blank" rel="noopener noreferrer">Augment Module Crafting & Enhancing</a></i>
                     </p>
@@ -109,50 +117,59 @@
                 <br>
 
                 <h3>Optimal Modules by Hull Type</h3><hr class="bg-light border-2 border-top border-light">
-                    <h3>For Ships with a Unique Augment Module, use their Unique Augment Module on them!</h3>
-                        <p>
-                            <i>On <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-557">U-557</a></b> and <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minneapolis">Minneapolis</a></b>, their Unique Augments are sidegrades to Universal Augments, so there is no need to craft them.</i>
-                        </p>
+                    <p class="h5 text-light">For Ships with a Unique Augment Module, use their Unique Augment Module on them!</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <i>On <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-557">U-557</a></b> and <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minneapolis">Minneapolis</a></b>, their Unique Augments are sidegrades to Universal Augments, so there is no need to craft them.</i>
+                                </p>
+                            </li>
+                        </ul>
                     <br>
 
                     <h3><u>DD / DDG</u></h3>
-
-                        <table>
-                            <tr>
-                                <th style="width: 25%;">Augment Module</th>
-                                <th>Evaluation</th>
-                            </tr>
-                            <tr>
-                                <!-- equip/ship cell -->
-                                <td>
-                                    <p>
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dual Swords" title="Dual Swords">
-                                            <div class="icon rarity-3 border-radius-0">
-                                                <img src="images\augments\dual_swords.png" alt="Dual Swords">
-                                            </div>
-                                            <u>Dual Swords</u>
-                                        </a>
-                                    </p>
-                                </td>
-                                <!--description -->
-                                <td>Best general-use DD augment; used on all DDs that aren't heavily reliant on Torpedo Damage.</td>
-                            </tr>
-                            <tr>
-                                <!-- equip/ship cell -->
-                                <td>
-                                    <p>
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hammer" title="Hammer">
-                                            <div class="icon rarity-3 border-radius-0">
-                                                <img src="images\augments\hammer.png" alt="Hammer">
-                                            </div>
-                                            <u>Hammer</u>
-                                        </a>
-                                    </p>
-                                </td>
-                                <!--description -->
-                                <td>Best on DDs who are heavily reliant on Torpedo damage.</td>
-                            </tr>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                                <thead class="fs-5 align-middle">
+                                    <tr class="table-active">
+                                        <th scope="col" style="width: 25%;">Augment Module</th>
+                                        <th scope="col">Evaluation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <!-- equip/ship cell -->
+                                        <td>
+                                            <p>
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dual Swords" title="Dual Swords">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\augments\dual_swords.png" alt="Dual Swords">
+                                                    </div>
+                                                    <u>Dual Swords</u>
+                                                </a>
+                                            </p>
+                                        </td>
+                                        <!--description -->
+                                        <td>Best general-use DD augment; used on all DDs that aren't heavily reliant on Torpedo Damage.</td>
+                                    </tr>
+                                    <tr>
+                                        <!-- equip/ship cell -->
+                                        <td>
+                                            <p>
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hammer" title="Hammer">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\augments\hammer.png" alt="Hammer">
+                                                    </div>
+                                                    <u>Hammer</u>
+                                                </a>
+                                            </p>
+                                        </td>
+                                        <!--description -->
+                                        <td>Best on DDs who are heavily reliant on Torpedo damage.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     <br>
 
                     <h3><u>CL</u></h3>
