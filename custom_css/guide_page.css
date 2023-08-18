@@ -154,8 +154,12 @@ div {
 
 
 /* Tables */
-table {
-  min-width: 1200px!important;
+table.width_one {
+  min-width: 1150px!important;
+}
+
+table.width_two {
+  min-width: 576px!important
 }
 
 td {
