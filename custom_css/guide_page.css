@@ -16,10 +16,14 @@ h1 {
   text-align: center;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3 {
   color: hsla(0,0%,100%,.9);
 }
 
+h4.farming_guide {
+  color: hsla(0,0%,100%,.6);
+  text-decoration: underline;
+}
 
 h6, .h6 {
   font-size: 0.75rem;
@@ -234,7 +238,7 @@ span p {
 }
 
 
-/* Ship "Container" */
+/* Images */
 
 .icon-note-helper {
   position: relative;
@@ -296,6 +300,37 @@ div.shipRowContainer {
 
 .shipRowCell:hover {
   border: 1px solid orange;
+}
+
+/* Carousel */
+
+.carousel-caption > p {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 9px 3px #555;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 20px
+}
+
+.carousel-item > img {
+  object-fit: cover;
+  max-height: 400px;
+  width: auto!important;
+  margin: auto;
+}
+
+.carousel-slide {
+  margin: 21px 0;
+}
+
+.carousel {
+  position: relative;
 }
 
 
