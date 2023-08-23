@@ -299,6 +299,7 @@ img {
 .home-page-pattern {
   overflow-clip-margin: content-box;
   overflow: clip;
+  pointer-events: none;
 }
 
 .icon-note {
