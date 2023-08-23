@@ -12,6 +12,14 @@ body {
   border: 2px solid #252525;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+.font-weight-bold {
+  font-weight: 600!important;
+}
+
 h1 {
   color: hsla(0,0%,100%,.9);
   text-align: center;
@@ -73,6 +81,11 @@ h6, .h6 {
 p {
   color: hsla(0,0%,100%,.6);
   font-size: medium;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 ul {
@@ -283,6 +296,11 @@ img {
   border-style: none;
 }
 
+.home-page-pattern {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 .icon-note {
   background-color: rgba(0, 0, 0, 0.486);
   width: 60px;
@@ -401,6 +419,8 @@ div.shipRowContainer {
   width: 100%;
 }
 
+
+
 .index-page {
   background-size: contain;
   margin: 0px;
@@ -415,6 +435,48 @@ div.shipRowContainer {
 
 .wrapper {
   /* margin-top: 74px; */
+}
+
+.guide-title {
+  margin-bottom: 5px!important;
+}
+
+.gridcell-title {
+  margin: 5px!important;
+}
+
+.gridcell-details-style {
+  width: max-content;
+  margin: auto;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.section {
+  padding: 70px 0 0 0;
+  /* padding: 70px 0; */
+  position: relative;
+}
+
+/* .modified-container {
+  width: 100%;
+  padding-right: 15px!important;
+  padding-left: 15px!important;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+.section-basic {
+  overflow: hidden;
+}
+
+.path {
+  position: absolute;
+  opacity: 0.02;
+}
+
+.section-basic img.path {
+  right: -400px;
 }
 
 .index-style {
@@ -476,6 +538,9 @@ div.shipRowContainer {
   width: 100%!important;
 }
 
+.width-150px {
+  width: 150px;
+}
 
 /* animated squares */
 

@@ -15,17 +15,18 @@
         <!-- JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <script src="custom_js\guide_page.js"></script>
+        <script src="https://kit.fontawesome.com/a085617b05.js" crossorigin="anonymous"></script>
     </head>
     
     <body class="index-page">
         
         <!-- Navbar -->
-        <nav class="navbar sticky-top navbar-expand-xxl navbar-dark" style="background-color: #1f2251;">
+        <nav class="navbar sticky-top navbar-expand-xxl navbar-dark" style="background-color: #222a42;">
             <div class="container-fluid mt-0 m-auto col-12 col-sm-9">
                 <div class="row w-100" style="justify-content: space-between;">
                     <div class="col-auto">
                         <!-- Title -->
-                        <a class="navbar-brand" href="">
+                        <a class="navbar-brand" href="" target="_self" rel="noopener noreferrer">
                             <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
                         </a>
                     </div>
@@ -114,107 +115,258 @@
                 </div>
             </div>
 
-
-
             <!-- Main Content -->
-            <!-- <div class="main"> -->
-            <div class="container mt-5 mt-sm-0 m-auto guide-content-body col-12 col-sm-9">
-                <!-- Margin Buffer -->
-                <div class="row mb-3"></div>
-            
-                <!-- Title
-                <h1 id="home">
-                    <p class="fs-2 h1">
-                        <b>
-                            <u>EN Community Guide Compendium for Azur Lane</u>
-                        </b>
-                    </p>
-                </h1>
+            <div class="main">
+                <div class="section section-basic">
+                    <img alt="..." class="path home-page-pattern" src="images\misc\pattern1.png">
 
-                Version Number
-                <p style="text-align: center;">
-                    <b>Last Updated</b>: August 15th, 2023 (Site Overhaul)
-                </p>
-                <br> -->
-                
-                    <h2>Introduction</h2><hr class="bg-light border-2 border-top border-light">
-                        <p>Welcome to the EN Community Guide Compendium for Azur Lane, written by <b>@samheart564</b>! Below are a list of all the guides I created.</p>
+                    <div class="container modified-container">
+                        <h2>Introduction</h2><hr class="bg-light border-2 border-top border-light">
+                            <p>Welcome to the EN Community Guide Compendium for Azur Lane, developed by <b>@samheart564</b>, with resources made by various authors! Below are a list of all the resources offered:</p>
+                        <br>
+
+                        <h2>Guides</h2><hr class="bg-light border-2 border-top border-light">
+                        <div id="images">
+                            <div class="row">
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="augment_module.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Augment Module Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="common_resource.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Common Resource Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="early_ship_recommendations.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Early Ship Recommendations
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="https://imgur.com/a/YoxqS7A" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Equipment & Shops Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/20/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="farming.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Farming Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="fleetbuilding.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Fleetbuilding Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="research.html" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Research Guide
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/25/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+
+                                <!-- Guide Cell -->
+                                <div class="mt-5 mt-sm-0 col-6 col-sm-3 text-align-center">
+                                    <a href="https://azurlane.koumakan.jp/wiki/User:Samheart564/Samvaluation" target="_self" rel="noopener noreferrer">
+                                        <img class="img-fluid rounded shadow-lg width-150px" src="images\misc\No-Cover.jpg">
+                                        <div class="d-block text-uppercase font-weight-bold mb-4 guide-title gridcell-title">
+                                            Samvaluations
+                                        </div>
+                                    </a>
+                                    <small class="d-block mb-4 gridcell-details-style">
+                                        <i class="fa fa-pencil-alt"></i>
+                                        Samheart564
+                                        <br>
+                                        <i class="fa fa-sync"></i>
+                                        8/20/2023
+                                        <br>
+                                        Revision 3.0.0
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <br>
                     
-                    <h2 id="Guides">Guides</h2><hr class="bg-light border-2 border-top border-light">
-                        <ul>
-                            <li><a href="augment_module.html" target="_self" rel="noopener noreferrer">Augment Module Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over Augments and their mechanics. Check the <a href="https://azurlane.koumakan.jp/wiki/Augmentation" target="_blank" rel="noopener noreferrer">Augmentation</a> wiki page for more information.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                    <div class="container">
+                        <!-- <h2>Introduction</h2><hr class="bg-light border-2 border-top border-light">
+                            <p>Welcome to the EN Community Guide Compendium for Azur Lane, developed by <b>@samheart564</b>, with resources made by various authors! Below are a list of all the resources offered:</p>
+                        <br> -->
+                        
+                        <h2 id="Guides">Guide Descriptions</h2><hr class="bg-light border-2 border-top border-light">
+                            <ul>
+                                <li><a href="augment_module.html" target="_self" rel="noopener noreferrer">Augment Module Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over Augments and their mechanics. Check the <a href="https://azurlane.koumakan.jp/wiki/Augmentation" target="_blank" rel="noopener noreferrer">Augmentation</a> wiki page for more information.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="common_resource.html" target="_self" rel="noopener noreferrer">Common Resource Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over Common Resources in Azur Lane, how to acquire them, and how much you can acquire in a reasonable time frame.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                                <li><a href="common_resource.html" target="_self" rel="noopener noreferrer">Common Resource Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over Common Resources in Azur Lane, how to acquire them, and how much you can acquire in a reasonable time frame.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="early_ship_recommendations.html" target="_self" rel="noopener noreferrer">Early Ship Recommendations Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over easily accessible good ships in Azur Lane and where to acquire them.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                                <li><a href="early_ship_recommendations.html" target="_self" rel="noopener noreferrer">Early Ship Recommendations Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over easily accessible good ships in Azur Lane and where to acquire them.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="https://imgur.com/a/YoxqS7A" target="_self" rel="noopener noreferrer">Equipment, Shops, and Other Misc. Guides</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Has a variety of image guides for Azur Lane!</p>
-                                    </li>
-                                    <li>
-                                        <p>Full Guide List: EXP Thresholds, Hard Mode Requirement Help, Core Data Priority, Gear Lab Priority, Prototype Core Priority, +13 Gear Priority, List of Cross-fleet Effects, Best Equipment by Equipment Type, Operation Siren Image Guides.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                                <li><a href="https://imgur.com/a/YoxqS7A" target="_self" rel="noopener noreferrer">Equipment, Shops, and Other Misc. Guides</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Has a variety of image guides for Azur Lane!</p>
+                                        </li>
+                                        <li>
+                                            <p>Full Guide List: EXP Thresholds, Hard Mode Requirement Help, Core Data Priority, Gear Lab Priority, Prototype Core Priority, +13 Gear Priority, List of Cross-fleet Effects, Best Equipment by Equipment Type, Operation Siren Image Guides.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="farming.html" target="_self" rel="noopener noreferrer">Farming Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over the optimal ways to farm in Azur Lane.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                                <li><a href="farming.html" target="_self" rel="noopener noreferrer">Farming Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over the optimal ways to farm in Azur Lane.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over how to make fleets for both Campaign and <a href="https://azurlane.koumakan.jp/wiki/Operation Siren" target="_blank" rel="noopener noreferrer">Operation Siren</a> in Azur Lane.</p>
-                                    </li>
-                                </ul>
-                            <br>
-                            
-                            <li><a href="research" target="_self" rel="noopener noreferrer">Research Guide</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Goes over the <a href="https://azurlane.koumakan.jp/wiki/Research" target="_blank" rel="noopener noreferrer">Research</a> mechanics in Azur Lane, including optimal Research Projects to take, and how Catchup / Coin-up work.</p>
-                                    </li>
-                                </ul>
-                            <br>
+                                <li><a href="fleetbuilding.html" target="_self" rel="noopener noreferrer">Fleetbuilding Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over how to make fleets for both Campaign and <a href="https://azurlane.koumakan.jp/wiki/Operation Siren" target="_blank" rel="noopener noreferrer">Operation Siren</a> in Azur Lane.</p>
+                                        </li>
+                                    </ul>
+                                <br>
+                                
+                                <li><a href="research.html" target="_self" rel="noopener noreferrer">Research Guide</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Goes over the <a href="https://azurlane.koumakan.jp/wiki/Research" target="_blank" rel="noopener noreferrer">Research</a> mechanics in Azur Lane, including optimal Research Projects to take, and how Catchup / Coin-up work.</p>
+                                        </li>
+                                    </ul>
+                                <br>
 
-                            <li><a href="https://azurlane.koumakan.jp/wiki/User:Samheart564/Samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a></li>
-                                <ul>
-                                    <li>
-                                        <p>Compiled list of all my ship reviews!</p>
-                                    </li>
-                                </ul>
-                        </ul>
-                    <br>
-                    
-                    <h2 id="contact">Contact Information</h2><hr class="bg-light border-2 border-top border-light">
-                        <p>If there are any questions, DM me on Discord @samheart564.</p>
-                    <br>
+                                <li><a href="https://azurlane.koumakan.jp/wiki/User:Samheart564/Samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a></li>
+                                    <ul>
+                                        <li>
+                                            <p>Compiled list of all my ship reviews!</p>
+                                        </li>
+                                    </ul>
+                            </ul>
+                        <br>
+                        <br>
+                        
+                        <h2 id="contact">Contact Information</h2><hr class="bg-light border-2 border-top border-light">
+                            <p>If there are any questions, DM me on Discord @samheart564.</p>
+                        <br>
+                    </div>
+                </div>
             </div>
+        </div>
     </body>
 
     <!-- bottom bar -->
