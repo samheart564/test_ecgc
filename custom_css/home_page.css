@@ -40,6 +40,11 @@ h6, .h6 {
   text-transform: uppercase;
 }
 
+.nav-logo-custom {
+  color: #fff;
+  opacity: 0.8;
+}
+
 .footer-style {
   padding: 4px;
   margin: 8px;
