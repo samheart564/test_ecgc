@@ -44,8 +44,19 @@ h6, .h6 {
   text-transform: uppercase;
 }
 
-hr {
-  width: 100%;
+hr.custom-hr {
+  --custom_color: 248, 249, 250;
+  --custom_opacity: 1;
+
+  background-color: rgba(var(--custom_color), var(--custom_opacity));
+  border-width: 2px!important;
+  border-color: rgba(var(--custom_color), var(--custom_opacity));
+
+  --border-width: 2px;
+  --border-style: solid;
+  --border-color: #dee2e6;
+
+  border-top: var(--border-width) var(--border-style) var(--border-color)!important;
 }
 
 .nav-logo-custom {
