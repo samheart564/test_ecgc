@@ -432,7 +432,10 @@ div.modifiedShipRowContainer {
 .toc ol {
   list-style-type: none;
   counter-reset: item;
-  margin: 0.6em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-right: 0.6em;
+  margin-left: 0.2em;
   padding: 0;
 }
 
