@@ -1,3 +1,5 @@
+
+//Table Scrolling
 const slider = document.querySelector('.table-responsive');
 let mouseDown = false;
 let startX, scrollLeft;
@@ -19,13 +21,13 @@ slider.addEventListener('mousemove', (e) => {
   slider.scrollLeft = scrollLeft - scroll;
 });
 
-// Add the event listeners
+// Event listeners
 slider.addEventListener('mousedown', startDragging, false);
 slider.addEventListener('mouseup', stopDragging, false);
 slider.addEventListener('mouseleave', stopDragging, false);
 
 
-
+//SideNav
 function openNav() {
   document.getElementById("sidenav").style.width = "250px";
   document.getElementById("sidenavButton").style.left = "250px";
