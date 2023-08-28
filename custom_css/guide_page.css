@@ -5,11 +5,10 @@ html {
 
 body {
   background-color: #121212;
-  /* padding-top: 60px; */
 }
 
 #main {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .guide-content-body {
@@ -476,10 +475,11 @@ div.modifiedShipRowContainer {
   left: 0;
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 10px; /* Place content 60px from the top */
+  padding-top: 15px;
   padding-bottom: 60px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+
 
 /* Position and style the close button (top right corner) */
 /* .sidenav .closebtn {
@@ -497,10 +497,10 @@ div.modifiedShipRowContainer {
 } */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 568px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+} */
 
 .custom-sidenav-button {
   transform: rotate(90deg);
