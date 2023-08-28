@@ -501,8 +501,23 @@ div.modifiedShipRowContainer {
 .custom-sidenav-button {
   transform: rotate(90deg);
   position: fixed;
-  top: 16px;
+  top: 18px;
   left: 0px;
   transform-origin: bottom left;
   transition: 0.5s;
+  background-color: #1b1b1b;
+  border: 2px solid gray;
+  color: hsla(0,0%,100%,.9);
+}
+
+.custom-sidenav-button:hover {
+  border: 2px solid pink;
+  background-color: #363636;
+  color: hsla(0,0%,100%,.9);
+}
+
+.custom-sidenav-button.toggle {
+  border: 2px solid pink;
+  background-color: #363636;
+  color: hsla(0,0%,100%,.9);
 }
