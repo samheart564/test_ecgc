@@ -54,4 +54,8 @@ function toggleFunction() {
   }
 }
 
+// document.getElementsByClassName("toc_h_one").onclick = toggleFunction();
+// document.getElementsByClassName("toc_h_two").onclick = toggleFunction();
+// document.getElementsByClassName("toc_h_three").onclick = toggleFunction();
+// document.getElementById("toc_h_four").addEventListener("onclick", toggleFunction())
 

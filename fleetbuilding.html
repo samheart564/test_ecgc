@@ -21,14 +21,13 @@
     </head>
 
     <body>
-
         <!-- Navbar -->
         <nav class="navbar sticky-top navbar-expand-xxl navbar-dark" style="background-color: #222a42;">
             <div class="container-fluid mt-0 m-auto col-12 col-sm-9">
                 <div class="row w-100" style="justify-content: space-between;">
                     <div class="col-auto">
                         <!-- Title -->
-                        <a class="navbar-brand" href="">
+                        <a class="navbar-brand" href="index.html" target="_self" rel="noopener noreferrer">
                             <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
                         </a>
                     </div>
@@ -95,6 +94,157 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Table of Contents (SideNav) -->
+        <button id="sidenavButton" class="btn btn-secondary custom-sidenav-button z-3"  onclick="toggleFunction()">
+            <i id="sidenavToggle" class="fa fa-angle-double-up"></i>
+            <span class="d-none d-sm-inline">Table of Contents</span>
+        </button>
+
+        <div id="sidenav" class="sidenav overflow-auto">
+            <div class="container m-auto">
+                <h2 class="text-center">Table of Contents</h2><hr class="custom-hr">
+                <div class="toc">
+                    <ol>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#just_started" onclick="toggleFunction()" class="toc_h_one">If you just started Azur Lane...</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#mob_vs_boss" onclick="toggleFunction()" class="toc_h_one">Mob Fleet vs Boss Fleet</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#backline" onclick="toggleFunction()" class="toc_h_one">Backline Ship Roles</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#healer" onclick="toggleFunction()" class="toc_h_two">Healer</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#flagship_bb" onclick="toggleFunction()" class="toc_h_two">Flagship BB</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#off-flag_bb" onclick="toggleFunction()" class="toc_h_two">Off-Flag BB</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#damage_cv" onclick="toggleFunction()" class="toc_h_two">Damage CV</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#backline_support" onclick="toggleFunction()" class="toc_h_two">Support (Backline)</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#vg" onclick="toggleFunction()" class="toc_h_one">Vanguard Ship Roles</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#mob_main_tank" onclick="toggleFunction()" class="toc_h_two">Mob Main Tank</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#boss_main_tank" onclick="toggleFunction()" class="toc_h_two">Boss Main Tank</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#vg_damage_dealer" onclick="toggleFunction()" class="toc_h_two">Damage Dealer</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#vg_support" onclick="toggleFunction()" class="toc_h_two">Support (Vanguard)</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#damage_stagger" onclick="toggleFunction()" class="toc_h_one">Fast Loads / Staggering Damage</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#fast_loader_list" onclick="toggleFunction()" class="toc_h_two">List of Fast Loader Ships</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#skill_sync" onclick="toggleFunction()" class="toc_h_one">Skill Syncing</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#timed_skill" onclick="toggleFunction()" class="toc_h_two">Timed Skill Syncing</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#on_shot_sync" onclick="toggleFunction()" class="toc_h_two">On Shot / Strike Syncing</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#faction_fleets" onclick="toggleFunction()" class="toc_h_two">Faction Fleets</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#pair_skills" onclick="toggleFunction()" class="toc_h_two">Pair Skills</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#damage_distribution" onclick="toggleFunction()" class="toc_h_one">Damage Distribution</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#backline_dmg_dist" onclick="toggleFunction()" class="toc_h_two">Backline</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#vanguard_dmg_dist" onclick="toggleFunction()" class="toc_h_two">Vanguard</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#campaign_fleet_comps" onclick="toggleFunction()" class="toc_h_one">Campaign Fleet Compositions</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#campaign_theory" onclick="toggleFunction()" class="toc_h_two">Theory</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#mob_fleet" onclick="toggleFunction()" class="toc_h_two">Mob Fleet</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#generic_boss_fleet" onclick="toggleFunction()" class="toc_h_two">Boss Fleet</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#opsi_fleet_comps" onclick="toggleFunction()" class="toc_h_one">Operation Siren Fleet Compositions</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#opsi_theory" onclick="toggleFunction()" class="toc_h_two">Theory</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#opsi_mob_fleet" onclick="toggleFunction()" class="toc_h_two">Mob Fleet (Operation Siren)</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#opsi_generic_boss_fleet" onclick="toggleFunction()" class="toc_h_two">Generic Boss Fleet (Operation Siren)</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#opsi_bb_fleet" onclick="toggleFunction()" class="toc_h_two">BB Boss Fleet (Operation Siren)</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#opsi_cv_fleet" onclick="toggleFunction()" class="toc_h_two">CV Boss Fleet (Operation Siren)</a>
+                                    <ol>
+                                        <li>
+                                            <a rel="noopener noreferrer" target="_self" href="#ryuusei_cv_fleet" onclick="toggleFunction()" class="toc_h_three">"Ryuusei" Fleet</a>
+                                        </li>
+                                        <li>
+                                            <a rel="noopener noreferrer" target="_self" href="#rocket_cv_fleet" onclick="toggleFunction()" class="toc_h_three">"Rocket" Fleet</a>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#sub_fleet" onclick="toggleFunction()" class="toc_h_one">Submarine Fleet Compositions</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#kms_subs" onclick="toggleFunction()" class="toc_h_two">KMS "Wolfpack" Submarine Fleet</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#uss_subs" onclick="toggleFunction()" class="toc_h_two">USS Submarine Fleet</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#global_subs" onclick="toggleFunction()" class="toc_h_two">"Global" Submarine Fleet</a>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
         
         <!-- Content -->
         <div class="container mt-5 mt-sm-0 m-auto guide-content-body col-12 col-sm-9" id="main">
@@ -120,148 +270,6 @@
                 <h2 id="introduction">Introduction</h2><hr class="custom-hr">
                     <p style="line-height: normal;">Fleetbuilding for hard content is something many players struggle with. This guide hopes to give a comprehensive overview of fleetbuilding for hard content in Azur Lane.</p>
                     <p><b>This guide assumes all ships are properly geared, check out gear guides for more information.</b></p>
-                <br>
-
-                <h2 id="table-of-contents">Table of Contents</h2><hr class="custom-hr">
-                    <div class="toc">
-                        <ol>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#just_started" class="h_one">If you just started Azur Lane...</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#mob_vs_boss" class="h_one">Mob Fleet vs Boss Fleet</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#backline" class="h_one">Backline Ship Roles</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#healer" class="h_two">Healer</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#flagship_bb" class="h_two">Flagship BB</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#off-flag_bb" class="h_two">Off-Flag BB</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#damage_cv" class="h_two">Damage CV</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#backline_support" class="h_two">Support (Backline)</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#vg" class="h_one">Vanguard Ship Roles</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#mob_main_tank" class="h_two">Mob Main Tank</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#boss_main_tank" class="h_two">Boss Main Tank</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#vg_damage_dealer" class="h_two">Damage Dealer</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#vg_support" class="h_two">Support (Vanguard)</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#damage_stagger" class="h_one">Fast Loads / Staggering Damage</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#fast_loader_list" class="h_two">List of Fast Loader Ships</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#skill_sync" class="h_one">Skill Syncing</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#timed_skill" class="h_two">Timed Skill Syncing</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#on_shot_sync" class="h_two">On Shot / Strike Syncing</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#faction_fleets" class="h_two">Faction Fleets</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#pair_skills" class="h_two">Pair Skills</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#damage_distribution" class="h_one">Damage Distribution</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#backline_dmg_dist" class="h_two">Backline</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#vanguard_dmg_dist" class="h_two">Vanguard</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#campaign_fleet_comps" class="h_one">Campaign Fleet Compositions</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#campaign_theory" class="h_two">Theory</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#mob_fleet" class="h_two">Mob Fleet</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#generic_boss_fleet" class="h_two">Boss Fleet</a>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#opsi_fleet_comps" class="h_one">Operation Siren Fleet Compositions</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#opsi_theory" class="h_two">Theory</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#opsi_mob_fleet" class="h_two">Mob Fleet (Operation Siren)</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#opsi_generic_boss_fleet" class="h_two">Generic Boss Fleet (Operation Siren)</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#opsi_bb_fleet" class="h_two">BB Boss Fleet (Operation Siren)</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#opsi_cv_fleet" class="h_two">CV Boss Fleet (Operation Siren)</a>
-                                        <ol>
-                                            <li>
-                                                <a rel="noopener noreferrer" target="_self" href="#ryuusei_cv_fleet" class="h_three">"Ryuusei" Fleet</a>
-                                            </li>
-                                            <li>
-                                                <a rel="noopener noreferrer" target="_self" href="#rocket_cv_fleet" class="h_three">"Rocket" Fleet</a>
-                                            </li>
-                                        </ol>
-                                    </li>
-                                </ol>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#sub_fleet" class="h_one">Submarine Fleet Compositions</a>
-                                <ol>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#kms_subs" class="h_two">KMS "Wolfpack" Submarine Fleet</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#uss_subs" class="h_two">USS Submarine Fleet</a>
-                                    </li>
-                                    <li>
-                                        <a rel="noopener noreferrer" target="_self" href="#global_subs" class="h_two">"Global" Submarine Fleet</a>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </div>
                 <br>
 
                 <h2 id="just_started">If you just started Azur Lane...</h2><hr class="custom-hr">

@@ -96,7 +96,38 @@
             </div>
         </nav>
 
+        <!-- Table of Contents (SideNav) -->
+        <button id="sidenavButton" class="btn btn-secondary custom-sidenav-button z-3" onclick="toggleFunction()">
+            <i id="sidenavToggle" class="fa fa-angle-double-up"></i>
+            <span class="d-none d-sm-inline">Table of Contents</span>
+        </button>
         
+        <div id="sidenav" class="sidenav overflow-auto">
+            <div class="container m-auto">
+                <h2 class="text-center">Table of Contents</h2><hr class="custom-hr">
+                <div class="toc">
+                    <ol>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#guild_shop" onclick="toggleFunction()" class="toc_h_one">Guild Shop</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#medal_shop" onclick="toggleFunction()" class="toc_h_one">Medal Shop</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#core_data_shop" onclick="toggleFunction()" class="toc_h_one">Core Data Shop</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#map_drops" onclick="toggleFunction()" class="toc_h_one">Map Drops</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#research" onclick="toggleFunction()" class="toc_h_one">Research (PR/DR) Ships</a>
+                        </li>
+                    <ol>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Content -->
         <div class="container mt-5 mt-sm-0 m-auto guide-content-body col-12 col-sm-9" id="main">
             
@@ -120,29 +151,6 @@
             
                 <h2 id="introduction">Introduction</h2><hr class="custom-hr">
                     <p>Here are some good ships players can get extremely early on in Azur Lane!</p>
-                <br>
-
-                <!-- table of contents -->
-                <h2 id="table-of-contents">Table of Contents</h2><hr class="custom-hr">
-                    <div class="toc">
-                        <ol>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#guild_shop" class="h_one">Guild Shop</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#medal_shop" class="h_one">Medal Shop</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#core_data_shop" class="h_one">Core Data Shop</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#map_drops" class="h_one">Map Drops</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" target="_self" href="#research" class="h_one">Research (PR/DR) Ships</a>
-                            </li>
-                        <ol>
-                    </div>
                 <br>
 
                 <h2 id="guild_shop">Guild Shop</h2><hr class="custom-hr">

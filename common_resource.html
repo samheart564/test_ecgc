@@ -95,6 +95,70 @@
                 </div>
             </div>
         </nav>
+        
+        <!-- Table of Contents (SideNav) -->
+        <button id="sidenavButton" class="btn btn-secondary custom-sidenav-button z-3" onclick="toggleFunction()">
+            <i id="sidenavToggle" class="fa fa-angle-double-up"></i>
+            <span class="d-none d-sm-inline">Table of Contents</span>
+        </button>
+        
+        <div id="sidenav" class="sidenav overflow-auto">
+            <div class="container m-auto">
+                <h2 class="text-center">Table of Contents</h2><hr class="custom-hr">
+                <div class="toc">
+                    <ol>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#notes" onclick="toggleFunction()" class="toc_h_one">Notes</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#terminology" onclick="toggleFunction()" class="toc_h_two">Terminology</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#glossary" onclick="toggleFunction()" class="toc_h_two">Glossary</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#renewable" onclick="toggleFunction()" class="toc_h_one">Renewable Resources</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#currency" onclick="toggleFunction()" class="toc_h_two">Currency</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#consumables" onclick="toggleFunction()" class="toc_h_two">Consumables</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#coggies" onclick="toggleFunction()" class="toc_h_two">Cognitive Awakening</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#bulins" onclick="toggleFunction()" class="toc_h_two">Bulins</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#gear_enhance" onclick="toggleFunction()" class="toc_h_two">Gear Upgrade Parts</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#augmentation" onclick="toggleFunction()" class="toc_h_two">Augmentation Materials</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#skill_books" onclick="toggleFunction()" class="toc_h_two">Skill Books</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#retrofit_bps" onclick="toggleFunction()" class="toc_h_two">Retrofit Blueprints</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#finite" onclick="toggleFunction()" class="toc_h_one">(Almost) Finite Resources</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#finite-currency" onclick="toggleFunction()" class="toc_h_two">Currency</a>
+                                </li>
+                            </ol>
+                        </li>
+                    <ol>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Content -->
@@ -122,62 +186,6 @@
                 <p>Comprehensive list of common resources, how to acquire them, and how much of each resource you can acquire in a reasonable time frame of playing Azur Lane!</p>
             <br>
             
-            <!-- table of contents -->
-            <h2 id="table-of-contents">Table of Contents</h2><hr class="custom-hr">
-                <div class="toc">
-                    <ol>
-                        <li>
-                            <a rel="noopener noreferrer" target="_self" href="#notes" class="h_one">Notes</a>
-                            <ol>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#terminology" class="h_two">Terminology</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#glossary" class="h_two">Glossary</a>
-                                </li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" target="_self" href="#renewable" class="h_one">Renewable Resources</a>
-                            <ol>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#currency" class="h_two">Currency</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#consumables" class="h_two">Consumables</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#coggies" class="h_two">Cognitive Awakening</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#bulins" class="h_two">Bulins</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#gear_enhance" class="h_two">Gear Upgrade Parts</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#augmentation" class="h_two">Augmentation Materials</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#skill_books" class="h_two">Skill Books</a>
-                                </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#retrofit_bps" class="h_two">Retrofit Blueprints</a>
-                                </li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" target="_self" href="#finite" class="h_one">(Almost) Finite Resources</a>
-                            <ol>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#finite-currency" class="h_two">Currency</a>
-                                </li>
-                            </ol>
-                        </li>
-                    <ol>
-                </div>
-            <br>
-
             <h2 id="notes">Notes</h2><hr class="custom-hr">
                 <ul>
                     <li>
@@ -332,7 +340,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -820,7 +828,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -984,7 +992,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -1158,7 +1166,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -1387,7 +1395,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -1742,7 +1750,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -2090,7 +2098,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -2380,7 +2388,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">
@@ -2601,7 +2609,7 @@
 
                     <!-- Table -->
                     <div class="table-responsive">
-                        <table class="table width_one table-sm table-dark table-bordered text-center border-secondary">
+                        <table class="table widttoc_h_one table-sm table-dark table-bordered text-center border-secondary">
                             <col width="8%">
                             <col width="7.75%">
                             <col width="7.75%">

@@ -7,10 +7,6 @@ body {
   background-color: #121212;
 }
 
-#main {
-  padding-top: 50px;
-}
-
 .guide-content-body {
   background-color: #1b1b1b;
   border: 2px solid #252525;
@@ -508,5 +504,5 @@ div.modifiedShipRowContainer {
   top: 16px;
   left: 0px;
   transform-origin: bottom left;
-  transition: all 0.5s ease;
+  transition: 0.5s;
 }
