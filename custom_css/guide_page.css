@@ -55,9 +55,22 @@ hr.custom-hr {
   font-family: Arial, Helvetica, sans-serif!important;
 } */
 
-.nav-logo-custom {
-  color: #fff;
-  opacity: 0.8;
+.nav-logo-custom, .nav-logo-custom > a {
+  color: #fff!important;
+}
+
+.nav-logo-custom:hover {
+  background-color: hsla(0, 0%, 100%, 0.15);
+}
+
+
+a.nav-logo-custom.show {
+  background-color: hsla(0, 0%, 100%, 0.15)!important;
+}
+
+a.custom-nav-hover:hover {
+  background-color: hsla(0, 0%, 100%, 0.15)!important;
+  color: cyan;
 }
 
 .footer-style {
@@ -82,15 +95,11 @@ p {
 }
 
 ul {
-
   font-size: large;
-
 }
 
 li {
-
   color: hsla(0,0%,100%,.9);
-
 }
 
 a:link {
@@ -144,47 +153,29 @@ a.in_hover:active {
   text-decoration: underline;
 }
 
-th.ship_table_limiter {
-  min-width: 150px;
-  width: 15%;
-}
-
-tr > td.support_type {
-  vertical-align: middle!important;
-}
-
-table.ship_table > tr.ship_table_head {
-  vertical-align: middle!important;
-}
-
-table.ship_table > tr.ship_table_content > td {
-  vertical-align: top!important;
-}
-
-
 /* Item Rarities */
 .rarity-5 {
-  background: linear-gradient(120deg,#fbffca,#baffbf,#a7efff,#ffabff);
+  background: linear-gradient(120deg,#fbffca,#baffbf,#a7efff,#ffabff)!important;
 }
 
 .rarity-4 {
-  background-color: #ee9;
-  border-color: #ee9;
+  background-color: #ee9!important;
+  border-color: #ee9!important;
 }
 
 .rarity-3 {
-  background-color: #c4adff;
-  border-color: #c4adff;
+  background-color: #c4adff!important;
+  border-color: #c4adff!important;
 }
 
 .rarity-2 {
-  background-color: #9fe8ff;
-  border-color: #9fe8ff;
+  background-color: #9fe8ff!important;
+  border-color: #9fe8ff!important;
 }
 
 .rarity-1 {
-  background-color: #cdcdcd;
-  border-color: #cdcdcd;
+  background-color: #cdcdcd!important;
+  border-color: #cdcdcd!important;
 }
 
 
@@ -276,6 +267,27 @@ td:hover span.normal {
   display:none;
 }
 
+th.ship_table_limiter {
+  min-width: 150px;
+  width: 15%;
+}
+
+tr > td.support_type {
+  vertical-align: middle!important;
+}
+
+table.ship_table > tr.ship_table_head {
+  vertical-align: middle!important;
+}
+
+table.ship_table > tr.ship_table_content > td {
+  vertical-align: top!important;
+}
+
+td > p {
+  margin-bottom: 0;
+}
+
 span p {
   color:black;
   font-family: Arial, Helvetica, sans-serif!important;
@@ -363,6 +375,7 @@ div.shipRowContainer {
   flex: 0 0 auto;
   max-width: 100%;
   word-wrap: normal;
+  font-size: smaller;
 }
 
 .shipRowCell:hover {
@@ -402,7 +415,7 @@ div.modifiedShipRowContainer {
 
 .carousel-item {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  padding: min(20px, 1%);
   border-radius: 20px
 }
 
