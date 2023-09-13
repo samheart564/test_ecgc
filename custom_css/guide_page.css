@@ -255,6 +255,10 @@ td span.location {
   display: none;
 }
 
+span.location > p {
+  margin: 0!important;
+}
+
 td span.normal {
   display: inline;
 }
@@ -287,6 +291,24 @@ table.ship_table > tr.ship_table_content > td {
 td > p {
   margin-bottom: 0;
 }
+
+tbody.table-group-divider {
+
+  --custom_color: 248, 249, 250;
+  --custom_opacity: 1;
+
+
+  border-top-color: rgba(var(--custom_color), var(--custom_opacity));
+}
+
+table.tool_table {
+  padding: 5px;
+}
+
+td > h5.custom-margin {
+  margin: 10px!important;
+}
+
 
 span p {
   color:black;
@@ -533,4 +555,15 @@ div.modifiedShipRowContainer {
   border: 2px solid pink;
   background-color: #363636;
   color: hsla(0,0%,100%,.9);
+}
+
+
+
+/* iframe */
+
+iframe.custom-iframe {
+  width: 100%;
+  height: 1000px;
+  overflow-x: scroll;
+  border: none;
 }
