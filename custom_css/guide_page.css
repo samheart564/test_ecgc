@@ -90,8 +90,12 @@ a.custom-nav-hover:hover {
 }
 
 p {
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0,0%,100%,.75);
   font-size: medium;
+}
+
+p.nospace {
+  margin: 0;
 }
 
 ul {
@@ -379,6 +383,25 @@ img {
   padding: 0px;
 }
 
+.shopItemContainer {
+  align-content: flex-start!important;
+  align-items: flex-start!important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopIcon {
+  overflow: hidden;
+  margin: 2px;
+  width: 60px;
+  padding: 2px;
+  box-shadow: 0 10px 25px 0 #000;
+  height: auto;
+}
+
+
+/* Ship Row Containers */
+
 div.shipRowContainer {
   margin: 20px 10px;
   text-align: center;
@@ -566,4 +589,193 @@ iframe.custom-iframe {
   height: 1000px;
   overflow-x: scroll;
   border: none;
+}
+
+
+/* Shop Priority */
+
+.overarcing-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.shop {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.shop-priority-message {
+  border: 1px solid grey;
+  border-right: 0;
+  writing-mode: vertical-lr;
+  text-align: center;
+  width: 25px;
+}
+
+.shop-priority-message > p {
+  margin: 0;
+}
+
+
+.shop-container {
+  overflow: auto;
+  border: 1px solid grey;
+  width: 1507px;
+
+  @media screen and (max-width: 1507px) {
+    padding-bottom: 3px;
+  }
+
+}
+
+.shop-item-row {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+.shop-item-cell {
+  /* external cell borders */
+  border: 1px solid grey;
+  width: 301px;
+  padding: 0px;
+}
+
+.shop-item-cell-filler {
+  /* external cell borders */
+  border: 1px solid grey;
+  width: 301px;
+  height: 174px;
+  padding: 0px;
+}
+
+.shop-item-cell > * b  {
+  color:hsla(0, 0%, 100%, 0.9)
+}
+
+.shop-item-heading {
+  margin: 0!important;
+  /* border between heading and rest of content */
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+  height: 22px;
+}
+
+.shop-item-heading > p {
+  margin: 1px!important;
+  text-align: center;
+  font-size: 13px;
+}
+
+.shop-item-body {
+  display: flex;
+  align-items: flex-start;
+  width: 300px;
+  overflow: hidden;
+}
+
+.shop-item-images {
+  width: 75px;
+  height: 150px;
+  /* border between images & desc */
+  border-right: 1px solid grey;
+}
+
+.shop-item-description {
+  width: 225px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.shop-item-description > p {
+  margin: 0!important;
+  font-size: 11px;
+}
+
+.shop-item-description > .desc-buff {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.shop-item-icon {
+  overflow: hidden;
+  width: 75px;
+  padding: 2px;
+  height: 75px;
+  /* border between icon and faction */
+  border-bottom: 1px solid grey;
+}
+
+.shop-item-icon-faction {
+  overflow: hidden;
+  max-width: 75px;
+  padding: 2px;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+  margin: auto!important;
+  text-align: center;
+}
+
+.shop-item-icon-faction > img {
+  width: 60px;
+  max-height: 75px;
+}
+
+.shop-item-icon-faction-de {
+  overflow: hidden;
+  width: 75px;
+  padding: 2px;
+  margin-top: 10px;
+  height: 75px;
+  margin: auto!important;
+  text-align: center;
+}
+
+
+.shop-item-cell.high-priority {
+  /* external cell borders */
+  border: 1px solid red;
+  
+  .shop-item-icon {
+    border-bottom: 1px solid red;
+  }
+
+  .shop-item-images {
+    border-right: 1px solid red;
+  }
+
+  .shop-item-heading {
+    border-bottom: 1px solid red;
+  }
+
+}
+
+.shop-item-cell.niche-priority {
+  /* external cell borders */
+  border: 1px solid palegreen;
+  
+  .shop-item-icon {
+    border-bottom: 1px solid palegreen;
+  }
+
+  .shop-item-images {
+    border-right: 1px solid palegreen;
+  }
+
+  .shop-item-heading {
+    border-bottom: 1px solid palegreen;
+  }
+
 }

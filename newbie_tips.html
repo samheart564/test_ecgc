@@ -41,10 +41,16 @@
                         
                         <!-- Items inside Navbar -->
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-6 nav-pills">
+                            <ul class="navbar-nav me-auto md-0 fs-6 nav-pills">
+
+                                <li class="nav-item">
+                                    <a href="newbie_tips" class="nav-link nav-logo-custom active" rel="noopener noreferrer" target="_self" title="Tools">
+                                        <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
+                                    </a>
+                                </li>
                                 
                                 <li class="nav-item dropdown btn-group">
-                                    <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a href="#" class="nav-link dropdown-toggle nav-logo-custom" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i class="fa fa-pencil"></i> <span>Guides</span>
                                     </a>
                                 
@@ -79,6 +85,10 @@
 
                                         <li>
                                             <a class="dropdown-item custom-nav-hover" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -142,6 +152,9 @@
                             </ol>
                         </li>
                         <li>
+                            <a rel="noopener noreferrer" target="_self" href="#out_of_ammo" onclick="toggleFunction()" class="toc_h_one">My fleet is out of ammo!!!</a>
+                        </li>
+                        <li>
                             <a rel="noopener noreferrer" target="_self" href="#limit_breaks" onclick="toggleFunction()" class="toc_h_one">Limit Breaks</a>
                         </li>
                         <li>
@@ -173,9 +186,6 @@
                             <a rel="noopener noreferrer" target="_self" href="#combat_data_packs" onclick="toggleFunction()" class="toc_h_one">Grind Shipyard EXP MANUALLY</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#out_of_ammo" onclick="toggleFunction()" class="toc_h_one">My fleet is out of ammo!!!</a>
-                        </li>
-                        <li>
                             <a rel="noopener noreferrer" target="_self" href="#gacha" onclick="toggleFunction()" class="toc_h_one">Gacha</a>
                         </li>
                         <li>
@@ -183,7 +193,10 @@
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_self" href="#hard_mode_cheese" onclick="toggleFunction()" class="toc_h_one">Hard Mode Cheese</a>
-                        </li>                        
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#shops" onclick="toggleFunction()" class="toc_h_one">Shop Priority</a>
+                        </li>                    
                     <ol>
                 </div>
             </div>
@@ -401,6 +414,16 @@
                         <br>
                         <p>Any guides that suggest to farm foxes are either outdated (they weren't even great back in the days) and/or misleading. If you really want foxes, it is best to progress and come back when you can farm them with a 1-1 fleet (2 ships).</p>
                     <br>
+
+                <h2 id="out_of_ammo">My fleet is out of ammo!!!!</h2><hr class="custom-hr">
+                    <p>
+                        <i>
+                            Main Article: <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Combat#Ammo" title="Ammo">Ammo</a>
+                        </i>
+                    </p>
+
+                    <p>Your fleet can still fight with 0 ammo; they just do reduced damage. Read the wiki article above for more information.</p>
+                <br>
 
                 <h2 id="limit_breaks"><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dockyard#Limit_Break" title="Limit Break">Limit Breaks</a></h2><hr class="custom-hr">
                     <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dockyard#Limit_Break" title="Limit Break">Limit Break</a> ships you use <b>as soon as possible</b>. Limit breaks are massive power spikes for all ships, and allow for easier and faster progression.</p>
@@ -708,16 +731,6 @@
                     <p>For more information about Research, check out the <b><a href="research" target="_self" rel="noopener noreferrer" title="Research Guide">Research Guide</a></b>.</p>
                 <br>
 
-                <h2 id="out_of_ammo">My fleet is out of ammo!!!!</h2><hr class="custom-hr">
-                    <p>
-                        <i>
-                            Main Article: <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Combat#Ammo" title="Ammo">Ammo</a>
-                        </i>
-                    </p>
-
-                    <p>Your fleet can still fight with 0 ammo; they just do reduced damage. Read the wiki article above for more information.</p>
-                <br>
-
                 <h2 id="gacha">Gacha</h2><hr class="custom-hr">
                     <p>
                         <i>See also: <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Construction" title="Construction">Construction</a></i>
@@ -748,28 +761,18 @@
                                 <p>First, kill all the mobs, then kill the boss. <b>(2 stars, 1 attempt)</b></p>
                             </li>
                             <li>
-                                <p>Second, kill all the mobs you can, but before killing the boss, leave the stage. This doesn't use up an attempt. Repeat until you obtain the last star, then either kill the boss again (using up the daily attempt) or retreat. <b>(3 stars, 1 attempt)</b></p>
+                                <p>Second, kill all the mobs you can, but before killing the boss, leave the stage. This doesn't use up an attempt. Repeat until you obtain the last star, then either kill the boss again (using up the daily attempt) or retreat. <b>(1 stars, 0 attempts)</b></p>
                             </li>
                         </ol>
+                    <p>If you do not see mobs upon entry, be sure to <b>turn Clearing Mode off</b>.</p>
+                <br>
+
+                <h2 id="shops">Shop Priority</h2><hr class="custom-hr">
+                    <p>
+                        <i>Main Article: <a href="shop_priority" target="_self" rel="noopener noreferrer"><b>Shop Priority</b></a></i>
+                    </p>
                 <br>
                 
-
-                
-
-                <!-- 17	Shop Priorities -->
-
-
-
-                
-
-
-
-                        
-
-
-
-
-
         </div>
 
     </body>
