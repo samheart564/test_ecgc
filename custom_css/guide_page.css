@@ -448,6 +448,29 @@ div.modifiedShipRowContainer {
   word-wrap: normal;
 }
 
+.location-note {
+  border-top: 1px solid grey;
+  margin-top: 3px;
+  padding-top: 3px;
+}
+
+.location-note > p {
+  font-size: smaller!important;
+  margin-bottom: 0px;
+}
+
+.description-note {
+  border-top: 1px solid grey;
+  margin-top: 3px;
+  padding-top: 3px;
+}
+
+.description-note > p {
+  font-size: smaller!important;
+  margin-bottom: 0px;
+}
+
+
 /* Carousel */
 
 .carousel-caption > p {
@@ -639,6 +662,10 @@ iframe.custom-iframe {
   margin: 2px;
 }
 
+.shiprowcontainerfont * {
+  font-size: 14px;
+}
+
 .shop {
   display: flex;
   height: auto;
@@ -655,7 +682,7 @@ iframe.custom-iframe {
   writing-mode: vertical-lr;
   text-align: center;
   width: 25px;
-  margin-right: 16px;
+  margin-right: 5px;
 }
 
 .larger-font > p {
@@ -675,6 +702,11 @@ iframe.custom-iframe {
 .shop-container {
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 568px) {
+    justify-content: flex-start;
+  }
+
   flex-wrap: wrap;
   flex-direction: row;
   overflow: auto;
@@ -687,6 +719,7 @@ iframe.custom-iframe {
   border: 1px solid grey;
   width: 300px;
   padding: 0px;
+  /* overflow: auto; */
 }
 
 /* .shop-item-cell-filler {
@@ -785,38 +818,46 @@ iframe.custom-iframe {
   text-align: center;
 }
 
+.high-priority {
+  border: 2px solid red!important;
+}
+
 .shop-item-cell.high-priority {
   /* external cell borders */
-  border: 1px solid red;
+  border: 2px solid red;
   
   .shop-item-icon {
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
   }
 
   .shop-item-images {
-    border-right: 1px solid red;
+    border-right: 2px solid red;
   }
 
   .shop-item-heading {
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
   }
 
 }
 
+.niche-priority {
+  border: 2px solid palegreen!important;
+}
+
 .shop-item-cell.niche-priority {
   /* external cell borders */
-  border: 1px solid palegreen;
+  border: 2px solid palegreen;
   
   .shop-item-icon {
-    border-bottom: 1px solid palegreen;
+    border-bottom: 2px solid palegreen;
   }
 
   .shop-item-images {
-    border-right: 1px solid palegreen;
+    border-right: 2px solid palegreen;
   }
 
   .shop-item-heading {
-    border-bottom: 1px solid palegreen;
+    border-bottom: 2px solid palegreen;
   }
 
 }
