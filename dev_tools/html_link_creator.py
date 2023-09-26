@@ -1,4 +1,4 @@
-file_two = open("Resources/test2.html", "a")
+file_two = open("dev_tools/test2.html", "a")
 
 def html_link(ship_name: str) -> str:
     html = "<a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://azurlane.koumakan.jp/wiki/SHIPNAME_UNDERSCORE\" title=\"SHIPNAME\">SHIPNAME</a>\n"
