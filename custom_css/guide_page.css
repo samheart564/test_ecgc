@@ -199,6 +199,21 @@ div {
 }
 
 
+/* Page Title */
+
+.title-subheading {
+  font-size: inherit;
+}
+
+.title-subheading > span.author-name  {
+  color: rgb(250, 212, 117);
+}
+
+.title-subheading > span.version-number, .title-subheading > .last-updated {
+  color: cyan;
+}
+
+
 /* Tables */
 table.width_one {
   min-width: 1150px!important;
@@ -463,13 +478,13 @@ div.modifiedShipRowContainer {
   border-top: 1px solid grey;
   margin-top: 3px;
   padding-top: 3px;
+  /* font-size: smaller!important; */
 }
 
-.description-note > p {
+.description-note > p, .description-note > a {
   font-size: smaller!important;
   margin-bottom: 0px;
 }
-
 
 /* Carousel */
 
@@ -662,9 +677,13 @@ iframe.custom-iframe {
   margin: 2px;
 }
 
-.shiprowcontainerfont * {
+.shiprowcontainerfont > * .shipRowCell  {
   font-size: 14px;
 }
+
+/* .shiprowcontainerfont * {
+  font-size: 14px;
+} */
 
 .shop {
   display: flex;
