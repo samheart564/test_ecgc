@@ -73,6 +73,58 @@ a.custom-nav-hover:hover {
   color: cyan;
 }
 
+.secondary-button-hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.secondary-button-hover:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.secondary-button-hover:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-button-hover:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+.secondary-button-hover > * {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.secondary-button-hover:visited > * {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.secondary-button-hover:active > * {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-button-hover:hover > * {
+  color: cyan;
+  text-decoration: underline;
+}
+
+a.none {
+  color: auto;
+}
+
 .footer-style {
   padding: 4px;
   margin: 8px;
@@ -597,7 +649,7 @@ div.modifiedShipRowContainer {
 .custom-sidenav-button {
   transform: rotate(90deg);
   position: fixed;
-  top: 16px;
+  top: 16.5px;
   left: 0px;
   transform-origin: bottom left;
   transition: 0.5s;
