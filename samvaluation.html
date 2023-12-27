@@ -26,101 +26,94 @@
 
         <!-- Navbar -->
         <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #222a42;">
-            <div class="container-fluid mt-0 m-auto col-12 col-sm-9">
-                <div class="row w-100" style="justify-content: space-between;">
-                    <div class="col-auto">
-                        <!-- Title -->
-                        <a class="navbar-brand nav-logo-custom" href="index" target="_self" rel="noopener noreferrer">
-                            <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
-                        </a>
-                    </div>
+            <div class="container col-12 col-sm-9">
+                <!-- Title -->
+                <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
+                    <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
+                </a>
+                <!-- Expand Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Items inside Navbar -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-0 fs-6 nav-pills">
 
-                    <div class="col-auto">
-                        <!-- Expand Button -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <li class="nav-item">
+                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
+                            </a>
+                        </li>
                         
-                        <!-- Items inside Navbar -->
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav me-auto md-0 fs-6 nav-pills">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-pencil"></i> <span>Guides</span>
+                            </a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
 
-                                <li class="nav-item">
-                                    <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
-                                        <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
-                                    </a>
-                                </li>
-                                
-                                <li class="nav-item dropdown btn-group">
-                                    <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa fa-pencil"></i> <span>Guides</span>
-                                    </a>
-                                
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42;">
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resource</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover active" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="tools" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
-                                        <i class="fa fa-wrench nav-logo-custom"></i> <span>Tools</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
-                                        <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
-                                        <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
-                                        <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item active" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="tools" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-wrench nav-logo-custom"></i> <span>Tools</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
+                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
+                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
+                                <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -246,8 +239,20 @@
                                 <li>
                                     <a rel="noopener noreferrer" target="_self" href="#Tempesta_and_the_Fountain_of_Youth" onclick="toggleFunction()" class="toc_h_two">Tempesta and the Fountain of Youth</a>
                                 </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#Light-Chasing_Sea_of_Stars" onclick="toggleFunction()" class="toc_h_two">Light-Chasing Sea of Stars</a>
+                                </li>
 
                                 <!-- INSERT NEW EVENTS HERE -->
+                                <!-- <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#Frostfall" onclick="toggleFunction()" class="toc_h_two">Filler</a>
+                                </li> -->
+                                <!-- <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#Frostfall" onclick="toggleFunction()" class="toc_h_two">Filler</a>
+                                </li> -->
+                                <!-- <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#Frostfall" onclick="toggleFunction()" class="toc_h_two">Filler</a>
+                                </li> -->
                                 <!-- <li>
                                     <a rel="noopener noreferrer" target="_self" href="#Frostfall" onclick="toggleFunction()" class="toc_h_two">Filler</a>
                                 </li> -->
@@ -5908,6 +5913,144 @@
                                     <p>Houston II is a damage-oriented CL with great stats and skills. Her personal damage is great due to MGM+1 supplemented with good barrages. Her bulk is pretty good as well, with her Skill 2 giving her a lifeline once she is at low health. Overall, she is a great ship.</p>
                                 </td>
                             </tr>
+                        </table>
+                    </div>
+                <br>
+
+                <h3 id="Light-Chasing_Sea_of_Stars">
+                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Light-Chasing_Sea_of_Stars" title="Light-Chasing Sea of Stars">Light-Chasing Sea of Stars</a>
+                </h3>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
+                        
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Guam" title="Guam">
+                                            <div class="icon rarity-5 border-radius-0">
+                                                <img src="images\ship_icons\GuamIcon.png" alt="Guam">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Guam
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>Guam is a tank-oriented CB with amazing stats and skills. Her personal damage is high due to MGM+1 CB Guns, as well as multiple skill barrages. Her bulk is also very high as well due to her raw stats, as well as her Skill 2 barrier further augmenting it. Her AA capabilities are near the top of the game due to AA+1, as well as her raw AA stat plus her self-buffs. The 15% buff to AA that Guam grants to low AA ships is nice, but not necessary for her to be viable. Her crossfleet is also nice, but not necessary for her viability. Overall, she is an amazing ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Laffey_II" title="Laffey II">
+                                            <div class="icon rarity-5 border-radius-0">
+                                                <img src="images\ship_icons\Laffey IIIcon.png" alt="Laffey II">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Laffey II
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>Laffey II is a damage-oriented DD with amazing stats and skills. Her personal damage is very high; despite only having 1 MGM, she has 2 summons as well as multiple skill barrages to augment her damage further. Her Skill 2 grants her a special AA gun, as well as AA self-buffs, that raise her AA to very high levels when combined with her existing 180% AA mount. You want to equip her with a USS equipment due to her Skill 2. In addition, she can also keep USS CVs hidden more easily due to reducing their detection gauge. Her Skill 3 adds to her bulk significantly. Despite her Skill 1 self barrage starting at 70%, for all procs after the first one it is very easy for it to maintain 100% proc chance. Overall, she is an amazing ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Constellation" title="Constellation">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\ConstellationIcon.png" alt="Constellation">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Constellation
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>Constellation is an off-flag oriented BC with great stats and skills. Her personal damage is very good due to an effective 100% proc chance barrage when equipped with a USS gear, as well as her self-buffs. Since most trash mobs are very slow, the buff to enemies with lower speed is nice, but trash mobs die quickly anyway so this buff's effectiveness is diminished. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Flasher" title="Flasher">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\FlasherIcon.png" alt="Flasher">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Flasher
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>Flasher is a damage-oriented SS with great stats and skills. Her personal damage is very good, especially since she can debuff multiple enemies at once to take more damage from her. Her buffs for other Gato-class SS are nice, but not required to build the entire fleet around since she can trigger the requirement herself. The extra hunting range is nice, but not necessary for her viability. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/San_Jacinto" title="San Jacinto">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\San JacintoIcon.png" alt="San Jacinto">
+                                            </div>
+                                            <!-- Ship name -->
+                                            San Jacinto
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>San Jacinto is a damage-oriented CVL with good stats and skills. Her personal damage is hindered somewhat by 6 planes, but she gets increased slot efficiency and skill barrages to compensate. The ASW strike from her Skill 1 is alright, but very niche since current ASW content is very easy to deal with. Her Skill 2 is nice, but reliant on her taking damage, which as a backline ship is somewhat rare. Overall, she is a good ship, but can be a sidegrade to more easily accessible options.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Louisville" title="Louisville">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\LouisvilleIcon.png" alt="Louisville">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Louisville
+                                        </a>
+                                    </p>
+                                </td>
+                        
+                                <td>
+                                    <p>Louisville is a damage-oriented CA with good stats and meh skills. Her personal damage is alright due to MGM+1 CA guns, but only 60% chance for her skill barrage is not ideal. Her bulk is mediocre even when accounting for her Skill 1 shields. Overall, she is a meh ship; at best a sidegrade to more easily available options.</p>
+                                </td>
+                            </tr>
+
+
                         </table>
                     </div>
                 <br>

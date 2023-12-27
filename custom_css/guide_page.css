@@ -347,8 +347,28 @@ th.ship_table_limiter {
   width: 15%;
 }
 
+th.ss_table_limiter {
+  min-width: 150px;
+  width: 45%;
+}
+
+th.support_table_limiter {
+  min-width: 150px;
+  width: 30%;
+}
+
+th.support_type_limiter {
+  min-width: 50px;
+  width: 10%;
+}
+
 tr > td.support_type {
   vertical-align: middle!important;
+}
+
+tr > td.ss_type {
+  vertical-align: middle!important;
+  justify-content: center!important;
 }
 
 table.ship_table > tr.ship_table_head {

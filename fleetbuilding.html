@@ -25,101 +25,94 @@
     <body>
         <!-- Navbar -->
         <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #222a42;">
-            <div class="container-fluid mt-0 m-auto col-12 col-sm-9">
-                <div class="row w-100" style="justify-content: space-between;">
-                    <div class="col-auto">
-                        <!-- Title -->
-                        <a class="navbar-brand nav-logo-custom" href="index" target="_self" rel="noopener noreferrer">
-                            <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
-                        </a>
-                    </div>
+            <div class="container col-12 col-sm-9">
+                <!-- Title -->
+                <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
+                    <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
+                </a>
+                <!-- Expand Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Items inside Navbar -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-0 fs-6 nav-pills">
 
-                    <div class="col-auto">
-                        <!-- Expand Button -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <li class="nav-item">
+                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
+                            </a>
+                        </li>
                         
-                        <!-- Items inside Navbar -->
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav me-auto mb-0 fs-6 nav-pills">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-pencil"></i> <span>Guides</span>
+                            </a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
 
-                                <li class="nav-item">
-                                    <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
-                                        <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
-                                    </a>
-                                </li>
-                                
-                                <li class="nav-item dropdown btn-group">
-                                    <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa fa-pencil"></i> <span>Guides</span>
-                                    </a>
-                                
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42;">
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resource</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item active" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
-                                        </li>
-
-                                        <li>
-                                            <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="tools" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
-                                        <i class="fa fa-wrench nav-logo-custom"></i> <span>Tools</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
-                                        <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
-                                        <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
-                                        <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
-                                    </a>
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item active" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="tools" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-wrench nav-logo-custom"></i> <span>Tools</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
+                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
+                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
+                                <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -260,17 +253,18 @@
                             <a rel="noopener noreferrer" target="_self" href="#sub_fleet" onclick="toggleFunction()" class="toc_h_one">Submarine Fleet Compositions</a>
                             <ol>
                                 <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#global_subs" onclick="toggleFunction()" class="toc_h_two">International Submarine Fleet</a>
+                                </li>
+                                <li>
                                     <a rel="noopener noreferrer" target="_self" href="#kms_subs" onclick="toggleFunction()" class="toc_h_two">KMS "Wolfpack" Submarine Fleet</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#uss_subs" onclick="toggleFunction()" class="toc_h_two">USS Submarine Fleet</a>
+                                    <a rel="noopener noreferrer" target="_self" href="#uss_subs" onclick="toggleFunction()" class="toc_h_two">USS "Fishpack" Submarine Fleet</a>
                                 </li>
                                 <li>
                                     <a rel="noopener noreferrer" target="_self" href="#mot_subs" onclick="toggleFunction()" class="toc_h_two">MOT Submarine Fleet</a>
                                 </li>
-                                <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#global_subs" onclick="toggleFunction()" class="toc_h_two">"Global" Submarine Fleet</a>
-                                </li>
+                                
                             </ol>
                         </li>
                     </ol>
@@ -1204,6 +1198,19 @@
                                         <div class="icon-note">
                                             <p>Fast Loader</p>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ship Cell -->
+                                <div class="shipRowCell">
+                                    <div class="icon-note-helper">
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Constellation" title="Constellation">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\ConstellationIcon.png" alt="Constellation">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Constellation
+                                        </a>
                                     </div>
                                 </div>
 
@@ -2596,6 +2603,19 @@
 
                             <!-- Ship Row -->
                             <div class="shipRowContainer">
+                                
+                                <!-- Ship Cell -->
+                                <div class="shipRowCell">
+                                    <div class="icon-note-helper">
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Guam" title="Guam">
+                                            <div class="icon rarity-5 border-radius-0">
+                                                <img src="images\ship_icons\GuamIcon.png" alt="Guam">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Guam
+                                        </a>
+                                    </div>
+                                </div>
 
                                 <!-- Ship Cell -->
                                 <div class="shipRowCell">
@@ -3300,6 +3320,19 @@
 
                             <!-- Ship Row -->
                             <div class="shipRowContainer">
+
+                                <!-- Ship Cell -->
+                                <div class="shipRowCell">
+                                    <div class="icon-note-helper">
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Laffey_II" title="Laffey II">
+                                            <div class="icon rarity-5 border-radius-0">
+                                                <img src="images\ship_icons\Laffey IIIcon.png" alt="Laffey II">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Laffey II
+                                        </a>
+                                    </div>
+                                </div>
 
                                 <!-- Ship Cell -->
                                 <div class="shipRowCell">
@@ -5648,101 +5681,603 @@
                     </div>
                     <br>
 
-                    <h3 id="kms_subs">KMS "Wolfpack" Submarine Fleet</h3>
-                        <ul>
-                            <li>
-                                <p>
-                                    Take 3 of
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-96" title="U-96">U-96</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-37" title="U-37">U-37</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-81" title="U-81">U-81</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">U-47</a>.
-                                </p>
-                            </li>
-                            <ul>
-                                <li>
-                                    <p>
-                                        Substitution:
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="Homura">Homura</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">Leonardo da Vinci</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">U-556 META</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-101" title="U-101">U-101</a>.
-                                    </p>
-                                </li>
-                            </ul>
-                        </ul>
+                    <h3 id="global_subs">International Submarine Fleet</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle ship_table">
+                                <tr class="ship_table_head">
+                                    <th class="ss_table_limiter">Take 3 of</th>
+                                    <th>Substitutions</th>
+                                </tr>
+                                <tr>
+                                    <!-- Main Core -->
+                                    <td class="ss_type">
+                                        
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Homura" title="Homura">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\HomuraIcon.png" alt="Homura">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Homura
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Leonardo da VinciIcon.png" alt="Leonardo da Vinci">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Leonardo da Vinci
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Flasher" title="Flasher">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\FlasherIcon.png" alt="Flasher">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Flasher
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-556 METAIcon.png" alt="U-556 META">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-556 META
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Archerfish" title="Archerfish">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\ArcherfishIcon.png" alt="Archerfish">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Archerfish
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-47Icon.png" alt="U-47">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-47
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                    
+                                    <!-- Substitutions -->
+                                    <td>
+
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minato_Aqua" title="Minato Aqua">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Minato AquaIcon.png" alt="Minato Aqua">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Minato Aqua
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Mary CelesteIcon.png" alt="Mary Celeste">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Mary Celeste
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Royal FortuneIcon.png" alt="Royal Fortune">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Royal Fortune
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Albacore" title="Albacore">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\AlbacoreIcon.png" alt="Albacore">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Albacore
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Cavalla" title="Cavalla">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\CavallaIcon.png" alt="Cavalla">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Cavalla
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Nautilus" title="Nautilus">
+                                                        <div class="icon rarity-3 border-radius-0">
+                                                            <img src="images\ship_icons\NautilusIcon.png" alt="Nautilus">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Nautilus
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/I-58" title="I-58">
+                                                        <div class="icon rarity-3 border-radius-0">
+                                                            <img src="images\ship_icons\I-58Icon.png" alt="I-58">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        I-58 (w/ Augment)
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     <br>
 
-                    <h3 id="uss_subs">USS Submarine Fleet</h3>
-                        <ul>
-                            <li>
-                                <p>
-                                    Take <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Archerfish" title="Archerfish">Archerfish</a> + two of
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Albacore" title="Albacore">Albacore</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Cavalla" title="Cavalla">Cavalla</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Nautilus" title="Nautilus">Nautilus</a>.
-                                </p>
-                            </li>
-                            <ul>
-                                <li>
-                                    <p>
-                                        Substitution:
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="Homura">Homura</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">U-556 META</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">Leonardo da Vinci</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">U-47</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minato_Aqua" title="Minato Aqua">Minato Aqua</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">Mary Celeste</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">Royal Fortune</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/I-58" title="I-58">I-58 (w/ Augment)</a>,
-                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Whydah" title="Whydah">Whydah</a>.
-                                    </p>
-                                </li>
-                            </ul>
-                        </ul>
+                    <h3 id="kms_subs">KMS "Wolfpack" Submarine Fleet</h3>
+
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle ship_table">
+                                <tr class="ship_table_head">
+                                    <th class="ss_table_limiter">Take 3 of</th>
+                                    <th>Substitutions</th>
+                                </tr>
+                                <tr>
+                                    <!-- Main Core -->
+                                    <td class="ss_type">
+                                        
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-96" title="U-96">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-96Icon.png" alt="U-96">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-96
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-37" title="U-37">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-37Icon.png" alt="U-37">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-37
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-81" title="U-81">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-81Icon.png" alt="U-81">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-81
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-47Icon.png" alt="U-47">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-47
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                    
+                                    <!-- Substitutions -->
+                                    <td>
+
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Homura" title="Homura">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\HomuraIcon.png" alt="Homura">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Homura
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Leonardo da VinciIcon.png" alt="Leonardo da Vinci">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Leonardo da Vinci
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-556 METAIcon.png" alt="U-556 META">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-556 META
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-101" title="U-101">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-101Icon.png" alt="U-101">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-101
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    <br>
+
+                    <h3 id="uss_subs">USS "Fishpack" Submarine Fleet</h3>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle ship_table">
+                                <tr class="ship_table_head">
+                                    <th class="ss_table_limiter">Take 3 of</th>
+                                    <th>Substitutions</th>
+                                </tr>
+                                <tr>
+                                    <!-- Main Core -->
+                                    <td class="ss_type">
+                                        
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Archerfish" title="Archerfish">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\ArcherfishIcon.png" alt="Archerfish">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Archerfish
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Flasher" title="Flasher">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\FlasherIcon.png" alt="Flasher">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Flasher
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Albacore" title="Albacore">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\AlbacoreIcon.png" alt="Albacore">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Albacore
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Cavalla" title="Cavalla">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\CavallaIcon.png" alt="Cavalla">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Cavalla
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                    <!-- Substitutions -->
+                                    <td>
+
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Homura" title="Homura">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\HomuraIcon.png" alt="Homura">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Homura
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Leonardo da VinciIcon.png" alt="Leonardo da Vinci">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Leonardo da Vinci
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-556 METAIcon.png" alt="U-556 META">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-556 META
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\U-47Icon.png" alt="U-47">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        U-47
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Nautilus" title="Nautilus">
+                                                        <div class="icon rarity-3 border-radius-0">
+                                                            <img src="images\ship_icons\NautilusIcon.png" alt="Nautilus">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Nautilus
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minato_Aqua" title="Minato Aqua">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Minato AquaIcon.png" alt="Minato Aqua">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Minato Aqua
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Mary CelesteIcon.png" alt="Mary Celeste">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Mary Celeste
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Royal FortuneIcon.png" alt="Royal Fortune">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Royal Fortune
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/I-58" title="I-58">
+                                                        <div class="icon rarity-3 border-radius-0">
+                                                            <img src="images\ship_icons\I-58Icon.png" alt="I-58">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        I-58 (w/ Augment)
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     <br>
 
                     <h3 id="mot_subs">Tempesta Submarine Fleet</h3>
                         <p>
                             <i>Note: This is just for fun, it won't perform better compared to traditional submarine fleets!</i>
                         </p>
-                        <ul>
-                            <li>
-                                <p>
-                                    Take 3 of
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">Mary Celeste</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">Royal Fortune</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Whydah" title="Whydah">Whydah</a>.
-                                </p>
-                            </li>
-                        </ul>
-                    <br>
 
-                    <h3 id="global_subs">"Global" Submarine Fleet</h3>
-                        <ul>
-                            <li>
-                                <p>
-                                    Take 3 of
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="Homura">Homura</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556_META" title="U-556 META">U-556 META</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Leonardo_da_Vinci" title="Leonardo da Vinci">Leonardo da Vinci</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-47" title="U-47">U-47</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Archerfish" title="Archerfish">Archerfish</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minato_Aqua" title="Minato Aqua">Minato Aqua</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">Mary Celeste</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">Royal Fortune</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/I-58" title="I-58">I-58 (w/ Augment)</a>,
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Whydah" title="Whydah">Whydah</a>.
-                                </p>
-                            </li>
-                        </ul>
+                        <div class="table-responsive">
+                            <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle ship_table">
+                                <tr class="ship_table_head">
+                                    <th class="ss_table_limiter">Take 3 of</th>
+                                </tr>
+                                <tr>
+                                    <!-- Main Core -->
+                                    <td class="ss_type">
+                                        
+                                        <!-- Ship Row -->
+                                        <div class="modifiedShipRowContainer justify-content-center">
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mary_Celeste" title="Mary Celeste">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Mary CelesteIcon.png" alt="Mary Celeste">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Mary Celeste
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Royal_Fortune" title="Royal Fortune">
+                                                        <div class="icon rarity-4 border-radius-0">
+                                                            <img src="images\ship_icons\Royal FortuneIcon.png" alt="Royal Fortune">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Royal Fortune
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Ship Cell -->
+                                            <div class="modifiedShipRowCell">
+                                                <div class="icon-note-helper">
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Whydah" title="Whydah">
+                                                        <div class="icon rarity-3 border-radius-0">
+                                                            <img src="images\ship_icons\WhydahIcon.png" alt="Whydah">
+                                                        </div>
+                                                        <!-- Ship name -->
+                                                        Whydah
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     <br>
 
         </div>
         
-
-
-
     </body>
 
     <!-- bottom bar -->
