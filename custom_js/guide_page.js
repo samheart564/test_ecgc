@@ -28,29 +28,19 @@ slider.addEventListener('mouseleave', stopDragging, false);
 
 
 //SideNav
-function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
-  document.getElementById("sidenavButton").style.left = "250px";
-}
-
-function closeNav() {
-  document.getElementById("sidenav").style.width = "0";
-  document.getElementById("sidenavButton").style.left = "0px";
-}
-
 function toggleFunction() {
-  var element = document.getElementById("sidenavButton");
+  var sidenav = document.getElementById("sidenav");
+  var sidenavButton = document.getElementById("sidenavButton");
   var icon = document.getElementById("sidenavToggle");
-  element.classList.toggle("toggle")
+  sidenav.classList.toggle("toggle");
+  sidenavButton.classList.toggle("toggle");
 
-  if (element.classList.contains("toggle")) {
-    openNav();
+  if (sidenavButton.classList.contains("toggle")) {
     icon.classList.remove("fa-angle-double-up");
     icon.classList.add("fa-angle-double-down");
   }
 
   else {
-    closeNav();
     icon.classList.add("fa-angle-double-up");
     icon.classList.remove("fa-angle-double-down");
   }
