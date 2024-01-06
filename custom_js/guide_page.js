@@ -31,10 +31,12 @@ slider.addEventListener('mouseleave', stopDragging, false);
 function toggleFunction() {
   var sidenav = document.getElementById("sidenav");
   var sidenavButton = document.getElementById("sidenavButton");
+  var main = document.getElementById("main");
 
   if (window.innerWidth >= 1000) {
     sidenav.classList.toggle("custom-sidenav-collapse");
     sidenavButton.classList.toggle("custom-sidenav-collapse");
+    main.classList.toggle("custom-sidenav-collapse");
 
     if (sidenav.classList.contains("toggle") && sidenav.classList.contains("custom-sidenav-collapse")) {
       sidenav.classList.remove("toggle");
@@ -49,6 +51,7 @@ function toggleFunction() {
     if (sidenav.classList.contains("custom-sidenav-collapse") && sidenav.classList.contains("toggle")) {
       sidenav.classList.remove("custom-sidenav-collapse");
       sidenavButton.classList.remove("custom-sidenav-collapse");
+      main.classList.remove("custom-sidenav-collapse");
     }
   }
 }
