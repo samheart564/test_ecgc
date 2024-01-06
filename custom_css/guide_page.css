@@ -755,7 +755,7 @@ div.modifiedShipRowContainer {
 
 /* max breakpoint = 1320px (container max width) + 500px */
 @media screen and (min-width: 1000px) and (max-width: 1820px){
-  .guide-content-body {
+  #main.custom-sidenav-shift {
     margin-left: 250px;
   }
 }
