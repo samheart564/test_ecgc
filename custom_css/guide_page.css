@@ -637,11 +637,11 @@ div.modifiedShipRowContainer {
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
+  width: 250px;
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 56px; /* Stay at the top */
-  left: 0;
+  left: -250px;
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 15px;
@@ -650,7 +650,7 @@ div.modifiedShipRowContainer {
 }
 
 .sidenav.toggle {
-  width: 250px;
+  left: 0;
 }
 
 /* Position and style the close button (top right corner) */
@@ -721,7 +721,7 @@ div.modifiedShipRowContainer {
   }
 
   .sidenav {
-    width: 250px;
+    left: 0;
   }
   .custom-sidenav-button {
     left: 250px;
@@ -737,7 +737,7 @@ div.modifiedShipRowContainer {
   }
 
   .sidenav.custom-sidenav-collapse {
-    width: 0;
+    left: -250px;
   }
   .custom-sidenav-button.custom-sidenav-collapse {
     left: 0;
