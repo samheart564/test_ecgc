@@ -653,29 +653,6 @@ div.modifiedShipRowContainer {
   width: 250px;
 }
 
-/* container-sm-9 is 75% width so breakpoint * 0.25 >= 250 */
-@media screen and (min-width: 1000px) {
-  .sidenav {
-    width: 250px;
-  }
-  .custom-sidenav-button {
-    display: none;
-  }
-  .sidenav-header {
-    display: inline !important;
-  }
-  .sidenav-header > h2 {
-    font-size: 1.7rem;
-  }
-}
-
-/* max breakpoint = 1320px (container max width) + 500px */
-@media screen and (min-width: 1000px) and (max-width: 1820px){
-  .guide-content-body {
-    margin-left: 250px;
-  }
-}
-
 /* Position and style the close button (top right corner) */
 /* .sidenav .closebtn {
   position: absolute;
@@ -720,6 +697,67 @@ div.modifiedShipRowContainer {
   border: 2px solid pink;
   background-color: #363636;
   color: hsla(0,0%,100%,.9);
+}
+
+#sidenavToggleDown {
+  display: none;
+}
+
+.custom-sidenav-button.toggle > #sidenavToggleUp {
+  display: none;
+}
+
+.custom-sidenav-button.toggle > #sidenavToggleDown {
+  display: inline-block;
+}
+
+/* container-sm-9 is 75% width so breakpoint * 0.25 >= 250 */
+@media screen and (min-width: 1000px) {
+  .sidenav-header {
+    display: inline !important;
+  }
+  .sidenav-header > h2 {
+    font-size: 1.7rem;
+  }
+
+  .sidenav {
+    width: 250px;
+  }
+  .custom-sidenav-button {
+    left: 250px;
+  }
+  .custom-sidenav-button > .d-sm-inline {
+    display: none !important;
+  }
+  #sidenavToggleUp {
+    display: none;
+  }
+  #sidenavToggleDown {
+    display: inline-block;
+  }
+
+  .sidenav.custom-sidenav-collapse {
+    width: 0;
+  }
+  .custom-sidenav-button.custom-sidenav-collapse {
+    left: 0;
+  }
+  .custom-sidenav-button.custom-sidenav-collapse > .d-sm-inline {
+    display: inline !important;
+  }
+  .custom-sidenav-button.custom-sidenav-collapse > #sidenavToggleUp {
+    display: inline-block;
+  }
+  .custom-sidenav-button.custom-sidenav-collapse > #sidenavToggleDown {
+    display: none;
+  }
+}
+
+/* max breakpoint = 1320px (container max width) + 500px */
+@media screen and (min-width: 1000px) and (max-width: 1820px){
+  .guide-content-body {
+    margin-left: 250px;
+  }
 }
 
 

@@ -31,18 +31,25 @@ slider.addEventListener('mouseleave', stopDragging, false);
 function toggleFunction() {
   var sidenav = document.getElementById("sidenav");
   var sidenavButton = document.getElementById("sidenavButton");
-  var icon = document.getElementById("sidenavToggle");
-  sidenav.classList.toggle("toggle");
-  sidenavButton.classList.toggle("toggle");
 
-  if (sidenavButton.classList.contains("toggle")) {
-    icon.classList.remove("fa-angle-double-up");
-    icon.classList.add("fa-angle-double-down");
+  if (window.innerWidth >= 1000) {
+    sidenav.classList.toggle("custom-sidenav-collapse");
+    sidenavButton.classList.toggle("custom-sidenav-collapse");
+
+    if (sidenav.classList.contains("toggle") && sidenav.classList.contains("custom-sidenav-collapse")) {
+      sidenav.classList.remove("toggle");
+      sidenavButton.classList.remove("toggle");
+    }
   }
-
+  
   else {
-    icon.classList.add("fa-angle-double-up");
-    icon.classList.remove("fa-angle-double-down");
+    sidenav.classList.toggle("toggle");
+    sidenavButton.classList.toggle("toggle");
+    
+    if (sidenav.classList.contains("custom-sidenav-collapse") && sidenav.classList.contains("toggle")) {
+      sidenav.classList.remove("custom-sidenav-collapse");
+      sidenavButton.classList.remove("custom-sidenav-collapse");
+    }
   }
 }
 
