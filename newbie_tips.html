@@ -77,6 +77,10 @@
                                 </li>
 
                                 <li>
+                                    <a class="dropdown-item custom-nav-hover" href="fleet_technology" target="_self" rel="noopener noreferrer">Fleet Technology</a>
+                                </li>
+
+                                <li>
                                     <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
                                 </li>
 
@@ -120,13 +124,14 @@
 
         <!-- Table of Contents (SideNav) -->
         <button id="sidenavButton" class="btn custom-sidenav-button z-3" onclick="toggleFunction()">
-            <i id="sidenavToggle" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleUp" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleDown" class="fa fa-angle-double-down"></i>
             <span class="d-none d-sm-inline">Table of Contents</span>
         </button>
         
         <div id="sidenav" class="sidenav overflow-auto">
             <div class="container m-auto">
-                <span class="d-sm-none"><h2 class="text-center">Table of Contents</h2><hr class="custom-hr"></span>
+                <span class="d-sm-none sidenav-header"><h2 class="text-center">Table of Contents</h2><hr class="custom-hr"></span>
                 <div class="toc">
                     <ol>
                         <li>
@@ -147,6 +152,9 @@
                             </ol>
                         </li>
                         <li>
+                            <a rel="noopener noreferrer" target="_self" href="#permanent_ur" onclick="toggleFunction()" class="toc_h_one">Permanent URs are a TRAP</a>
+                        </li>
+                        <li>
                             <a rel="noopener noreferrer" target="_self" href="#out_of_ammo" onclick="toggleFunction()" class="toc_h_one">My fleet is out of ammo!!!</a>
                         </li>
                         <li>
@@ -165,6 +173,9 @@
                                     <a rel="noopener noreferrer" target="_self" href="#situational_gear" onclick="toggleFunction()" class="toc_h_two">Gearing is situational</a>
                                 </li>
                             </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#upgradable_resources" onclick="toggleFunction()" class="toc_h_one">Upgradable Resources</a>
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_self" href="#basic_fleetbuilding" onclick="toggleFunction()" class="toc_h_one">Basic Fleetbuilding</a>
@@ -199,7 +210,7 @@
 
 
         <!-- Content -->
-        <div class="container mt-5 mt-sm-0 m-auto guide-content-body col-12 col-sm-9" id="main">
+        <div class="container mt-5 mt-sm-0 guide-content-body custom-sidenav-shift col-12 col-sm-9" id="main">
             
             <!-- Margin Buffer -->
             <div class="row mb-3"></div>
@@ -217,7 +228,7 @@
             <p class="text-center title-subheading nospace">
                 <b>Author(s)</b>: <span class="author-name">Riceist</span>
                 <br>
-                <b>Current Version</b>: <span class="version-number">1.0.2</span> | <b>Last Updated</b>: <span class="last-updated">October 15th, 2023</span>
+                <b>Current Version</b>: <span class="version-number">1.1.0</span> | <b>Last Updated</b>: <span class="last-updated">January 21st, 2024</span>
             </p>
             <br>
 
@@ -469,6 +480,17 @@
                         <br>
                         <p>Any guides that suggest to farm foxes are either outdated (they weren't even great back in the days) and/or misleading. If you really want foxes, it is best to progress and come back when you can farm them with a 1-1 fleet (2 ships).</p>
                     <br>
+
+                <h2 id="perma_ur">Permanent URs are a TRAP!</h2><hr class="custom-hr">
+                    <p>
+                        <i>
+                            Main Article: <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Building#UR_Ships_Construction" title="UR Ships Construction">UR Ships Construction</a>
+                        </i>
+                    </p>
+
+                    <p>Do not pull only for the permanent URs as you will be able to get them indirectly from events. By pulling on the permanent pools. you will wastefully deplete your cubes and you won't have enough cubes to pull the new few events. The permanent UR pity allows you to select a UR after 200 pulls and these pulls <b><u>include non-UR EVENT banners</u></b>. Ideally you would want to only pull during events and you will get the permanent URs for free.</p>
+                <br>
+                
 
                 <h2 id="out_of_ammo">My fleet is out of ammo!!!!</h2><hr class="custom-hr">
                     <p>
@@ -735,7 +757,324 @@
                             </li>
                         </ul>
                     <br>
+    
+                <h2 id="upgradable_resources">Upgradable Resources</h2><hr class="custom-hr">
+                    <p>The following is a list of relevant items that can be crafted to a higher-rarity version of themselves by <b>clicking on them in the <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Equipment#Material_(Items)" title="Depot">Depot</a></b>:</p>
 
+
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle ship_table">
+                            <col width="10%">
+                            <col width="10%">
+                            <col>
+                            <tr class="ship_table_head">
+                                <th>Base Material</th>
+                                <th>Crafted Material</th>
+                                <th>Notes</th>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dockyard#Retrofit" title="T1 Retrofit Blueprint">
+                                                    <div class="icon rarity-2 border-radius-0">
+                                                        <img src="images\materials\unknown_t1_bp.png" alt="T1 Retrofit Blueprint">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T1 Retrofit Blueprint
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x6</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dockyard#Retrofit" title="T2 Retrofit Blueprint">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\materials\unknown_t2_bp.png" alt="T2 Retrofit Blueprint">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Retrofit Blueprint
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <p class="px-1 py-1">Craft as many times as needed.</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Equipment#Nation-specific_boxes" title="T1 Tech Box">
+                                                    <div class="icon rarity-1 border-radius-0">
+                                                        <img src="images\materials\t1_box.png" alt="T1 Tech Box">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T1 Tech Box
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x5</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Equipment#Nation-specific_boxes" title="T2 Tech Box">
+                                                    <div class="icon rarity-2 border-radius-0">
+                                                        <img src="images\materials\t2_box.png" alt="T2 Tech Box">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Tech Box
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td rowspan="2">
+                                    <p class="px-1 py-1">Always craft up. Never open T1 / T2 Tech Boxes; only open T3 Tech Boxes.</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Equipment#Nation-specific_boxes" title="T2 Tech Box">
+                                                    <div class="icon rarity-2 border-radius-0">
+                                                        <img src="images\materials\t2_box.png" alt="T2 Tech Box">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Tech Box
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x5</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Equipment#Nation-specific_boxes" title="T3 Tech Box">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\materials\t3_box.png" alt="T3 Tech Box">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T3 Tech Box
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Living_Area#Tactical_Class" title="T1 Skill Book">
+                                                    <div class="icon rarity-2 border-radius-0">
+                                                        <img src="images\materials\unknown_t2_book.png" alt="T1 Skill Book">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T1 Skill Book
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x6</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Living_Area#Tactical_Class" title="T2 Skill Book">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\materials\unknown_t2_book.png" alt="T2 Skill Book">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Skill Book
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td rowspan="2">
+                                    <p class="px-1 py-1">Upgrading these to higher rarity causes a loss in exp gained per time spent. Not worth doing unless you have a big stockpile that you won't ever finish.</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Living_Area#Tactical_Class" title="T2 Skill Book">
+                                                    <div class="icon rarity-3 border-radius-0">
+                                                        <img src="images\materials\unknown_t2_book.png" alt="T2 Skill Book">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Skill Book
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x6</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Living_Area#Tactical_Class" title="T3 Skill Book">
+                                                    <div class="icon rarity-4 border-radius-0">
+                                                        <img src="images\materials\unknown_t3_book.png" alt="T3 Skill Book">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T3 Skill Book
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gear_Lab#Material_uses" title="T2 Ordinance Testing Report">
+                                                    <div class="icon rarity-4 border-radius-0">
+                                                        <img src="images\materials\t2_ordinance_report.png" alt="T2 Ordinance Testing Report">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T2 Ordinance Testing Report
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x8</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <!-- Item Row -->
+                                    <div class="modifiedShipRowContainer justify-content-center">
+                        
+                                        <!-- Item Cell -->
+                                        <div class="modifiedShipRowCell px-0 py-0">
+                                            <div class="icon-note-helper">
+                                                <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gear_Lab#Material_uses" title="T3 Ordinance Testing Report">
+                                                    <div class="icon rarity-5 border-radius-0">
+                                                        <img src="images\materials\t3_ordinance_report.png" alt="T3 Ordinance Testing Report">
+                                                    </div>
+                                                    <!-- Item Name -->
+                                                    T3 Ordinance Testing Report
+                                                </a>
+                                            </div>
+                                            <div class="description-note" style="font-size:larger">
+                                                <p class="nospace">Amount: <b>x1</b></p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <p class="px-1 py-1">These are very scarce resources and should only be crafted up as needed.</p>
+                                </td>
+                            </tr>
+
+                            
+                        </table>
+                    </div>
+                <br>
                 
                 <h2 id="basic_fleetbuilding">Basic Fleetbuilding</h2><hr class="custom-hr">
                     <p>

@@ -28,31 +28,31 @@ slider.addEventListener('mouseleave', stopDragging, false);
 
 
 //SideNav
-function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
-  document.getElementById("sidenavButton").style.left = "250px";
-}
-
-function closeNav() {
-  document.getElementById("sidenav").style.width = "0";
-  document.getElementById("sidenavButton").style.left = "0px";
-}
-
 function toggleFunction() {
-  var element = document.getElementById("sidenavButton");
-  var icon = document.getElementById("sidenavToggle");
-  element.classList.toggle("toggle")
+  var sidenav = document.getElementById("sidenav");
+  var sidenavButton = document.getElementById("sidenavButton");
+  var main = document.getElementById("main");
 
-  if (element.classList.contains("toggle")) {
-    openNav();
-    icon.classList.remove("fa-angle-double-up");
-    icon.classList.add("fa-angle-double-down");
+  if (window.innerWidth >= 1000) {
+    sidenav.classList.toggle("custom-sidenav-collapse");
+    sidenavButton.classList.toggle("custom-sidenav-collapse");
+    main.classList.toggle("custom-sidenav-collapse");
+
+    if (sidenav.classList.contains("toggle") && sidenav.classList.contains("custom-sidenav-collapse")) {
+      sidenav.classList.remove("toggle");
+      sidenavButton.classList.remove("toggle");
+    }
   }
-
+  
   else {
-    closeNav();
-    icon.classList.add("fa-angle-double-up");
-    icon.classList.remove("fa-angle-double-down");
+    sidenav.classList.toggle("toggle");
+    sidenavButton.classList.toggle("toggle");
+    
+    if (sidenav.classList.contains("custom-sidenav-collapse") && sidenav.classList.contains("toggle")) {
+      sidenav.classList.remove("custom-sidenav-collapse");
+      sidenavButton.classList.remove("custom-sidenav-collapse");
+      main.classList.remove("custom-sidenav-collapse");
+    }
   }
 }
 

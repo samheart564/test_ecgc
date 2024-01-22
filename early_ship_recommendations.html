@@ -77,6 +77,10 @@
                                 </li>
 
                                 <li>
+                                    <a class="dropdown-item custom-nav-hover" href="fleet_technology" target="_self" rel="noopener noreferrer">Fleet Technology</a>
+                                </li>
+
+                                <li>
                                     <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
                                 </li>
 
@@ -120,13 +124,14 @@
 
         <!-- Table of Contents (SideNav) -->
         <button id="sidenavButton" class="btn custom-sidenav-button z-3" onclick="toggleFunction()">
-            <i id="sidenavToggle" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleUp" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleDown" class="fa fa-angle-double-down"></i>
             <span class="d-none d-sm-inline">Table of Contents</span>
         </button>
         
         <div id="sidenav" class="sidenav overflow-auto">
             <div class="container m-auto">
-                <span class="d-sm-none"><h2 class="text-center">Table of Contents</h2><hr class="custom-hr"></span>
+                <span class="d-sm-none sidenav-header"><h2 class="text-center">Table of Contents</h2><hr class="custom-hr"></span>
                 <div class="toc">
                     <ol>
                         <li>
@@ -154,7 +159,7 @@
 
 
         <!-- Content -->
-        <div class="container mt-5 mt-sm-0 m-auto guide-content-body col-12 col-sm-9" id="main">
+        <div class="container mt-5 mt-sm-0 guide-content-body custom-sidenav-shift col-12 col-sm-9" id="main">
             
             <!-- Margin Buffer -->
             <div class="row mb-3"></div>
