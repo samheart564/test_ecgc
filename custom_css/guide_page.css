@@ -754,11 +754,7 @@ div.modifiedShipRowContainer {
 }
 
 /* max breakpoint = 1320px (container max width) + 500px */
-<<<<<<< HEAD
 @media screen and (min-width: 1000px) and (max-width: 1820px) {
-=======
-@media screen and (min-width: 1000px) and (max-width: 1820px){
->>>>>>> a35ac68cc210354a838f120dcd5cea5179baf02f
   #main.custom-sidenav-shift {
     margin-left: 250px;
     transition: 0.5s;
