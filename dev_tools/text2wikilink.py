@@ -21,7 +21,7 @@ def main():
             break
         else:
             link = generate_wiki_link(page_name)
-            append_to_html_file("ECGC\\dev_tools\\test1.html", link)
+            append_to_html_file(r"dev_tools\test1.html", link)
 
 if __name__ == "__main__":
     main()
