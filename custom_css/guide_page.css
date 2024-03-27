@@ -639,7 +639,7 @@ div.modifiedShipRowContainer {
   height: 100%; /* 100% Full-height */
   width: 250px;
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 1015; /* Stay on top */
   top: 56px; /* Stay at the top */
   left: -250px;
   background-color: #111; /* Black*/
