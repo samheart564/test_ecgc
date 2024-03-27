@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Changelog - ECGC</title>
+        <link rel="icon" type="image/x-icon" href="images\misc\SiteIcon.ico">
+
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800' rel='stylesheet'>
+        <link rel="stylesheet" href="custom_css\guide_page.css">
+        <link href="custom_css\fontawesome\css\fontawesome.css" rel="stylesheet">
+        <link href="custom_css\fontawesome\css\brands.css" rel="stylesheet">
+        <link href="custom_css\fontawesome\css\solid.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="custom_js\guide_page.js"></script>
+        <noscript>Your browser does not support JavaScript!</noscript>
+        
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #222a42;">
+            <div class="container col-12 col-sm-9">
+                <!-- Title -->
+                <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
+                    <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
+                </a>
+                <!-- Expand Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Items inside Navbar -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-0 fs-6 nav-pills">
+
+                        <li class="nav-item">
+                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle nav-logo-custom" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-pencil"></i> <span>Guides</span>
+                            </a>
+                        
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="fleet_technology" target="_self" rel="noopener noreferrer">Fleet Technology</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="tools" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                                <i class="fa fa-wrench nav-logo-custom"></i> <span>Tools</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
+                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="changelog" class="nav-link nav-logo-custom active" rel="noopener noreferrer" target="_self" title="Changelog">
+                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
+                                <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Table of Contents (SideNav) -->
+        <button id="sidenavButton" class="btn custom-sidenav-button z-3" onclick="toggleFunction()">
+            <i id="sidenavToggleUp" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleDown" class="fa fa-angle-double-down"></i>
+            <span class="d-none d-sm-inline">Table of Contents</span>
+        </button>
+        
+        <div id="sidenav" class="sidenav overflow-auto">
+            <div class="container m-auto">
+                <span class="d-sm-none sidenav-header">
+                    <h2 class="text-center">Table of Contents</h2><hr class="custom-hr">
+                </span>
+                <div class="toc">
+                    <ol>
+                        <!-- <li>
+                            <a rel="noopener noreferrer" target="_self" href="#9-1-2023" onclick="smToggleFunction()" class="toc_h_one">Sept 1, 2023</a>
+                        </li> -->
+                        <!-- <li>
+                            <a rel="noopener noreferrer" target="_self" href="#1-5-2024" onclick="smToggleFunction()" class="toc_h_one">Jan 5th, 2024</a>
+                        </li> -->
+                        <!-- <li>
+                            <a rel="noopener noreferrer" target="_self" href="#1-5-2024" onclick="smToggleFunction()" class="toc_h_one">Jan 5th, 2024</a>
+                        </li> -->
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#3-24-2024" onclick="smToggleFunction()" class="toc_h_one">Mar 24th, 2024</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#3-3-2024" onclick="smToggleFunction()" class="toc_h_one">Mar 3rd, 2024</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#2-18-2024" onclick="smToggleFunction()" class="toc_h_one">Feb 18th, 2024</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#1-21-2024" onclick="smToggleFunction()" class="toc_h_one">Jan 21st, 2024</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#1-5-2024" onclick="smToggleFunction()" class="toc_h_one">Jan 5th, 2024</a>
+                        </li>
+                    <ol>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Content -->
+        <div class="container mt-5 mt-sm-0 guide-content-body custom-sidenav-shift col-12 col-sm-9" id="main">
+            
+            <!-- Margin Buffer -->
+            <div class="row mb-3"></div>
+
+            <!-- Title -->
+            <h1 id="home">
+                <p class="fs-2 h1">
+                    <b>
+                        <u>Changelog (2024)</u>
+                    </b>
+                </p>
+            </h1>
+
+            <div style="text-align: center;">
+                <p>
+                    << <a rel="noopener noreferrer" target="_self" href="changelog2023">2023</a>
+                </p>
+            </div>
+            <br>
+
+                <!-- Changelog Head -->
+                <h2 id="3-24-2024">March 24th, 2024</h2><hr class="custom-hr">
+                <ul>
+                    <li>
+                        <h5>Site Updates:</h5>
+                        <ul>
+                            <li>
+                                <p>Overhauled Site Navbar to accomodate integration of Equip & Misc.</p>
+                                <ul>
+                                    <li>
+                                        <p>The google sheet will still be active, like usual. The Imgur will be updated as well, but will contain more lazily / haphazard image ordering.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Fixed bug where images overlapped with table of contents awkwardly.</p>
+                            </li>
+                            <li>
+                                <p>Added metadata to major site guides.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Common Resource:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed type for Core Data (Chapter 12 -> Chapter 13)</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Farming:</h5>
+                        <ul>
+                            <li>
+                                <p>Added note that 12-1 is significantly better than previous stages to grind, due to Cognitive Chip and Augmentation Material drop chances.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Fleetbuilding:</h5>
+                        <ul>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Rodney_META" title="Rodney META">Rodney META</a> - Off-Flag BB
+                            </li>                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Newbie Tips:</h5>
+                        <ul>
+                            <li>
+                                <p>Added lines regarding usage of SR Rarity ships not listed in the guide.</p>
+                            </li>
+                            <li>
+                                <p>Added note about how resource intensive UR ships are.</p>
+                            </li>
+                            <li>
+                                <p>Fixed typos throughout guide.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Samvaluations:</h5>
+                        <ul>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Virtual_Tower" title="Virtual Tower">Virtual Tower</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Impero" title="Impero">Impero</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pompeo_Magno" title="Pompeo Magno">Pompeo Magno</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Trieste" title="Trieste">Trieste</a>
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li>
+                                <p>Added Samvaluations for 3/21 Augment Modules:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Nicholas" title="Nicholas">Nicholas</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dido" title="Dido">Dido</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/I-19" title="I-19">I-19</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sendai" title="Sendai">Sendai</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Le_Mars" title="Le Mars">Le Mars</a>
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Rodney_META" title="Rodney META">Rodney META</a>.                              
+                            </li>                                                     
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Shop Priority:</h5>
+                        <ul>
+                            <li>
+                                <p>Added embed image for Core Data Priority.</p>
+                            </li>
+                            <li>
+                                <p>Added embed image for Prototype Core Priority.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <br>
+
+                <!-- Changelog Head -->
+                <h2 id="3-3-2024">March 3rd, 2024</h2><hr class="custom-hr">
+                <ul>                   
+                    <li>
+                        <h5>Common Resource:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed income for Gold Plates (added Weekly Missions, Supply Line Disruption).</p>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <h5>Equipment & Misc.:</h5>
+                        <ul>
+                            <li>
+                                <p>Added missing Cargo to AE Auxes.</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mawei_Type-Wu" title="Mawei Type-Wu">Mawei Type-Wu</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dragon_Figurine" title="Dragon Figurine">Dragon Figurine</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Crab_(With_Receipt)" title="Crab (With Receipt)">Crab (With Receipt)</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Air_Radar#Type_3-0" title="Air Radar">Air Radar</a>; removed useless / misleading / outdated notes (AR Auxes).</p>
+                            </li>
+                            <li>
+                                <p>Added links to missing songs (Cosmetic Auxes).</p>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sacred_Lumi%C3%A8re" title="Sacred Lumière">Sacred Lumière</a> (A Song of Prayer - Le Malin)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/White-Hot_Verheerender" title="White-Hot Verheerender">White-Hot Verheerender</a> (Seafarer's Loyalty - Roon, Taihou)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Resplendent_Astrum" title="Resplendent Astrum">Resplendent Astrum</a> (Blue Spirit - Illustrious, Baltimore, Dido, Tashkent, Albacore)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Goldburn" title="Goldburn">Goldburn</a> (World Spanning Arclight Boss Theme)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dynamic_Cannon" title="Dynamic Cannon">Dynamic Cannon</a> (World Spanning Arclight Normal Battle Theme)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Heart_Key" title="Heart Key">Heart Key</a> (Learning Lesson Theme - DoA XVV OST)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Energianica" title="Energianica">Energianica</a> (The Alchemist and the Archipelago of Secrets - Battle Theme)</p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shinobi_Medal" title="Shinobi Medal">Shinobi Medal</a> (The Ninja Scrolls: Azur Flash Stage Theme)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Realm_of_Oneiric_Snow" title="Realm of Oneiric Snow">Realm of Oneiric Snow</a> (Cosmetic Auxes).</p>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Cross_Brooch" title="Cross Brooch">Cross Brooch</a> (DD Auxes).</p>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ascension_Box" title="Ascension Box">Ascension Box</a> (DD Aux, Cruiser Aux, IX Aux).</p>
+                            </li>
+                            <li>
+                                <p>Renamed BB Guns & BB Auxes to include BBV.</p>
+                            </li>
+                            <li>
+                                <p>Added Soyuz Gun (BB Guns, Plus13).</p>
+                            </li>
+                            <li>
+                                <p>Added note to not use +AVI auxes on BBVs (BB Auxes).</p>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sovetsky_Soyuz" title="Sovetsky Soyuz">Sovetsky Soyuz</a> to Crossfleet.</p>
+                            </li>
+                            <li>
+                                <p>Fixed some equipment names to match EN version of the game.</p>
+                            </li>
+                        </ul>
+                        
+                    </li>
+
+                    <li>
+                        <h5>Fleetbuilding:</h5>
+                        <ul>
+                            <li>
+                                <p>Updated <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pamiat'_Merkuria" title="Pamiat' Merkuria">Pamiat' Merkuria</a>'s name to match EN version.</p>
+                            </li>
+                            <li>
+                                <p>Moved ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Khorovod_of_Dawn's_Rime" title="Khorovod of Dawn's Rime">Khorovod of Dawn's Rime</a> to Permanent.</p>
+                            </li>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Snowrealm_Peregrination" title="Snowrealm Peregrination">Snowrealm Peregrination</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sovetsky_Soyuz" title="Sovetsky Soyuz">Sovetsky Soyuz</a> - Off-Flag BB
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ognevoy" title="Ognevoy">Ognevoy</a> - Vanguard Damage Dealer
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pamiat'_Merkuria_META" title="Pamiat' Merkuria META">Pamiat' Merkuria META</a> - Mob Tank
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Newbie Tips:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed typos regarding Tech Boxes.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Samvaluations:</h5>
+                        <ul>
+                            <li>
+                                <p>Moved <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kimberly_META" title="Kimberly META">Kimberly META</a> to Cruise Pass section.</p>
+                            </li>
+                            <li>
+                                <p>Fixed description for <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hatakaze_META" title="Hatakaze META">Hatakaze META</a>.</p>
+                            </li>
+                            <li>
+                                <p>Updated <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pamiat'_Merkuria" title="Pamiat' Merkuria">Pamiat' Merkuria</a>'s name to match EN version.</p>
+                            </li>
+                            <li>
+                                <p>Added Samvaluations for 2/22 Augment Modules:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ping_Hai" title="Ping Hai">Ping Hai (Retrofit)</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ning_Hai" title="Ning Hai">Ning Hai (Retrofit)</a>
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Snowrealm_Peregrination" title="Snowrealm Peregrination">Snowrealm Peregrination</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sovetsky_Soyuz" title="Sovetsky Soyuz">Sovetsky Soyuz</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ognevoy" title="Ognevoy">Ognevoy</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pamiat'_Merkuria_META" title="Pamiat' Merkuria META">Pamiat' Merkuria META</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Poltava" title="Poltava">Poltava</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Svirepy" title="Svirepy">Svirepy</a>
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Shop Priority:</h5>
+                        <ul>
+                            <li>
+                                <p>Seperated Iris Orthodoxy Gear Development Pack from other Tech Boxes.</p>
+                            </li>
+                            <li>
+                                <p>Fixed incorrect hyperlinks for Tech Boxes.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <br>
+
+                <!-- Changelog Head -->
+                <h2 id="2-18-2024">Februrary 18th, 2024</h2><hr class="custom-hr">
+                <ul>
+                    <li>
+                        <h5>Common Resource:</h5>
+                        <ul>
+                            <li>
+                                <p>Changed expected UR Bulin income from every 4 months to every 2 months (total/year unchanged).</p>
+                            </li>
+                            <li>
+                                <p>Updated Gem amount to include Chapter 15.</p>
+                            </li>
+                            <li>
+                                <p>Updated Core Data amount to include Chapter 13 Hard Mode.</p>
+                            </li>
+                            <li>
+                                <p>Updated Protocore amount to include PR5 Rookie Missions.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Contributors:</h5>
+                        <ul>
+                            <li>
+                                <p>Edited Contributor Cell for Samheart564.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Equipment & Misc.:</h5>
+                        <ul>
+                            <li>
+                                <p>Added gear from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Spring_Festive_Fiasco" title="Spring Festive Fiasco">Spring Festive Fiasco</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Huan_Ch'ang's_Fishing_Rod" title="Huan Ch'ang's Fishing Rod">Huan Ch'ang's Fishing Rod</a> - BB Auxes
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/SY-1A_Missile" title="SY-1A Missile">SY-1A Missile</a> - Surface Torpedoes, Plus13
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Updated description of <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/SY-1_Missile" title="SY-1 Missile">SY-1 Missile</a> due to new Missile being added.</p>
+                            </li>
+                            <li>
+                                <p>Fixed inconsistencies in location names for various Research Gear.</p>
+                            </li>
+                            <li>
+                                <p>Added PR6 Gear + <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Prototype_Quadruple_152mm_Main_Gun_Mount" title="Prototype Quadruple 152mm Main Gun Mount">Prototype Quadruple 152mm Main Gun Mount</a> to Prototype Shop Guide.</p>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Twin_457mm_(Mark_A_Prototype)" title="Prototype Twin 457mm Mk A Main Gun Mount">Prototype Twin 457mm Mk A Main Gun Mount</a> back to Prototype Shop Guide.</p>
+                            </li>
+                            <li>
+                                <p>Added <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Constellation" title="Constellation">Constellation</a> to Hard Mode Rec Help.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Farming:</h5>
+                        <ul>
+                            <li>
+                                <p>Added clarification that Chapter 15 stages are omitted from drop tables.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Fleetbuilding:</h5>
+                        <ul>
+                            <li>
+                                <p>Added new ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Spring_Festive_Fiasco" title="Spring Festive Fiasco">Spring Festive Fiasco</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Huan_Ch'ang" title="Huan Ch'ang">Huan Ch'ang</a> - Flagship BB.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Tai_Yuan" title="Tai Yuan">Tai Yuan (Retrofit)</a> - Damage Dealer.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Moved Repulse META and Renown META to Permanent.</p>
+                            </li>
+                            <li>
+                                <p>Moved <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2023" title="Happy Lunar New Year 2023">Happy Lunar New Year 2023</a> ships to Permanent.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Newbie Tips:</h5>
+                        <ul>
+                            <li>
+                                <p>Corrected Skill Book section in upgradable resources.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Research:</h5>
+                        <ul>
+                            <li>
+                                <p>Added PR4 Coin-up, DR3 Coin-up.</p>
+                            </li>
+                            <li>
+                                <p>Added PR5 Catch-up.</p>
+                            </li>
+                            <li>
+                                <p>Adjusted Protocore Income to account for PR5 Catch-up.</p>
+                            </li>
+                            <li>
+                                <p>Fixed bug where Catch-up Min-Max section wouldn't expand.</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h5>Samvaluations:</h5>
+                        <ul>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2021" title="Happy Lunar New Year 2021">Happy Lunar New Year 2021</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chao_Ho" title="Chao Ho">Chao Ho</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ying_Swei" title="Ying Swei">Ying Swei</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Penelope" title="Penelope">Penelope</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-410" title="U-410">U-410</a></p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2022" title="Happy Lunar New Year 2022">Joint Battle Mystery Investigation (Lunar New Year 2022)</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bristol" title="Bristol">Bristol</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Charybdis" title="Charybdis">Charybdis</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Chi" title="Hai Chi">Hai Chi</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Tien" title="Hai Tien">Hai Tien</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/An_Shan" title="An Shan">An Shan (Retrofit)</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fu_Shun" title="Fu Shun">Fu Shun (Retrofit)</a></p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2024" title="Happy Lunar New Year 2024">Spring Festive Fiasco (Lunar New Year 2024)</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Huan_Ch'ang" title="Huan Ch'ang">Huan Ch'ang</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chi_An" title="Chi An">Chi An</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fei_Yuen" title="Fei Yuen">Fei Yuen</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hu_Pen" title="Hu Pen">Hu Pen</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Lung_Wu" title="Lung Wu">Lung Wu</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chen_Hai" title="Chen Hai">Chen Hai (Retrofit)</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Tai_Yuan" title="Tai Yuan">Tai Yuan (Retrofit)</a></p>
+                                    </li>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kimberly_META" title="Kimberly META">Kimberly META</a></p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>              
+                </ul>
+                <br>
+
+
+
+                <!-- Changelog Head -->
+                <h2 id="1-21-2024">January 21st, 2024</h2><hr class="custom-hr">
+                <ul>
+                    <li>
+                        <h5>Site Updates:</h5>
+                        <ul>
+                            <li>
+                                <p>Table of Contents is now default expanded on Desktop.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Equipment & Misc.:</h5>
+                        <ul>
+                            <li>
+                                <p>Replaced "PR3 Research" with "Gear Lab" for all relevant gear. (Plus13, Prototype Core, BB Guns, CA Guns, DD Guns)</p>
+                            </li>
+                            <li>
+                                <p>Added all relevant PR3 gear to Gear Lab Priority.</p>
+                            </li>
+                            <li>
+                                <p>Removed most PR3 gear from Prototype Shop Priority.</p>
+                            </li>
+                            <li>
+                                <p>Added 1/18 Gear Lab Update Gear:</p>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fairey_Spearfish_(Prototype)" title="Prototype Spearfish">Prototype Spearfish</a> - Torpedo Bombers</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Triple_380mm_(SKC_Prototype)" title="Prototype Triple 380mm SKC Main Gun">Prototype Triple 380mm SKC Main Gun</a> - BB Guns</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kawanishi_N1K3-A_Shiden_Kai_4" title="Kawanishi N1K3-A Shiden Kai 4">Kawanishi N1K3-A Shiden Kai 4</a> - Fighters</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <p><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/550mm_Quadruple_Torpedo_Mount_Improved_(Ammo_Mod)" title="550mm Quadruple Torpedo Mount Improved (Ammo Mod)">550mm Quadruple Torpedo Mount Improved (Ammo Mod)</a> + its purple version - Surface Torpedoes</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Fixed typos throughout guide.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Fleetbuilding:</h5>
+                        <ul>
+                            <li>
+                                <p>Moved Homura down in submarine sections.</p>
+                            </li>
+                            <li>
+                                <p>Moved Dreamwaker's Butterfly and Mirror Involution Ships from Event-Locked to Permanent.</p>
+                            </li>
+                            <li>
+                                <p>Fixed typos in Vanguard Support section.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Fleet Technology:</h5>
+                        <ul>
+                            <li>
+                                <p>Created guide! For now, it is the same as the section in Research. The remaining factions & more detailed information regarding progression strategies to achieve these tech point thresholds will be added soon tm :(</p>
+                            </li>
+                            <li>
+                                <p>Added relevant permanent ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Inverted_Orthant" title="Inverted Orthant">Inverted Orthant</a> to KMS section.</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-37" title="U-37">U-37</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Z24" title="Z24">Z24</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added relevant permanent ships from 1/18 shop updates to KMS section.</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bismarck" title="Bismarck">Bismarck</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-96" title="U-96">U-96</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-73" title="U-73">U-73</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-556" title="U-556">U-556</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Newbie Tips</h5>
+                        <ul>
+                            <li>
+                                <p>Added section about upgradable consumables / materials.</p>
+                            </li>
+                            <li>
+                                <p>Added section about Permanent UR ships.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Research</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed typos with research project name.</p>
+                            </li>
+                            <li>
+                                <p>Moved Fleet Technology content to Fleet Technology Guide.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Samvaluations:</h5>
+                        <ul>
+                            <li>
+                                <p>Added Samvaluations for 1/18 Augment Modules.</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/King_George_V" title="King George V">King George V</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Z18" title="Z18">Z18</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added ships from <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Tower_of_Transcendence" title="Tower of Transcendence">Tower of Transcendence</a>:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ulrich_von_Hutten" title="Ulrich von Hutten">Ulrich von Hutten</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Magdeburg" title="Magdeburg">Magdeburg</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Prinz_Adalbert" title="Prinz Adalbert">Prinz Adalbert</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Elbe" title="Elbe">Elbe</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-1206" title="U-1206">U-1206</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added PR1 ships:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Neptune" title="Neptune">Neptune</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Monarch" title="Monarch">Monarch</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ibuki" title="Ibuki">Ibuki</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Izumo" title="Izumo">Izumo</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Roon" title="Roon">Roon</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Saint_Louis" title="Saint Louis">Saint Louis</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added PR2/DR2 ships:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Seattle" title="Seattle">Seattle</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Georgia" title="Georgia">Georgia</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kitakaze" title="Kitakaze">Kitakaze</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Azuma" title="Azuma">Azuma</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fredrich_der_Große" title="Fredrich der Große">Fredrich der Große</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gascogne" title="Gascogne">Gascogne</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Added PR3/DR3 ships:</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Cheshire" title="Cheshire">Cheshire</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Drake" title="Drake">Drake</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Mainz" title="Mainz">Mainz</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Odin" title="Odin">Odin</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Champagne" title="Champagne">Champagne</a>
+                                        </p>
+                                    </li>
+                                </ul>                                
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Shop Priority:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed hyperlink for T4 Tech Box.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Tools:</h5>
+                        <ul>
+                            <li>
+                                <p>Added Mebot's <a rel="noopener noreferrer" target="_blank" href="https://docs.google.com/spreadsheets/d/1rb_uXVmDnK2YKe-0YRTrf3VUcQi8mKwEMYKCBFmVXCc/edit#gid=0" title="AA Sheet">AA Sheet</a>.</p>
+                            </li>
+                            <li>
+                                <p>Adjusted formatting of Author names.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+
+
+                <!-- Changelog Head -->
+                <h2 id="1-5-2024">January 5th, 2024</h2><hr class="custom-hr">
+                <ul>
+                    <li>
+                        <h5>Equipment & Misc.:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed typo with Triple 152mm DP Mk17 description.</p>
+                            </li>
+                            <li>
+                                <p>Added Twin 550mm Torpedo Mount (FFNF) to Torpedoes.</p>
+                            </li>
+                            <li>
+                                <p>Moved +AA auxes lower in IX Auxiliary.</p>
+                            </li>
+                            <li>
+                                <p>Added Guam to best vanguard crossfleet combination in Crossfleet.</p>
+                            </li>
+                            <li>
+                                <p>Revamped BB/BC Guns to account for vertical priority.</p>
+                            </li>
+                            <li>
+                                <p>Slightly edited Mark 20 "Bidder" description in Submarine Torpedo, Gear Lab.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Fleetbuilding:</h5>
+                        <ul>
+                            <li>
+                                <p>Improved wording around support ships in fleet composition sections.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Samvaluations:</h5>
+                        <ul>
+                            <li>
+                                <p>Fixed typos relating to some BCs being labeled as BBs.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Shop Priority:</h5>
+                        <ul>
+                            <li>
+                                <p>Moved T2 Augment Module Enhance Stone down.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <br>
+
+
+        </div>
+    </body>
+
+    <!-- bottom bar -->
+    <footer class="footer">
+        <div class="container-fluid pb-1 pt-1 overflow-auto">
+            <div class="row">
+                <div class="col" style="text-align: left;">
+                    <h6 class="title footer-style-two">Media taken from <a href="https://azurlane.koumakan.jp/wiki/Azur_Lane_Wiki" target="_blank" rel="noopener noreferrer">Azur Lane English Wiki</a>.</h6>
+                </div>
+                <div class="col" style="text-align: right;">
+                    <h6 class="title footer-style">© <script type="text/javascript">document.write( new Date().getFullYear() );</script>, coded by samheart564</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
