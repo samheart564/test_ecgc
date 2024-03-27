@@ -7,7 +7,7 @@ def generate_wiki_link(page_name):
 
 def append_to_html_file(file_name, link):
     with open(file_name, "a") as f:
-        f.write(link)
+        f.write(link) 
 
 def main():
     exit_commands = {"q", "quit", "exit"}
