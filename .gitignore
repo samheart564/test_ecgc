@@ -1,0 +1,14 @@
+dev_tools/test1.html
+dev_tools/gsheets2img/node_modules
+# .gitignore
+# images/equip_misc/
+
+# equipment
+equipment new.html
+
+# gameplay
+operation_siren.html
+
+#ships
+buildrate.html
+
