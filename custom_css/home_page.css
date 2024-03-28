@@ -120,6 +120,10 @@ p {
   font-size: medium;
 }
 
+p.nospace {
+  margin: 0;
+}
+
 small {
   font-size: 80%;
   font-weight: 400;
@@ -185,6 +189,54 @@ a.in_hover:hover {
 a.in_hover:active {
   color: aqua;
   background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-button-hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.secondary-button-hover:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.secondary-button-hover:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-button-hover:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+.secondary-button-hover > * {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+
+.secondary-button-hover:visited > * {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.secondary-button-hover:active > * {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.secondary-button-hover:hover > * {
+  color: cyan;
   text-decoration: underline;
 }
 

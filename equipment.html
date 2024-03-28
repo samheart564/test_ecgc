@@ -4,12 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Equipment & Misc. - ECGC</title>
-        <meta name="description" content="Has a variety of image guides for Azur Lane regarding gameplay and equipment!">
-        <meta name="og:title" content="Equipment & Misc.">
+        <title>Equipment - ECGC</title>
+        <meta name="description" content="This guide gives a comprehensive overview of the best equipment in Azur Lane!">
+        <meta name="og:title" content="Equipment">
         <meta name="og:url" content="https://samheart564.github.io/ECGC/equipment">
         <meta name="og:image" content="https://samheart564.github.io/ECGC/images/misc/No-Cover.jpg"> <!-- NO COVER -->
-        <meta name="og:description" content="Has a variety of image guides for Azur Lane regarding gameplay and equipment!">
+        <meta name="og:description" content="This guide gives a comprehensive overview of the best equipment in Azur Lane!">
         <link rel="icon" type="image/x-icon" href="images\misc\SiteIcon.ico">
 
         <!-- CSS -->
@@ -127,9 +127,127 @@
             </div>
         </nav>
 
+        <!-- Table of Contents (SideNav) -->
+        <button id="sidenavButton" class="btn custom-sidenav-button z-3" onclick="toggleFunction()">
+            <i id="sidenavToggleUp" class="fa fa-angle-double-up"></i>
+            <i id="sidenavToggleDown" class="fa fa-angle-double-down"></i>
+            <span class="d-none d-sm-inline">Table of Contents</span>
+        </button>
+        
+        <div id="sidenav" class="sidenav overflow-auto">
+            <div class="container m-auto">
+                <span class="d-sm-none sidenav-header">
+                    <h2 class="text-center">Table of Contents</h2><hr class="custom-hr">
+                </span>
+                <div class="toc">
+                    <ol>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#glossary" onclick="smToggleFunction()" class="toc_h_one">Glossary</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#ship_types" onclick="smToggleFunction()" class="toc_h_two">Ship Type Abbreviations</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#ammo_types" onclick="smToggleFunction()" class="toc_h_two">Ammo Type Overview</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#legend" onclick="smToggleFunction()" class="toc_h_two">Legend</a>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#gear_lab" onclick="smToggleFunction()" class="toc_h_one">Gear Lab Priority</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#plus13" onclick="smToggleFunction()" class="toc_h_one">+13 Gear Priority</a>
+                        </li>
+                        
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#bb_guns" onclick="smToggleFunction()" class="toc_h_two">BB / BC / BBV Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#bb_auxiliary" onclick="smToggleFunction()" class="toc_h_two">BB / BC / BBV Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#main_fleet_aux_guns" onclick="smToggleFunction()" class="toc_h_two">Main Fleet Secondary Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#cb_guns" onclick="smToggleFunction()" class="toc_h_two">CB Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ca_guns" onclick="smToggleFunction()" class="toc_h_two">CA Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#cl_guns" onclick="smToggleFunction()" class="toc_h_two">CL Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#cruiser_auxiliary" onclick="smToggleFunction()" class="toc_h_two">CB / CA / CL Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#dd_guns" onclick="smToggleFunction()" class="toc_h_two">DD Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#dd_auxiliary" onclick="smToggleFunction()" class="toc_h_two">DD Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#surface_torpedoes" onclick="smToggleFunction()" class="toc_h_two">Surface Torpedoes</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#aa_guns" onclick="smToggleFunction()" class="toc_h_two">AA Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#aa_range_chart" onclick="smToggleFunction()" class="toc_h_three">AA Range Chart</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#fighters" onclick="smToggleFunction()" class="toc_h_two">Fighters</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#dive_bombers" onclick="smToggleFunction()" class="toc_h_two">Dive Bombers</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#torpedo_bombers" onclick="smToggleFunction()" class="toc_h_two">Torpedo Bombers</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#cv_auxiliary" onclick="smToggleFunction()" class="toc_h_two">CV / CVL Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ss_torpedo" onclick="smToggleFunction()" class="toc_h_two">SS Torpedo</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ss_auxiliary" onclick="smToggleFunction()" class="toc_h_two">SS Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ix_guns" onclick="smToggleFunction()" class="toc_h_two">IX Guns</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ix_auxiliary" onclick="smToggleFunction()" class="toc_h_two">IX Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ae_auxiliary" onclick="smToggleFunction()" class="toc_h_two">AE Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#ar_auxiliary" onclick="smToggleFunction()" class="toc_h_two">AR Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#recon_planes" onclick="smToggleFunction()" class="toc_h_two">Recon Planes</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#asw_equipment" onclick="smToggleFunction()" class="toc_h_two">ASW Equipment</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#cosmetic_auxiliary" onclick="smToggleFunction()" class="toc_h_two">Cosmetic Auxiliary</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" target="_self" href="#augment_module" onclick="smToggleFunction()" class="toc_h_one">Augment Modules</a>
+                        </li>
+                    <ol>
+                </div>
+            </div>
+        </div>
+
         
         <!-- Content -->
-        <div class="container mt-5 mt-sm-0 guide-content-body col-12 col-sm-9" id="main">
+        <div class="container mt-5 mt-sm-0 guide-content-body custom-sidenav-shift col-12 col-sm-9" id="main">
             
             <!-- Margin Buffer -->
             <div class="row mb-3"></div>
@@ -138,7 +256,7 @@
             <h1 id="home">
                 <p class="fs-2 h1">
                     <b>
-                        <u>Equipment & Misc. Guide</u>
+                        <u>Equipment Guide</u>
                     </b>
                 </p>
             </h1>
@@ -152,32 +270,222 @@
             <br>
            
             <h2 id="introduction">Introduction</h2><hr class="custom-hr">
-                <p>Full Equipment Recommendations by Slot type. Also has a bunch of other miscellaneous guides.</p>
-            <br>
-
-            <h2 id="links">Links</h2><hr class="custom-hr">
-                <div class="d-flex gap-3 w-100" role="group" aria-label="Links">
-                    <a class="w-100 btn btn-lg btn-outline-success secondary-button-hover" href="https://imgur.com/a/YoxqS7A" target="_blank" rel="noopener noreferrer">
-                        <p class="nospace fs-4">
-                            <b>Imgur</b>
-                        </p>
-                    </a>
-                    <a class="w-100 btn btn-lg btn-outline-success secondary-button-hover" href="https://docs.google.com/spreadsheets/d/1wWMIzaUKISAXMbOEnmsuuLkO9PesabpdTUWdosvHygM/edit#gid=979150851" target="_blank" rel="noopener noreferrer">
-                        <p class="nospace fs-4">
-                            <b>Spreadsheet</b>
-                        </p>
-                    </a>
-                    <a class="w-100 btn btn-lg btn-outline-success secondary-button-hover" href="https://docs.google.com/document/d/1rCAE3qqTF1iCnVaMj5PLpwk2urz4grkuLQKWRChBAGE/edit" target="_blank" rel="noopener noreferrer">
-                        <p class="nospace fs-4">
-                            <b>Changelog</b>
-                        </p>
-                    </a>
+                <p>This guide gives a comprehensive overview of the best equipment in Azur Lane!</p>
+                <div class="container" role="group" aria-label="Links">
+                    <div class="row">
+                        <div class="col-sm mb-3">
+                            <a class="btn btn-lg btn-outline-success w-100 secondary-button-hover" href="https://imgur.com/a/YoxqS7A" target="_blank" rel="noopener noreferrer">
+                                <p class="nospace fs-4">
+                                    <b>Imgur</b>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <a class="btn btn-lg btn-outline-success w-100 secondary-button-hover" href="https://docs.google.com/spreadsheets/d/1wWMIzaUKISAXMbOEnmsuuLkO9PesabpdTUWdosvHygM/edit#gid=979150851" target="_blank" rel="noopener noreferrer">
+                                <p class="nospace fs-4">
+                                    <b>Spreadsheet</b>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                <br>
             <br>
 
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbKeR7WCSeg1FUx_jQ0e972FtA9tvgW8jHaiLQCPGtJEokVrSGBEZznr2qptelhxF-TXHh86yYQEUa/pubhtml?widget=true&amp;headers=false" class="custom-iframe" title="Equip & Misc. Guide"></iframe>
+
+            <h2 id="bb_bc_bbv_guns">BB / BC / BBV Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\BB_BC_BBV_Guns.jpeg" title="BB / BC / BBV Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\BB_BC_BBV_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="bb_bc_bbv_auxiliary">BB / BC / BBV Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\BB_BC_BBV_Auxes.jpeg" title="BB / BC / BBV Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\BB_BC_BBV_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="main_fleet_secondary_guns">Main Fleet Secondary Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Main_Fleet_Aux_Guns.jpeg" title="Main Fleet Secondary Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\Main_Fleet_Aux_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="cb_guns">CB Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\CB_Guns.jpeg" title="CB Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\CB_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ca_guns">CA Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\CA_Guns.jpeg" title="CA Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\CA_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="cl_guns">CL Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\CL_Guns.jpeg" title="CL Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\CL_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="cb_ca_cl_auxiliary">CB / CA / CL Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\CB_CA_CL_Auxes.jpeg" title="CB / CA / CL Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\CB_CA_CL_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="dd_guns">DD Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\DD_Guns.jpeg" title="DD Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\DD_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="dd_auxiliary">DD Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\DD_Auxes.jpeg" title="DD Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\DD_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="surface_torpedoes">Surface Torpedoes</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Surface_Torpedo.jpeg" title="Surface Torpedoes">
+                    <img class="equip_misc_img" src="images\equip_misc\Surface_Torpedo.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="aa_guns">AA Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\AA_Guns.jpeg" title="AA Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\AA_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="aa_range_chart">AA Range Chart</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\AA_Range_Chart.jpeg" title="AA Range Chart">
+                    <img class="equip_misc_img" src="images\equip_misc\AA_Range_Chart.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="fighters">Fighters</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Fighters.jpeg" title="Fighters">
+                    <img class="equip_misc_img" src="images\equip_misc\Fighters.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="dive_bombers">Dive Bombers</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Dive_Bombers.jpeg" title="Dive Bombers">
+                    <img class="equip_misc_img" src="images\equip_misc\Dive_Bombers.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="torpedo_bombers">Torpedo Bombers</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Torpedo_Bombers.jpeg" title="Torpedo Bombers">
+                    <img class="equip_misc_img" src="images\equip_misc\Torpedo_Bombers.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="cv_cvl_auxiliary">CV / CVL Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\CV_CVL_Auxes.jpeg" title="CV / CVL Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\CV_CVL_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ss_torpedo">SS Torpedo</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Submarine_Torpedo.jpeg" title="SS Torpedo">
+                    <img class="equip_misc_img" src="images\equip_misc\Submarine_Torpedo.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ss_auxiliary">SS Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\SS_Auxes.jpeg" title="SS Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\SS_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ix_guns">IX Guns</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\IX_Guns.jpeg" title="IX Guns">
+                    <img class="equip_misc_img" src="images\equip_misc\IX_Guns.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ix_auxiliary">IX Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\IX_Auxes.jpeg" title="IX Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\IX_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ae_auxiliary">AE Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\AE_Auxes.jpeg" title="AE Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\AE_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="ar_auxiliary">AR Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\AR_Auxes.jpeg" title="AR Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\AR_Auxes.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="recon_planes">Recon Planes</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Recon_Planes_.jpeg" title="Recon Planes">
+                    <img class="equip_misc_img" src="images\equip_misc\Recon_Planes_.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="asw_equipment">ASW Equipment</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\ASW_Equips.jpeg" title="ASW Equipment">
+                    <img class="equip_misc_img" src="images\equip_misc\ASW_Equips.jpeg">
+                </a>
+                <br>
+            <br>
+
+            <h2 id="cosmetic_auxiliary">Cosmetic Auxiliary</h2><hr class="custom-hr">
+                <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Cosmetic_Decorative_Aux.jpeg" title="Cosmetic Auxiliary">
+                    <img class="equip_misc_img" src="images\equip_misc\Cosmetic_Decorative_Aux.jpeg">
+                </a>
+                <br>
+            <br>
+
+
+            <br>
 
         </div>
     </body>
+
+    <!-- bottom bar -->
+    <footer class="footer">
+        <div class="container-fluid pb-1 pt-1 overflow-auto">
+            <div class="row">
+                <div class="col" style="text-align: left;">
+                    <h6 class="title footer-style-two">Media taken from <a href="https://azurlane.koumakan.jp/wiki/Azur_Lane_Wiki" target="_blank" rel="noopener noreferrer">Azur Lane English Wiki</a>.</h6>
+                </div>
+                <div class="col" style="text-align: right;">
+                    <h6 class="title footer-style">© <script type="text/javascript">document.write( new Date().getFullYear() );</script>, coded by samheart564</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </html>
