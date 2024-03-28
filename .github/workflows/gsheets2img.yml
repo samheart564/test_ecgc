@@ -33,10 +33,11 @@ jobs:
       run: |
         cd dev_tools
         cd gsheets2img
-        cmd //c cd
 
     - name: Install Dependencies
-      run: npm install
+      run: |
+        git rev-parse --show-toplevel
+        npm install
         
     - name: Run Script
       run: npm start
