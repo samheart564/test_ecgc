@@ -6,6 +6,7 @@ on:
       - main
   schedule:
     - cron: '0 0 * * SUN'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -28,16 +29,14 @@ jobs:
       with:
         node-version: '21.6.2'
 
-    - name: Install dependencies and run script
+    - name: Install dependencies
       run: |
         cd dev_tools
         cd gsheets2img
         npm install
-        npm start
-
-    - name: Delete node_modules
-      run: |
-        rm -rf node_modules
+        
+    - name: Run Script
+      run: npm start
 
     - name: Commit changes
       run: |
