@@ -30,7 +30,7 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #222a42;">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #222a42;">
             <div class="container col-12 col-sm-9">
                 <!-- Title -->
                 <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
@@ -42,57 +42,53 @@
                 </button>
                 <!-- Items inside Navbar -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto mb-0 fs-6 nav-pills">
+                    <ul class="navbar-nav ms-auto md-0 fs-6 nav-pills">
 
                         <li class="nav-item">
-                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Newbie Tips">
                                 <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
                             </a>
                         </li>
                         
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-pencil"></i> <span>Guides</span>
+                                <i class="fa fa-ship nav-logo-custom"></i> <span>Gameplay</span>
                             </a>
                         
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
-
-                                <li>
-                                    <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
-                                </li>
-
-                                <li>
-                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
-                                </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
                                 </li>
-
                                 <li>
-                                    <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
+                                    <a class="dropdown-item custom-nav-hover" href="equipment" target="_self" rel="noopener noreferrer">Equipment</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="fleet_technology" target="_self" rel="noopener noreferrer">Fleet Technology</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
                                 </li>
-
                                 <li>
-                                    <a class="dropdown-item active" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
+                                    <a class="dropdown-item custom-nav-hover active" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
                                 </li>
+                            </ul>
+                        </li>
 
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle nav-logo-custom" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-gem nav-logo-custom"></i> <span>Resource</span>
+                            </a>
+                            
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
+                                </li>
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
                                 </li>
@@ -106,20 +102,20 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
-                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
+                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
+                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-lg-none">Changelog</span>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
-                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
+                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
+                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-lg-none">Contributors</span>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
-                                <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
+                                <i class="fa-brands fa-discord nav-logo-custom"></i> <span class="d-lg-none">Discord</span>
                             </a>
                         </li>
                     </ul>
@@ -204,15 +200,14 @@
                                     <a rel="noopener noreferrer" target="_self" href="#Joint_Battle_Mystery_Investigation" onclick="smToggleFunction()" class="toc_h_two">Joint Battle Mystery Investigation (Lunar New Year 2022)</a>
                                 </li>
                                 <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#Abyssal_Refrain" onclick="smToggleFunction()" class="toc_h_two">Abyssal Refrain</a>
+                                </li>
+                                <li>
                                     <a rel="noopener noreferrer" target="_self" href="#Virtual_Tower" onclick="smToggleFunction()" class="toc_h_two">Virtual Tower</a>
                                 </li>
 
-                                <!-- <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#Abyssal_Refrain" onclick="smToggleFunction()" class="toc_h_two">Abyssal Refrain</a>
-                                </li> -->
+                                <!-- PARITY REACHED!!! -->
 
-                                <!-- INSERT NEW RERUN EVENTS HERE -->
-                                
                                 <li>
                                     <a rel="noopener noreferrer" target="_self" href="#Rondo_at_Rainbow's_End" onclick="smToggleFunction()" class="toc_h_two">Rondo at Rainbow's End</a>
                                 </li>
@@ -270,10 +265,9 @@
                                 <li>
                                     <a rel="noopener noreferrer" target="_self" href="#Snowrealm_Peregrination" onclick="smToggleFunction()" class="toc_h_two">Snowrealm Peregrination</a>
                                 </li>                                
-                                
-                                <!-- <li>
+                                <li>
                                     <a rel="noopener noreferrer" target="_self" href="#From_Zero_to_Hero" onclick="smToggleFunction()" class="toc_h_two">From Zero to Hero</a>
-                                </li> -->
+                                </li>
                                 
                                 <!-- INSERT NEW EVENTS HERE -->
                                 
@@ -365,7 +359,7 @@
             <p class="text-center title-subheading nospace">
                 <b>Author(s)</b>: <span class="author-name">Samheart564</span>
                 <br>
-                <b>Current Version</b>: <span class="version-number">1.7.0</span> | <b>Last Updated</b>: <span class="last-updated">March 3rd, 2024</span>
+                <b>Current Version</b>: <span class="version-number">1.8.0</span> | <b>Last Updated</b>: <span class="last-updated">March 28th, 2024</span>
             </p>
             <br>
         
@@ -3546,112 +3540,112 @@
                     <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2021" title="Happy Lunar New Year 2021">Happy Lunar New Year 2021</a>
                 </h3>
 
-                <!-- Table -->
-                <div class="table-responsive">
-                    <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
-                        <col width="15%">
-                        <col>
-                        <tr>
-                            <th>Ship</th>
-                            <th>Samvaluation</th>
-                        </tr>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chao_Ho" title="Chao Ho">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\Chao HoIcon.png" alt="Chao Ho">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Chao Ho
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Chao Hao is a damage-oriented CL with bad stats and skills. Her lack of an AA Gun Mount, forcing her to use her Ghost AA Gun, actively hurts your fleet's AA capabilities. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chao_Ho" title="Chao Ho">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\Chao HoIcon.png" alt="Chao Ho">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Chao Ho
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Chao Hao is a damage-oriented CL with bad stats and skills. Her lack of an AA Gun Mount, forcing her to use her Ghost AA Gun, actively hurts your fleet's AA capabilities. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ying_Swei" title="Ying Swei">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\Ying SweiIcon.png" alt="Ying Swei">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Ying Swei
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Ying Swei is a damage-oriented CL with bad stats and skills. Her lack of an AA Gun Mount, forcing her to use her Ghost AA Gun, actively hurts your fleet's AA capabilities. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Ying_Swei" title="Ying Swei">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\Ying SweiIcon.png" alt="Ying Swei">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Ying Swei
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Ying Swei is a damage-oriented CL with bad stats and skills. Her lack of an AA Gun Mount, forcing her to use her Ghost AA Gun, actively hurts your fleet's AA capabilities. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Penelope" title="Penelope">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\PenelopeIcon.png" alt="Penelope">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Penelope
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Penelope is a damage-oriented CL with bad stats and skills. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Penelope" title="Penelope">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\PenelopeIcon.png" alt="Penelope">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Penelope
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Penelope is a damage-oriented CL with bad stats and skills. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-410" title="U-410">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\U-410Icon.png" alt="U-410">
-                                        </div>
-                                        <!-- Ship name -->
-                                        U-410
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>U-410 is a damage-oriented SS with meh stats and skills. Her damage in KMS Submarine Fleets is alright, but worse than all the gold ships. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-410" title="U-410">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\U-410Icon.png" alt="U-410">
+                                            </div>
+                                            <!-- Ship name -->
+                                            U-410
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>U-410 is a damage-oriented SS with meh stats and skills. Her damage in KMS Submarine Fleets is alright, but worse than all the gold ships. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fu_Shun" title="Fu Shun">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\Fu ShunIcon.png" alt="Fu Shun">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Fu Shun
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Fu Shun is a damage-oriented DD with meh stats and skills. Collection only.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Fu_Shun" title="Fu Shun">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\Fu ShunIcon.png" alt="Fu Shun">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Fu Shun
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Fu Shun is a damage-oriented DD with meh stats and skills. Collection only.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 <br>
                 
                 <h3 id="Khorovod_of_Dawn's_Rime">
@@ -4383,205 +4377,313 @@
                     <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Happy_Lunar_New_Year_2022" title="Happy Lunar New Year 2022">Joint Battle Mystery Investigation (Lunar New Year 2022)</a>
                 </h3>
                 
-                <!-- Table -->
-                <div class="table-responsive">
-                    <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
-                        <col width="15%">
-                        <col>
-                        <tr>
-                            <th>Ship</th>
-                            <th>Samvaluation</th>
-                        </tr>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bristol" title="Bristol">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\BristolIcon.png" alt="Bristol">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Bristol
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Bristol is a damage-oriented DD with good stats and skills. Her personal damage is alright despite 1 MGM, since her barrages are good and she has AoA reduction. Her AA is also good, due to having a relatively high AA stat and efficiencies compared to other DDs. Her lanturn debuff is amazing if it lands, but due to the zone spawing in front of Bristol, it is unreliable to trigger on auto-battle. Overall, she is a good ship.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bristol" title="Bristol">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\BristolIcon.png" alt="Bristol">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Bristol
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Bristol is a damage-oriented DD with good stats and skills. Her personal damage is alright despite 1 MGM, since her barrages are good and she has AoA reduction. Her AA is also good, due to having a relatively high AA stat and efficiencies compared to other DDs. Her lanturn debuff is amazing if it lands, but due to the zone spawing in front of Bristol, it is unreliable to trigger on auto-battle. Overall, she is a good ship.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Charybdis" title="Charybdis">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\CharybdisIcon.png" alt="Charybdis">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Charybdis
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Charybdis is a support-oriented CL with meh stats and skills. Her personal damage is bad due to only 1 MGM and bad barrages. Her AA damage is good, but nothing special. Her skill 1 whirlpool is very underwhelming and has a small AoE. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Charybdis" title="Charybdis">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\CharybdisIcon.png" alt="Charybdis">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Charybdis
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Charybdis is a support-oriented CL with meh stats and skills. Her personal damage is bad due to only 1 MGM and bad barrages. Her AA damage is good, but nothing special. Her skill 1 whirlpool is very underwhelming and has a small AoE. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Chi" title="Hai Chi">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\Hai ChiIcon.png" alt="Hai Chi">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Hai Chi
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Hai Chi is a damage-oriented CL with meh stats and skills. Her personal damage is alright due to MGM+1 DD Guns. Her smokescreen is unreliable on auto-battle due to your Vanguard Fleet moving in and out of it repeatedly. Her lack of an AA Gun Mount actively hurts your fleets AA output. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Chi" title="Hai Chi">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\Hai ChiIcon.png" alt="Hai Chi">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Hai Chi
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Hai Chi is a damage-oriented CL with meh stats and skills. Her personal damage is alright due to MGM+1 DD Guns. Her smokescreen is unreliable on auto-battle due to your Vanguard Fleet moving in and out of it repeatedly. Her lack of an AA Gun Mount actively hurts your fleets AA output. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Tien" title="Hai Tien">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\Hai TienIcon.png" alt="Hai Tien">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Hai Tien
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Hai Tien is a damage-oriented CL with meh stats and skills. Her personal damage is alright due to MGM+1 DD Guns and decent barrages. However, her lack of an AA Gun Mount actively hurts your fleets AA output. Collection only.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hai_Tien" title="Hai Tien">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\Hai TienIcon.png" alt="Hai Tien">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Hai Tien
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Hai Tien is a damage-oriented CL with meh stats and skills. Her personal damage is alright due to MGM+1 DD Guns and decent barrages. However, her lack of an AA Gun Mount actively hurts your fleets AA output. Collection only.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/An_Shan" title="An Shan">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\An ShanKaiIcon.png" alt="An Shan">
-                                        </div>
-                                        <!-- Ship name -->
-                                        An Shan (Retrofit)
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>An Shan (Retrofit) is a damage-oriented DD with amazing stats and skills. Her personal damage is amazing due to great self-buffs, MGM+1 DD Guns, a Missile, and multiple good barrages. Never use her in Main Fleet Mode; Vanguard Fleet Mode is a lot better for her self-damage. The Missile Strike is nice, but is not necessary for her viability. Overall, she is an amazing ship.</p>
-                            </td>
-                        </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/An_Shan" title="An Shan">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\An ShanKaiIcon.png" alt="An Shan">
+                                            </div>
+                                            <!-- Ship name -->
+                                            An Shan (Retrofit)
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>An Shan (Retrofit) is a damage-oriented DD with amazing stats and skills. Her personal damage is amazing due to great self-buffs, MGM+1 DD Guns, a Missile, and multiple good barrages. Never use her in Main Fleet Mode; Vanguard Fleet Mode is a lot better for her self-damage. The Missile Strike is nice, but is not necessary for her viability. Overall, she is an amazing ship.</p>
+                                </td>
+                            </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chang_Chun" title="Chang Chun">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\Chang ChunKaiIcon.png" alt="Chang Chun">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Chang Chun (Retrofit)
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Chang Chun (Retrofit) is a damage-oriented DD with amazing stats and skills. Her personal damage is amazing due to great self-buffs, MGM+1 DD Guns, a Missile, and multiple good barrages. Never use her in Main Fleet Mode; Vanguard Fleet Mode is a lot better for her self-damage. Her buff to other Dragon Empery and Northern Parliament ships is nice, but not necessary for her viability. The Missile Strike is nice, but is not necessary for her viability. Overall, she is an amazing ship.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chang_Chun" title="Chang Chun">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\Chang ChunKaiIcon.png" alt="Chang Chun">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Chang Chun (Retrofit)
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Chang Chun (Retrofit) is a damage-oriented DD with amazing stats and skills. Her personal damage is amazing due to great self-buffs, MGM+1 DD Guns, a Missile, and multiple good barrages. Never use her in Main Fleet Mode; Vanguard Fleet Mode is a lot better for her self-damage. Her buff to other Dragon Empery and Northern Parliament ships is nice, but not necessary for her viability. The Missile Strike is nice, but is not necessary for her viability. Overall, she is an amazing ship.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 <br>
 
-                <h3 id="Virtual_Tower">
-                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Virtual_Tower" title="Happy Lunar New Year 2022">Virtual Tower</a>
+                <h3 id="Abyssal_Refrain">
+                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Abyssal_Refrain" title="Abyssal Refrain">Abyssal Refrain</a>
                 </h3>
-                
-                <!-- Table -->
-                <div class="table-responsive">
-                    <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
-                        <col width="15%">
-                        <col>
-                        <tr>
-                            <th>Ship</th>
-                            <th>Samvaluation</th>
-                        </tr>
-                                                
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Impero" title="Impero">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\ImperoIcon.png" alt="Impero">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Impero
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Impero is a damage-oriented CV with great stats and skills. Her personal damage is good due to her 8 plane loadout, and a (unfortunately not 100%) timed barrage. Her first skill gives her a reduced reload for her first airstrike when equipping a fighter, allowing her to desync with the rest of your Main Fleet. However, due to her low reload stat relative to other Main Fleet ships, she will eventually catch up after a few airstrikes. Her Dive Bomber mode is not useful due to the damage bonus only applying to 1 airstrike overall, and making her slow reload even slower. Her skill 2 is effectively useless, as the HP is just being transferred around instead of outright healing. Overall, she is a great ship.</p>
-                            </td>
-                        </tr>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pompeo_Magno" title="Pompeo Magno">
-                                        <div class="icon rarity-4 border-radius-0">
-                                            <img src="images\ship_icons\Pompeo MagnoIcon.png" alt="Pompeo Magno">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Pompeo Magno
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Pompeo Magno is a damage-oriented DD with good stats and skills. Her personal damage is good due to MGM+1 DD Guns and good FP. Her torpedo damage is not good, and neither is her barrage damage. Her skill 1 special burn is not that special, as it does little damage. Her skill 2 buffs her torpedo damage, but it isn't enough to make her torpedo damage stand out. Her bulk is also decent due to gaining 30% more stats from auxiliaries. Overall, she is a good ship.</p>
-                            </td>
-                        </tr>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
+                                                                    
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kronshtadt" title="Kronshtadt">
+                                            <div class="icon rarity-5 border-radius-0">
+                                                <img src="images\ship_icons\KronshtadtIcon.png" alt="Kronshtadt">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Kronshtadt
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Kronshtadt is a tank-oriented CB with amazing stats and skills. Her personal damage is high due to MGM+1 CB Guns, as well as multiple skill barrages. She should be equipping a high-caliber Main Gun for faster skill 1 barrages. She should also be equipping a Northern Parliament equipment to massively increase her secondary gun damage. Her bulk is also very high as well due to her raw stats, as well as minor buffs from her skill 2 and skill 3 further augmenting it. Her crossfleet is also nice, but not necessary for her viability. Overall, she is an amazing ship.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kiev" title="Kiev">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\KievIcon.png" alt="Kiev">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Kiev
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Kiev is a damage-oriented DD with good stats and skills. Her personal damage is good, despite only 1 MGM, due to multiple good barrages. The skill 1 barrage is only buffed on the 2nd and 3rd activations, making her slightly more mobbing-oriented. Her skill 2 gives her minor self-buffs, but you will realistically never use her as a solo vanguard. Overall, she is a good ship.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Volga" title="Volga">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\VolgaIcon.png" alt="Volga">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Volga
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Volga is a support-oriented CV with great stats and skills. Her personal damage is good due to having the full 8-plane CV loadout, and multiple barrages. She lacks a lot of self-buffs except from her skill 3, which should be satisfied very easily. Her skill 2 provides a lot of healing, but two out of the three heals have random targetting. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Arkhangelsk" title="Arkhangelsk">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\ArkhangelskIcon.png" alt="Arkhangelsk">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Arkhangelsk
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Arkhangelsk is an off-flag damage-oriented BB with meh stats and skills. Her barrage is 100%, but has mediocre damage. The +ACC buff to your Main Fleet is not that useful as well. Her skill 2 is just self-buffs, but they aren't large enough to affect her viability. Collection only.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Soobrazitelny" title="Soobrazitelny">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\SoobrazitelnyIcon.png" alt="Soobrazitelny">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Soobrazitelny
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Soobrazitelny is a damage-oriented DD with bad stats and skills. Her skill 1 has a smokescreen, which is very rng. Her skill 2 is alright, but the heal is only to SN DDs, AND limited in activation chances. The skill 2 barrage is nothing special as well. Collection only.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>                    
+                <br>
 
-                        <!-- Ship Cell -->
-                        <tr>
-                            <!-- image cell -->
-                            <td>
-                                <p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Trieste" title="Trieste">
-                                        <div class="icon rarity-3 border-radius-0">
-                                            <img src="images\ship_icons\TriesteIcon.png" alt="Trieste">
-                                        </div>
-                                        <!-- Ship name -->
-                                        Trieste
-                                    </a>
-                                </p>
-                            </td>
-                            <td>
-                                <p>Trieste is a damage-oriented CA with bad stats and skills. Despite her stats being damage-oriented, her skills are bulk-oriented, making her bad at both. Collection only.</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+
+                <h3 id="Virtual_Tower">
+                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Virtual_Tower" title="Virtual Tower">Virtual Tower</a>
+                </h3>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
+                                                    
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Impero" title="Impero">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\ImperoIcon.png" alt="Impero">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Impero
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Impero is a damage-oriented CV with great stats and skills. Her personal damage is good due to her 8 plane loadout, and a (unfortunately not 100%) timed barrage. Her first skill gives her a reduced reload for her first airstrike when equipping a fighter, allowing her to desync with the rest of your Main Fleet. However, due to her low reload stat relative to other Main Fleet ships, she will eventually catch up after a few airstrikes. Her Dive Bomber mode is not useful due to the damage bonus only applying to 1 airstrike overall, and making her slow reload even slower. Her skill 2 is effectively useless, as the HP is just being transferred around instead of outright healing. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Pompeo_Magno" title="Pompeo Magno">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\Pompeo MagnoIcon.png" alt="Pompeo Magno">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Pompeo Magno
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Pompeo Magno is a damage-oriented DD with good stats and skills. Her personal damage is good due to MGM+1 DD Guns and good FP. Her torpedo damage is not good, and neither is her barrage damage. Her skill 1 special burn is not that special, as it does little damage. Her skill 2 buffs her torpedo damage, but it isn't enough to make her torpedo damage stand out. Her bulk is also decent due to gaining 30% more stats from auxiliaries. Overall, she is a good ship.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Trieste" title="Trieste">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\TriesteIcon.png" alt="Trieste">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Trieste
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Trieste is a damage-oriented CA with bad stats and skills. Despite her stats being damage-oriented, her skills are bulk-oriented, making her bad at both. Collection only.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 <br>
 
                 <h3 id="Rondo_at_Rainbow's_End">
@@ -4830,7 +4932,7 @@
                                 </td>
                             
                                 <td>
-                                    <p>Revenge is an off-flag damage-oriented BB. Her stats are bad compared to gold BBs, and the skills don't make up for them. Barrage seems meh, the armor break is alright but not worth sacrificing a BB slot for, and the second skill in its entirety is purely a gimmick. Collection tier only.</p>
+                                    <p>Revenge is an off-flag damage-oriented BB. Her stats are bad compared to gold BBs, and the skills don't make up for them. Her Barrage is very meh, the armor break is alright but not worth sacrificing a BB slot for, and the second skill in its entirety is purely a gimmick. Collection tier only.</p>
                                 </td>
                             </tr>
                             
@@ -6895,7 +6997,6 @@
                                         </a>
                                     </p>
                                 </td>
-                                <!-- Evaluation cell -->
                                 <td>
                                     <p>Sovetsky Soyuz is an off-flag damage-oriented BB with amazing stats and skills. Her personal damage is amazing due to very high self-buffs, very high Main Gun efficiencies, and a barrage that always procs and always lands on its target. Her Skill 1 applies debuffs to enemies hit by her barrage, increasing the damage of the entire fleet. Her Skill 2 grants buffs depending on the Main Fleet composition; both are very good and don't affect her usage at all. Her Skill 3 is defensive oriented, but not relevant in PvE content. Her crossfleet barrage is nice, but since it only triggers once per battle the other fleet cannot take advantage of the support from the barrage relaibly.  Overall, she is an amazing ship; highly worth getting.</p>
                                 </td>
@@ -6915,7 +7016,6 @@
                                         </a>
                                     </p>
                                 </td>
-                                <!-- Evaluation cell -->
                                 <td>
                                     <p>Ognevoy is a damage-oriented DD with good stats and great skills. Her self-buffs are great due to all 3 of her skills granting her an FP buff of some sort. Combined with her barrages, and her damage is great. Her skill 2 triggering multiple times due to sinking enemies is nice, but unreliable due to the 70% proc rate of the original barrage. Her bulk is on the frailer end, so she is ideally sortied in the middle position of the Vanguard Fleet. Her Skill 1 heal is basically equivalent to a Repair Toolkit for the majority of battles, and is unable to solo-sustain a fleet during difficult content. Overall, she is a great ship.</p>
                                 </td>
@@ -6935,7 +7035,6 @@
                                         </a>
                                     </p>
                                 </td>
-                                <!-- Evaluation cell -->
                                 <td>
                                     <p>Pamiat' Merkuria META is a damage-oriented CL with great stats and skills. Her personal damage is good due to MGM+1 DD Guns, and multiple barrages (including her AoA that can ignore shields!). Her Skill 3 slows enemies within a reasonably sized radius of her, which is nice but somewhat unreliable. Her bulk is also very good due to her Skill 2 allowing her to evade damage, but her relatively lower bulk stats compared to other tanks makes her overall bulk worse than it seems. Overall, she is a great ship.</p>
                                 </td>
@@ -6955,7 +7054,6 @@
                                         </a>
                                     </p>
                                 </td>
-                                <!-- Evaluation cell -->
                                 <td>
                                     <p>Poltava is an off-flag support-oriented BB with meh stats and skills. Her personal damage is very lackluster due to low Main Gun efficiencies and FP stat. Her barrage is decent, but is unreliable due to requiring her to take damage. Since each Main Gun shell is counted individually, her Skiil 1 support will almost always trigger. Despite this, it is very mediocre due to the slow being a small amount and the damage buffs being for niche ships. Collection only.</p>
                                 </td>
@@ -6975,7 +7073,6 @@
                                         </a>
                                     </p>
                                 </td>
-                                <!-- Evaluation cell -->
                                 <td>
                                     <p>Svirepy is a damage-oriented DD with meh stats and skills. She has few self-buffs, and only 1 MGM, making her damage mediocre. Her barrages are alright, but nothing special. Collection only.</p>
                                 </td>
@@ -6983,7 +7080,96 @@
                     
                         </table>
                     </div>
-                <br>                
+                <br>
+
+                <h3 id="From_Zero_to_Hero">
+                    <a rel="noopener noreferrer" target="_blank" href="#" title="From Zero to Hero">From Zero to Hero</a>
+                </h3>
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col>
+                            <tr>
+                                <th>Ship</th>
+                                <th>Samvaluation</th>
+                            </tr>
+                            
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- Image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Friedrich_Carl" title="Friedrich Carl">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\Friedrich CarlIcon.png" alt="Friedrich Carl">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Friedrich Carl
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Friedrich Carl is a tank-oriented CA with great stats and skills. Her personal damage is high, despite only having 1 MGM, due to possessing a special secondary gun, and having multiple aimed barrages from her skill 2. She can equip the Triple 283mm CB Gun to bypass shields more effectively, along with her barrages already ignoring shields inherantly. She is ideally sortied in a full vanguard so she can give the off-tank Tuning. The heal from her skill 1 is negligable, due to how little it will contribute over the course of the battle. Her bulk is also high due to her high HP, EVA self-buffs, and EVA Rate self-buffs. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- Image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Nubian" title="Nubian">
+                                            <div class="icon rarity-4 border-radius-0">
+                                                <img src="images\ship_icons\NubianIcon.png" alt="Nubian">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Nubian
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Nubian is a damage-oriented DD with great stats and skills. Her personal damage is good due to MGM+1 DD Guns, and multiple barrages. She gains increased CRIT Rate / DMG as the battle goes on for longer, which is a solid buff. The slash attack is nice as it ignores shields, and clears bullets / torpedoes in its way. Her skill 2 debuff is good, but the sonar is not that useful for the majority of content in the game. Furthermore, the buff does not have a 100% proc rate. Overall, she is a great ship.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- Image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Devonshire" title="Devonshire">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\DevonshireIcon.png" alt="Devonshire">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Devonshire
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Devonshire is a damage-oriented CA with meh stats and skills. Her damage is mediocre outside of her skill 1 barrage, but that alone is not enough to carry her. Her heal is alright, but nothing special as it's only 8% of her HP once per battle. Her skill 2 is great, but doesn't have a 100% proc rate, and her equipped weapons are not strong enough to take advantage significantly. Overall, she is a meh ship, and is a sidegrade to other easily accessible options.</p>
+                                </td>
+                            </tr>
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- Image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Liverpool" title="Liverpool">
+                                            <div class="icon rarity-3 border-radius-0">
+                                                <img src="images\ship_icons\LiverpoolIcon.png" alt="Liverpool">
+                                            </div>
+                                            <!-- Ship name -->
+                                            Liverpool
+                                        </a>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Liverpool is a damage-oriented CL with meh stats and skills. Her damage is mediocre outside of her skill 1 barrage. She is ideally equipped with a fast torpedo to trigger her skill 1 barrage more often. Her skill 2 can generate a barrier when she is at low health, but she is still on the average side in terms of bulk. Her FP buff to other Vanguard Fleet ships is nice, but not worth her slot in the fleet. Overall, she is a meh ship, and is a sidegrade to other easily accessible options.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                <br>
                 
                 
             <h2 id="Shipyard">PR / DR Ships</h2><hr class="custom-hr">
@@ -7643,7 +7829,7 @@
                                 </td>
                         
                                 <td>
-                                    <p>Kearsarge is a off-flag damage-oriented BB with amazing stats and skills. She has amazing damage output with her BB guns, planes, and stat buffs. Her slow reload is concerning, but its impact on her viability is to be determined. Her special secondary guns are awful for interception, but are better than not having them at all. Needs further testing.</p>
+                                    <p>Kearsarge is a off-flag damage-oriented BB with amazing stats and skills. She has amazing damage output with her BB guns, planes, and stat buffs. Her slow reload can be an issue in certain fleet compositions, but it can be built around without major issues. Her special secondary guns are awful for interception, but are better than not having them at all. Her Skill 2 buffs all CV and CVL damage in the fleet outright when paired with a USS Main Fleet ship, which is a very good buff. Overall, she is an amazing ship.</p>
                                 </td>
                             </tr>
                         
@@ -7663,7 +7849,7 @@
                                 </td>
                         
                                 <td>
-                                    <p>Hindenburg is a damage-oriented CA with amazing stats and skills. She has enough bulk to mob-tank in a pinch, but it is not recommended for her to tank over other good options. Her damage output is among the best in the game for vanguard ships due to multiple main gun mounts, as well as her shield-ignoring ability from her skills. Needs further testing.</p>
+                                    <p>Hindenburg is a damage-oriented CA with amazing stats and skills. She has enough bulk to mob-tank in a pinch, but it is not recommended for her to tank over other good options. Her damage output is among the best in the game for vanguard ships due to multiple main gun mounts, as well as her shield-ignoring ability from her skills. Her skill 2's special attack is very consistent especially against boss enemies. Overall, she is an amazing ship.</p>
                                 </td>
                             </tr>
                         
@@ -7683,7 +7869,7 @@
                                 </td>
                         
                                 <td>
-                                    <p>Felix Schultz is a mob-tank oriented DD with a great combination of damage and bulk. Her bulk is great due to her high HP, 30% Auxiliary stat boosts, and her skills. Her damage is not to be scoffed at as well due to multiple barrages. Needs further testing.</p>
+                                    <p>Felix Schultz is a mob-tank oriented DD with a great combination of damage and bulk. Her bulk is great due to her high HP, 30% Auxiliary stat boosts, and her skills. Her damage is not to be scoffed at as well due to multiple barrages. Her skill 2 drastically adds to her bulk as it gives her +EVA Rate very consistently. She can be equipped with either the Quadruple 152mm or the Twin 150mm TbtsK C42T0 from her self-buffs when given a CL gun. Overall, she is a great ship.</p>
                                 </td>
                             </tr>
                         
@@ -7703,7 +7889,7 @@
                                 </td>
                         
                                 <td>
-                                    <p>Shimanto is a damage-oriented CL with great stats and skills. Her damage is great with MGM+1, double torpedo reloads, and multiple barrages. Her AA is also really good; using her gun to proc her skill is not recommended. Needs further testing.</p>
+                                    <p>Shimanto is a damage-oriented CL with great stats and skills. Her damage is great with MGM+1, double torpedo reloads, and multiple barrages. Her AA is also really good; using her gun to proc her skill can be useful situationally, but is not recommended for general use. Her skill 1 can be situationally useful, especially when protecting backline ships. Her skill 2 ghost AA gun is good, and the stacking from the third part of it should happen very fast. Overall, she is a great ship.</p>
                                 </td>
                             </tr>
                         
@@ -7723,7 +7909,7 @@
                                 </td>
                         
                                 <td>
-                                    <p>Flandre is an amazing off-flag damage-oriented BB with great stats, skills, and a preloaded main gun to boot. Needs further testing.</p>
+                                    <p>Flandre is an amazing off-flag damage-oriented BB with great stats, skills, and a preloaded main gun to boot. Her skill 1 gives her a timed, 100% chance, priority target barrage, which does a lot of damage. The marking effect from her skill 1 is nice, but not necessary to play around for her to be good. Her skill 2 is defensive-focused only, which is not useful for the majority of content. Overall, she is a great ship.</p>
                                 </td>
                             </tr>
                         
@@ -8322,17 +8508,37 @@
                                 </td>
                             </tr>
 
+                            <!-- Ship Cell -->
                             <tr>
+                                <!-- image cell -->
                                 <td>
                                     <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kimberly_META" title="Kimberly META">
                                         <div class="icon rarity-3 border-radius-0">
                                             <img src="images\ship_icons\Kimberly METAIcon.png" alt="Kimberly META">
                                         </div>
+                                        <!-- Ship name -->
                                         Kimberly META
                                     </a>
                                 </td>
                                 <td>
                                     <p>Kimberly META is a damage-oriented DD with meh stats and skills. Her personal damage is alright despite 1 MGM, due to multiple good barrages. Overall, she is a meh ship, and is outclassed by other easily accessible options.</p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Vampire_META" title="Vampire META">
+                                        <div class="icon rarity-3 border-radius-0">
+                                            <img src="images\ship_icons\Vampire METAIcon.png" alt="Vampire META">
+                                        </div>
+                                        <!-- Ship name -->
+                                        Vampire META
+                                    </a>
+                                </td>
+                                <td>
+                                    <p>Vampire META is a damage-oriented DD with bad stats and skills. Overall, she is a bad ship, and is outclassed by other easily accessible options.</p>
                                 </td>
                             </tr>
                         

@@ -30,7 +30,7 @@
     <body>
 
         <!-- Navbar -->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #222a42;">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #222a42;">
             <div class="container col-12 col-sm-9">
                 <!-- Title -->
                 <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
@@ -42,57 +42,53 @@
                 </button>
                 <!-- Items inside Navbar -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto mb-0 fs-6 nav-pills">
+                    <ul class="navbar-nav ms-auto md-0 fs-6 nav-pills">
 
                         <li class="nav-item">
-                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Tools">
+                            <a href="newbie_tips" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Newbie Tips">
                                 <i class="fa fa-lightbulb nav-logo-custom"></i> <span>Newbie Tips</span>
                             </a>
                         </li>
                         
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle nav-logo-custom active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-pencil"></i> <span>Guides</span>
+                                <i class="fa fa-ship nav-logo-custom"></i> <span>Gameplay</span>
                             </a>
                         
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
-
-                                <li>
-                                    <a class="dropdown-item custom-nav-hover" href="augment_module" target="_self" rel="noopener noreferrer">Augment Module</a>
-                                </li>
-
-                                <li>
-                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
-                                </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="early_ship_recommendations" target="_self" rel="noopener noreferrer">Early Ship Recommendations</a>
                                 </li>
-
                                 <li>
-                                    <a class="dropdown-item active" href="equipment" target="_self" rel="noopener noreferrer">Equipment & Misc.</a>
+                                    <a class="dropdown-item custom-nav-hover active" href="equipment" target="_self" rel="noopener noreferrer">Equipment</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="farming" target="_self" rel="noopener noreferrer">Farming</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="fleetbuilding" target="_self" rel="noopener noreferrer">Fleetbuilding</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="fleet_technology" target="_self" rel="noopener noreferrer">Fleet Technology</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="research" target="_self" rel="noopener noreferrer">Research</a>
                                 </li>
-
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="samvaluation" target="_self" rel="noopener noreferrer">Samvaluations</a>
                                 </li>
+                            </ul>
+                        </li>
 
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle nav-logo-custom" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-gem nav-logo-custom"></i> <span>Resource</span>
+                            </a>
+                            
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #222a42; border: none">
+                                <li>
+                                    <a class="dropdown-item custom-nav-hover" href="common_resource" target="_self" rel="noopener noreferrer">Common Resources</a>
+                                </li>
                                 <li>
                                     <a class="dropdown-item custom-nav-hover" href="shop_priority" target="_self" rel="noopener noreferrer">Shop Priority</a>
                                 </li>
@@ -106,20 +102,20 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
-                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-md-none">Contributors</span>
+                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
+                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-lg-none">Changelog</span>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="changelog" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Changelog">
-                                <i class="fa fa-clock-rotate-left nav-logo-custom"></i> <span class="d-md-none">Changelog</span>
+                            <a href="contributors" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_self" title="Contributors">
+                                <i class="fa fa-user-pen nav-logo-custom"></i> <span class="d-lg-none">Contributors</span>
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a href="https://discord.gg/wKJKxq5WQt" class="nav-link nav-logo-custom" rel="noopener noreferrer" target="_blank" title="Join our Discord Server!">
-                                <i class="fa-brands fa-discord"></i> <span class="d-md-none">Discord</span>
+                                <i class="fa-brands fa-discord nav-logo-custom"></i> <span class="d-lg-none">Discord</span>
                             </a>
                         </li>
                     </ul>
@@ -142,7 +138,7 @@
                 <div class="toc">
                     <ol>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#glossary" onclick="smToggleFunction()" class="toc_h_one">Glossary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#legend" onclick="smToggleFunction()" class="toc_h_one">Legend</a>
                             <ol>
                                 <li>
                                     <a rel="noopener noreferrer" target="_self" href="#ship_types" onclick="smToggleFunction()" class="toc_h_two">Ship Type Abbreviations</a>
@@ -151,91 +147,97 @@
                                     <a rel="noopener noreferrer" target="_self" href="#ammo_types" onclick="smToggleFunction()" class="toc_h_two">Ammo Type Overview</a>
                                 </li>
                                 <li>
-                                    <a rel="noopener noreferrer" target="_self" href="#legend" onclick="smToggleFunction()" class="toc_h_two">Legend</a>
+                                    <a rel="noopener noreferrer" target="_self" href="#glossary" onclick="smToggleFunction()" class="toc_h_two">Guide Glossary</a>
                                 </li>
                             </ol>
                         </li>
+                        
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#gear_lab" onclick="smToggleFunction()" class="toc_h_one">Gear Lab Priority</a>
-                        </li>
-                        <li>
-                            <a rel="noopener noreferrer" target="_self" href="#plus13" onclick="smToggleFunction()" class="toc_h_one">+13 Gear Priority</a>
+                            <a rel="noopener noreferrer" target="_self" href="#priority_guides" onclick="smToggleFunction()" class="toc_h_one">Priority Guides</a>
+                            <ol>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#gear_lab" onclick="smToggleFunction()" class="toc_h_two">Gear Lab Priority</a>
+                                </li>
+                                <li>
+                                    <a rel="noopener noreferrer" target="_self" href="#plus13" onclick="smToggleFunction()" class="toc_h_two">+13 Gear Priority</a>
+                                </li>
+                            </ol>
                         </li>
                         
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#bb_guns" onclick="smToggleFunction()" class="toc_h_two">BB / BC / BBV Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#bb_guns" onclick="smToggleFunction()" class="toc_h_one">BB / BC / BBV Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#bb_auxiliary" onclick="smToggleFunction()" class="toc_h_two">BB / BC / BBV Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#bb_auxiliary" onclick="smToggleFunction()" class="toc_h_one">BB / BC / BBV Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#main_fleet_aux_guns" onclick="smToggleFunction()" class="toc_h_two">Main Fleet Secondary Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#main_fleet_aux_guns" onclick="smToggleFunction()" class="toc_h_one">Main Fleet Secondary Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#cb_guns" onclick="smToggleFunction()" class="toc_h_two">CB Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#cb_guns" onclick="smToggleFunction()" class="toc_h_one">CB Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ca_guns" onclick="smToggleFunction()" class="toc_h_two">CA Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ca_guns" onclick="smToggleFunction()" class="toc_h_one">CA Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#cl_guns" onclick="smToggleFunction()" class="toc_h_two">CL Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#cl_guns" onclick="smToggleFunction()" class="toc_h_one">CL Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#cruiser_auxiliary" onclick="smToggleFunction()" class="toc_h_two">CB / CA / CL Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#cruiser_auxiliary" onclick="smToggleFunction()" class="toc_h_one">CB / CA / CL Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#dd_guns" onclick="smToggleFunction()" class="toc_h_two">DD Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#dd_guns" onclick="smToggleFunction()" class="toc_h_one">DD Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#dd_auxiliary" onclick="smToggleFunction()" class="toc_h_two">DD Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#dd_auxiliary" onclick="smToggleFunction()" class="toc_h_one">DD Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#surface_torpedoes" onclick="smToggleFunction()" class="toc_h_two">Surface Torpedoes</a>
+                            <a rel="noopener noreferrer" target="_self" href="#surface_torpedoes" onclick="smToggleFunction()" class="toc_h_one">Surface Torpedoes</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#aa_guns" onclick="smToggleFunction()" class="toc_h_two">AA Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#aa_guns" onclick="smToggleFunction()" class="toc_h_one">AA Guns</a>
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_self" href="#aa_range_chart" onclick="smToggleFunction()" class="toc_h_three">AA Range Chart</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#fighters" onclick="smToggleFunction()" class="toc_h_two">Fighters</a>
+                            <a rel="noopener noreferrer" target="_self" href="#fighters" onclick="smToggleFunction()" class="toc_h_one">Fighters</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#dive_bombers" onclick="smToggleFunction()" class="toc_h_two">Dive Bombers</a>
+                            <a rel="noopener noreferrer" target="_self" href="#dive_bombers" onclick="smToggleFunction()" class="toc_h_one">Dive Bombers</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#torpedo_bombers" onclick="smToggleFunction()" class="toc_h_two">Torpedo Bombers</a>
+                            <a rel="noopener noreferrer" target="_self" href="#torpedo_bombers" onclick="smToggleFunction()" class="toc_h_one">Torpedo Bombers</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#cv_auxiliary" onclick="smToggleFunction()" class="toc_h_two">CV / CVL Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#cv_auxiliary" onclick="smToggleFunction()" class="toc_h_one">CV / CVL Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ss_torpedo" onclick="smToggleFunction()" class="toc_h_two">SS Torpedo</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ss_torpedo" onclick="smToggleFunction()" class="toc_h_one">SS Torpedo</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ss_auxiliary" onclick="smToggleFunction()" class="toc_h_two">SS Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ss_auxiliary" onclick="smToggleFunction()" class="toc_h_one">SS Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ix_guns" onclick="smToggleFunction()" class="toc_h_two">IX Guns</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ix_guns" onclick="smToggleFunction()" class="toc_h_one">IX Guns</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ix_auxiliary" onclick="smToggleFunction()" class="toc_h_two">IX Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ix_auxiliary" onclick="smToggleFunction()" class="toc_h_one">IX Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ae_auxiliary" onclick="smToggleFunction()" class="toc_h_two">AE Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ae_auxiliary" onclick="smToggleFunction()" class="toc_h_one">AE Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#ar_auxiliary" onclick="smToggleFunction()" class="toc_h_two">AR Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#ar_auxiliary" onclick="smToggleFunction()" class="toc_h_one">AR Auxiliary</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#recon_planes" onclick="smToggleFunction()" class="toc_h_two">Recon Planes</a>
+                            <a rel="noopener noreferrer" target="_self" href="#recon_planes" onclick="smToggleFunction()" class="toc_h_one">Recon Planes</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#asw_equipment" onclick="smToggleFunction()" class="toc_h_two">ASW Equipment</a>
+                            <a rel="noopener noreferrer" target="_self" href="#asw_equipment" onclick="smToggleFunction()" class="toc_h_one">ASW Equipment</a>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" target="_self" href="#cosmetic_auxiliary" onclick="smToggleFunction()" class="toc_h_two">Cosmetic Auxiliary</a>
+                            <a rel="noopener noreferrer" target="_self" href="#cosmetic_auxiliary" onclick="smToggleFunction()" class="toc_h_one">Cosmetic Auxiliary</a>
                         </li>
                         <li>
                             <a rel="noopener noreferrer" target="_self" href="#augment_module" onclick="smToggleFunction()" class="toc_h_one">Augment Modules</a>
@@ -265,12 +267,24 @@
             <p class="text-center title-subheading nospace">
                 <b>Author(s)</b>: <span class="author-name">Samheart564</span>
                 <br>
-                <b>Current Version</b>: <span class="version-number">1.10.0</span> | <b>Last Updated</b>: <span class="last-updated">March 3rd, 2024</span>
+                <b>Current Version</b>: <span class="version-number">1.11.0</span> | <b>Last Updated</b>: <span class="last-updated">March 28th, 2024</span>
             </p>
             <br>
            
             <h2 id="introduction">Introduction</h2><hr class="custom-hr">
                 <p>This guide gives a comprehensive overview of the best equipment in Azur Lane!</p>
+                <br>
+
+                <h4>Notes:</h4>
+                <ul>
+                    <li>
+                        <p>You can click on an image to open it in a new tab.</p>
+                    </li>
+                    <li>
+                        <p>If the images are not loading, consider using one of the alternative links listed below:</p>
+                    </li>
+                </ul>
+
                 <div class="container" role="group" aria-label="Links">
                     <div class="row">
                         <div class="col-sm mb-3">
@@ -289,6 +303,56 @@
                         </div>
                     </div>
                 </div>
+            <br>
+
+            <h2 id="legend">Legend</h2><hr class="custom-hr">
+            
+                <h3 id="ship_types">Ship Type Abbreviations</h3>
+                    <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Ship_Type_Abbrev..jpeg" title="Ship Type Abbreviations">
+                        <img class="equip_misc_img" src="images\equip_misc\Ship_Type_Abbrev..jpeg">
+                    </a>
+                    <br>
+                <br>
+
+                <h3 id="ammo_types">Ammo Type Abbreviations</h3>
+                    <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Gen._Ammo_Overview.jpeg" title="Ammo Type Abbreviations">
+                        <img class="equip_misc_img" src="images\equip_misc\Gen._Ammo_Overview.jpeg">
+                    </a>
+                    <br>
+                <br>
+
+                <h3 id="glossary">Guide Glossary</h3>
+                    <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Glossary.jpeg" title="Glossary">
+                        <img class="equip_misc_img" src="images\equip_misc\Glossary.jpeg">
+                    </a>
+                    <br>
+                <br>
+            <br>
+            
+            <h2 id="priority_guides">Priority Guides</h2><hr class="custom-hr">
+
+                <h3 id="gear_lab">Gear Lab Priority</h3>
+                    <p>Optimal gear to craft in <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gear_Lab" title="Gear Lab">Gear Lab</a>.</p>
+                    <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\Gear_Lab_Priority.jpeg" title="Gear Lab Priority">
+                        <img class="equip_misc_img" src="images\equip_misc\Gear_Lab_Priority.jpeg">
+                    </a>
+                    <br>
+
+                    <ul>
+                        <li>
+                            <p>
+                                <b>Do NOT craft more gear than you need.</b>
+                            </p>
+                        </li>
+                    </ul>
+                <br>
+
+                <h3 id="plus13">+13 Priority</h3>
+                    <p>Optimal gear to enhance to +13.</p>
+                    <a rel="noopener noreferrer" target="_blank" href="images\equip_misc\+13_Priority.jpeg" title="Gear Lab Priority">
+                        <img class="equip_misc_img" src="images\equip_misc\+13_Priority.jpeg">
+                    </a>
+                    <br>
                 <br>
             <br>
 
@@ -468,6 +532,318 @@
                 <br>
             <br>
 
+            <h2 id="augment_module">Augment Modules</h2><hr class="custom-hr">
+                <p class="h5 text-light">For Ships with a Unique Augment Module, use their Unique Augment Module on them!</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <i>On <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/U-557">U-557</a></b> and <b><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minneapolis">Minneapolis</a></b>, their Unique Augments are sidegrades to Universal Augments, so there is no need to craft them.</i>
+                            </p>
+                        </li>
+                    </ul>
+                <br>
+
+                <!-- Heading -->
+                <h3><u>DD / DDG</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dual Swords" title="Dual Swords">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\dual_swords.png" alt="Dual Swords">
+                                                </div>
+                                                <u>Dual Swords</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Best general-use DD augment; used on all DDs that aren't heavily reliant on Torpedo Damage.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hammer" title="Hammer">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\hammer.png" alt="Hammer">
+                                                </div>
+                                                <u>Hammer</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Best on DDs who are heavily reliant on Torpedo damage.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
+
+                <h3><u>CL</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Crossbow" title="Crossbow">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\crossbow.png" alt="Crossbow">
+                                                </div>
+                                                <u>Crossbow</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Offensive-oriented CL augment. Not much difference between <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Crossbow">Crossbow</a> and <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sword">Sword</a> in practice.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sword" title="Sword">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\sword.png" alt="Sword">
+                                                </div>
+                                                <u>Sword</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Defensive-oriented CL augment. Not much difference between <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Crossbow">Crossbow</a> and <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Sword">Sword</a> in practice.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
+                
+                <h3><u>CB / CA / AE</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Greatsword" title="Greatsword">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\greatsword.png" alt="Greatsword">
+                                                </div>
+                                                <u>Greatsword</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Best general-use CA augment.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Lance" title="Lance">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\lance.png" alt="Lance">
+                                                </div>
+                                                <u>Lance</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Better than <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Greatsword">Greatsword</a> if you need the Hit stat, otherwise it's enhance fodder.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
+
+                <h3><u>BB / BC / BBV</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Officer's Sword" title="Officer's Sword">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\officers_sword.png" alt="Officer's Sword">
+                                                </div>
+                                                <u>Officer's Sword</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Best general-use BB augment.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bowgun" title="Bowgun">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\bowgun.png" alt="Bowgun">
+                                                </div>
+                                                <u>Bowgun</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Outperforms <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Officer's Sword">Officer's Sword</a> in the following cases (do your own research for breakpoints): against Heavy Armor bosses, against certain low-Evasion bosses, and/or when equipped on high-Hit ships.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
+
+                <h3><u>CV / CVL</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Scepter" title="Scepter">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\scepter.png" alt="Scepter">
+                                                </div>
+                                                <u>Scepter</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Always equip at least one per fleet. Not much difference between <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Scepter">Scepter</a> and <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hunting Bow">Hunting Bow</a> in practice. <b><i>Equip to all CV / CVL in Chapter 14</i></b>.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hunting Bow" title="Hunting Bow">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\hunting_bow.png" alt="Hunting Bow">
+                                                </div>
+                                                <u>Bowgun</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Equip to all CV / CVL that aren't using <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Scepter">Scepter</a>. Not much difference between <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Scepter">Scepter</a> and <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Hunting Bow">Hunting Bow</a> in practice.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
+
+                <h3><u>SS / SSV</u></h3>
+
+                    <!-- Buffer -->
+                    <p></p>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table class="table table-dark table-bordered text-center align-middle border-secondary">
+                            <thead class="fs-5 align-middle">
+                                <tr class="table-active">
+                                    <th style="width: 25%;">Augment Module</th>
+                                    <th>Evaluation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Dagger" title="Dagger">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\dagger.png" alt="Dagger">
+                                                </div>
+                                                <u>Dagger</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Best general-use SS augment.</td>
+                                </tr>
+                                <tr>
+                                    <!-- equip/ship cell -->
+                                    <td>
+                                        <p>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Kunai" title="Kunai">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\augments\kunai.png" alt="Kunai">
+                                                </div>
+                                                <u>Kunai</u>
+                                            </a>
+                                        </p>
+                                    </td>
+                                    <!--description -->
+                                    <td>Never craft this; always use as enhance fodder.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <br>
 
             <br>
 
