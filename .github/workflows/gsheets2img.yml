@@ -29,11 +29,14 @@ jobs:
       with:
         node-version: '21.6.2'
 
-    - name: Install dependencies
+    - name: Move to gsheets2img Folder
       run: |
         cd dev_tools
         cd gsheets2img
-        npm install
+        cmd //c cd
+
+    - name: Install Dependencies
+      run: npm install
         
     - name: Run Script
       run: npm start
