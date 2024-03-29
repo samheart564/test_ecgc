@@ -30,6 +30,7 @@ jobs:
         npm start
 
     - name: Check for Changes
+      id: git-check
       run: |
         rm -rf dev_tools/gsheets2img/node_modules
         git config --global user.email "actions@github.com"
