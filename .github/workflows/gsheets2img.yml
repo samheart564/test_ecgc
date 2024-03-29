@@ -20,6 +20,13 @@ jobs:
       run: |
         git checkout gsheets2img_updater || git checkout -b gsheets2img_updater
 
+    - name: Print current branch and list all branches
+      run: |
+        echo "Current branch:"
+        git branch --show-current
+        echo "All branches:"
+        git branch
+    
     - name: Merge changes from main
       run: |
         git merge main --no-ff --no-commit
