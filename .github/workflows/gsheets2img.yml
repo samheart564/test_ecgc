@@ -19,7 +19,7 @@ jobs:
     - name: Checkout gsheets2img_updater branch
       run: |
         git switch -c gsheets2img_updater
-        git push
+        git push --set-upstream origin gsheets2img_updater
 
     - name: Print current branch and list all branches
       run: |
