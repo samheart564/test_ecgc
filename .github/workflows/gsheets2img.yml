@@ -34,7 +34,9 @@ jobs:
         rm -rf node_modules
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Actions"
-        git add ../images/
+        git rev-parse --show-toplevel
+        git status
+        git add images/
         git diff-index --quiet HEAD || echo "::set-output name=changes::true"
         git commit -m "$(TZ='America/Los_Angeles' date +'%Y-%m-%d') Equip & Misc. Update" || echo "No changes to commit"
       shell: bash
