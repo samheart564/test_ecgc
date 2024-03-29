@@ -29,18 +29,13 @@ jobs:
         npm install
         npm start
 
-    - name: Check for Changes
+    - name: Push Changes
       id: git-check
       run: |
         rm -rf dev_tools/gsheets2img/node_modules
         git config --global user.email "actions@github.com"
         git config --global user.name "GitHub Actions"
-        git status
         git add images/
-        git commit -m "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc.Update" || echo "No changes to commit"
-
-
-    - name: Push changes
-      run: |
         git status
+        git commit -m "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc.Update" || echo "No changes to commit"
         git push origin main
