@@ -41,11 +41,13 @@ jobs:
         cd dev_tools
         cd gsheets2img
         git rev-parse --show-toplevel
+        rm -rf node_modules
         npm install
         npm start
 
     - name: Commit changes
       run: |
+        rm -rf node_modules
         git config --local user.email "action@github.com"
         git config --local user.name "GSheets2Img GitHub Action"
         git add -A
