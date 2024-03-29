@@ -2,11 +2,11 @@ name: gsheets2img
 run-name: "Equip & Misc. Update"
 
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 0 * * MON'
+  # push:
+  #   branches:
+  #     - main
+  # schedule:
+  #   - cron: '0 0 * * MON'
   workflow_dispatch:
 
 jobs:
@@ -37,5 +37,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git add images/
         git status
-        git commit -m "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc.Update" || echo "No changes to commit"
+        git commit -m "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc. Update" || echo "No changes to commit"
         git push origin main
