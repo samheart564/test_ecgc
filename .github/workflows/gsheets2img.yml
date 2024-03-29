@@ -1,5 +1,5 @@
 name: gsheets2img
-run-name: "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc. Update"
+run-name: "Equip & Misc. Update"
 
 on:
   push:
