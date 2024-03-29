@@ -29,18 +29,13 @@ jobs:
       with:
         node-version: '21.6.2'
 
-    - name: Move to gsheets2img Folder
+    - name: Run Script
       run: |
         cd dev_tools
         cd gsheets2img
-
-    - name: Install Dependencies
-      run: |
         git rev-parse --show-toplevel
         npm install
-        
-    - name: Run Script
-      run: npm start
+        npm start
 
     - name: Commit changes
       run: |
