@@ -1,5 +1,7 @@
 name: gsheets2img
 
+run-name: "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc. Update"
+
 on:
   push:
     branches:
@@ -37,7 +39,7 @@ jobs:
         git status
         git add images/
         git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
-        git commit -m "$(TZ='America/Los_Angeles' date +'%Y-%m-%d') Equip & Misc. Update" || echo "No changes to commit"
+        git commit -m "$(TZ='America/Los_Angeles' date +'%m-%d-%Y') Equip & Misc. Update" || echo "No changes to commit"
 
 
     - name: Push changes
