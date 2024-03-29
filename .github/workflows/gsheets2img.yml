@@ -29,7 +29,6 @@ jobs:
         npm start
 
     - name: Check for changes
-      id: git-check
       run: |
         rm -rf dev_tools/gsheets2img/node_modules
         git config --global user.email "actions@github.com"
@@ -37,9 +36,9 @@ jobs:
         git rev-parse --show-toplevel
         git status
         git add images/
-        git diff-index --quiet HEAD || echo "::set-output name=changes::true"
+        git diff-index --quiet HEAD || echo "changes=true" >> $GITHUB_ENV
         git commit -m "$(TZ='America/Los_Angeles' date +'%Y-%m-%d') Equip & Misc. Update" || echo "No changes to commit"
-      shell: bash
+
 
     - name: Push changes
       if: steps.git-check.outputs.changes == 'true'
