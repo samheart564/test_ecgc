@@ -50,7 +50,7 @@
             <div class="container col-12 col-sm-9">
                 <!-- Title -->
                 <a class="navbar-brand nav-logo-custom py-0" href="index" target="_self" rel="noopener noreferrer">
-                    <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC"></a>
+                    <img src="images\misc\SiteIcon.png" width="40 px" alt="ECGC">
                 </a>
                 <!-- Expand Button -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,6 +161,9 @@
                             <a rel="noopener noreferrer" target="_self" href="#de" onclick="smToggleFunction()" class="h_three">Dragon Empery</a>
                         </li>
                         <li>
+                            <a rel="noopener noreferrer" target="_self" href="#sn" onclick="smToggleFunction()" class="h_three">Northern Parliament</a>
+                        </li>
+                        <li>
                             <a rel="noopener noreferrer" target="_self" href="#rn" onclick="smToggleFunction()" class="h_three">Sardegna Empire</a>
                         </li>
                         <li>
@@ -194,7 +197,7 @@
             <p class="text-center title-subheading nospace">
                 <b>Author(s)</b>: <span class="author-name">Samheart564</span>
                 <br>
-                <b>Current Version</b>: <span class="version-number">1.0.1</span> | <b>Last Updated</b>: <span class="last-updated">May 12th, 2024</span>
+                <b>Current Version</b>: <span class="version-number">1.1.1</span> | <b>Last Updated</b>: <span class="last-updated">September 5th, 2024</span>
             </p>
             <br>
            
@@ -1783,6 +1786,309 @@
                     </div>
                 <br>
 
+                <h2 id="sn" class="farming_guide">SN Tech Point Acquisition</h2><hr class="custom-hr">
+                <br>
+
+                    <h3>Point Thresholds:</h3>
+                        <ul>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Napoli" title="Napoli">Napoli</a> - 200 (+RN Points)</i>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Admiral_Nakhimov" title="Admiral Nakhimov">Admiral Nakhimov</a> - 300 (+RN Points)</i>
+                                </p>
+                            </li>
+                        </ul>
+                    <br>
+
+                    <p class="fs-5 fw-bold">Notes:</p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <i>
+                                        Due to how few guaranteed <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Northern_Parliament" title=" Northern Parliament">Northern Parliament</a> ships exist permanently outside <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Construction" title="Construction">Construction</a>, it is fine to wait until a Russian Event is active, instead of speedrunning any of the ships needing them.
+                                    </i>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chapayev" title="Chapayev">Chapayev</a> is <u>guaranteed</u> after your 60th <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Northern_Overture" title="Northern Overture">Northern Overture</a> D3 clear.</i>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Tallinn" title="Tallinn">Tallinn</a> is <u>guaranteed</u> after your 60th <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Khorovod_of_Dawn's_Rime" title="Khorovod of Dawn's Rime">Khorovod of Dawn's Rime</a> D3 clear.</i>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i>You get <b>346 Tech Points TOTAL</b> following this table, costing 24,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>.</i>
+                                </p>
+                            </li>
+                        </ul>
+                    <br>
+
+                    <!-- Table -->
+                    <div class="table-responsive">
+                        <table table data-toggle="table" class="table table-sm table-dark table-bordered text-center border-secondary align-middle">
+                            <col width="15%">
+                            <col width="50%">
+                            <col width="17.5%">
+                            <col width="17.5%">
+                            <thead>
+                                <tr>
+                                    <th data-sortable="true">Ship</th>
+                                    <th data-sortable="true">Location</th>
+                                    <th data-sortable="true">Investment Level</th>
+                                    <th data-sortable="true" data-sorter="numericOnly">Tech Points Given</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Tallinn" title="Tallinn">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-4 border-radius-0">
+                                                    <img src="images\ship_icons\TallinnIcon.png" alt="Tallinn">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Tallinn
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Khorovod_of_Dawn%27s_Rime" title="Khorovod of Dawn's Rime">Khorovod of Dawn's Rime</a> (B3 / D3)*
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        84
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gangut" title="Gangut">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\ship_icons\GangutIcon.png" alt="Gangut">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Gangut
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit Shop">Merit Shop</a> (8,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>)
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        84
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chapayev" title="Chapayev">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-4 border-radius-0">
+                                                    <img src="images\ship_icons\ChapayevIcon.png" alt="Chapayev">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Chapayev
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Northern_Overture" title="Northern Overture">Northern Overture</a> (B3 / D3)*
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        72
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Minsk" title="Minsk">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\ship_icons\MinskIcon.png" alt="Minsk">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Minsk
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit Shop">Merit Shop</a> (8,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>)
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        36
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Gromky" title="Gromky">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\ship_icons\GromkyIcon.png" alt="Gromky">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Gromky
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit Shop">Merit Shop</a> (8,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>)
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        32
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chkalov" title="Chkalov">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-4 border-radius-0">
+                                                    <img src="images\ship_icons\ChkalovIcon.png" alt="Chkalov">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Chkalov
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Research#Shipyard" title="Shipyard">Shipyard</a> (PR5)
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Collection
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        38
+                                    </p>
+                                </td>
+                            </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                <br>
+
 
                 <h2 id="rn" class="farming_guide">RN Tech Point Acquisition</h2><hr class="custom-hr">
                 <br>
@@ -1791,7 +2097,19 @@
                         <ul>
                             <li>
                                 <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Admiral_Nakhimov" title="Admiral Nakhimov">Admiral Nakhimov</a> - 200 (+SN Points)</i>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
                                     <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Chkalov" title="Chkalov">Chkalov</a> - 300 (+USS Points)</i>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Napoli" title="Napoli">Napoli</a> - 300 (+SN Points)</i>
                                 </p>
                             </li>
                         </ul>
@@ -1813,7 +2131,12 @@
                             </li>
                             <li>
                                 <p>
-                                    <i>You get <b>324 Tech Points TOTAL</b> following this table, costing 38,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>.</i>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Duca_degli_Abruzzi" title="Duca degli Abruzzi">Duca degli Abruzzi</a> is <u>guaranteed</u> after your 60th <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Daedalian_Hymn" title="Daedalian Hymn">Daedalian Hymn</a> D3 clear.</i>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i>You get <b>330 Tech Points TOTAL</b> following this table (excluding <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Research#Shipyard" title="Shipyard">Shipyard</a>), costing 46,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>.</i>
                                 </p>
                             </li>
                         </ul>
@@ -2001,6 +2324,46 @@
                                 <!-- image cell -->
                                 <td>
                                     <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Torricelli" title="Torricelli">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-3 border-radius-0">
+                                                    <img src="images\ship_icons\TorricelliIcon.png" alt="Torricelli">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Torricelli
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit Shop">Merit Shop</a> (8,000 <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Shops#Merit_Shop" title="Merit"><img src="images\materials\merit.png" width="15px" alt="Merit"></a>)
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Max Limit Break
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        30
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
                                         <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Marco_Polo" title="Marco Polo">
                                             <div class="enlargement">
                                                 <div class="icon rarity-4 border-radius-0">
@@ -2034,6 +2397,45 @@
                                     </p>
                                 </td>
                             </tr>
+
+                            <!-- Ship Cell -->
+                            <tr>
+                                <!-- image cell -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Duca_degli_Abruzzi" title="Duca degli Abruzzi">
+                                            <div class="enlargement">
+                                                <div class="icon rarity-4 border-radius-0">
+                                                    <img src="images\ship_icons\Duca degli AbruzziIcon.png" alt="Duca degli Abruzzi">
+                                                </div>
+                                                <!-- Ship name -->
+                                                Duca degli Abruzzi
+                                            </div>
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <!-- location -->
+                                <td>
+                                    <p>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Daedalian_Hymn" title="Daedalian Hymn">Daedalian Hymn</a> (B3 / D3)*
+                                    </p>
+                                </td>
+
+                                <!-- investment level -->
+                                <td>
+                                    <p>
+                                        Collection
+                                    </p>
+                                </td>
+
+                                <!-- tech points given -->
+                                <td>
+                                    <p>
+                                        24
+                                    </p>
+                                </td>
+                            </tr>
                             </tbody>
 
                         </table>
@@ -2046,6 +2448,11 @@
 
                     <h3>Point Thresholds:</h3>
                         <ul>
+                            <li>
+                                <p>
+                                    <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Bayard" title="Bayard">Bayard</a> - 230</i>
+                                </p>
+                            </li>
                             <li>
                                 <p>
                                     <i><a rel="noopener noreferrer" target="_blank" href="https://azurlane.koumakan.jp/wiki/Brest" title="Brest">Brest</a> - 250</i>
