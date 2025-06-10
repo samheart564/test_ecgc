@@ -1,0 +1,684 @@
+{
+  "1": {
+    "name": "Bar Stool",
+    "description": "An exquisitely crafted bar stool with a black wooden seat and a red leather cushion.The cushion is just plush enough that you could sit on it all day and never feel your butt hurt.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 1,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture5",
+    "room_id": 1,
+    "furni_type": 6,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "2": {
+    "name": "Juicer",
+    "description": "Chop up your desired fruit or veggie, throw it inside, and press the start button.Feature-rich and easy to use, it's an indispensable item for any beginner chef.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 2,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture4",
+    "room_id": 1,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "3": {
+    "name": "Classic Sofa",
+    "description": "This sofa, made of real leather, is just the right length.Beyond adding a luxurious vibe to your living room, it also provides a comfortable sitting experience.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 3,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture6",
+    "room_id": 1,
+    "furni_type": 5,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "4": {
+    "name": "Simple Bed",
+    "description": "The bed frame is made of sturdy lumber that can easily support its user.Its simple and comfortable design does a fantastic job at giving her sweet dreams.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 4,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture3",
+    "room_id": 1,
+    "furni_type": 4,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "5": {
+    "name": "Desk Lamp",
+    "description": "A desk lamp sitting on Sirius' dresser. She turns it on at night when it's a bit too dark. She is always adjusting her appearance, trying to look her best for the person she adores.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 5,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture2",
+    "room_id": 1,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "6": {
+    "name": "Model Cruise Liner",
+    "description": "A model that Sirius had bought and put together after the big cruise trip.In a way, it really shows her sense of devotion.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 6,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_commonfurniture1",
+    "room_id": 1,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "121": {
+    "name": "Sweet Secret",
+    "description": "The decorative ribbons all over it exude a charming and romantic vibe, as do the red and white pillows.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 5,
+    "id": 121,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_premiumfurniture4",
+    "room_id": 1,
+    "furni_type": 4,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "122": {
+    "name": "Afternoon Dreamhome",
+    "description": "A comfortable reclining couch.\n Soft, fluffy, and comes with cushions and a blanket. A relaxing spot to take a nap at any time of the day.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 5,
+    "id": 122,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_premiumfurniture2",
+    "room_id": 1,
+    "furni_type": 5,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "151": {
+    "name": "Christmas Eve Sleigh Sofa",
+    "description": "The snowflakes dance, the fireplace glows warmly, and the promise of Christmas resounds.\nAn adorable reindeer sleigh sofa featuring soft cushions and blankets. Underneath the starlight, your heart thumps expectantly at the blessings and surprises awaiting you.\nGather 'round with jovial spirits and a full belly from the feast, and who knows? You might just write your very own Christmas miracle.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 6,
+    "id": 151,
+    "purchaseable": true,
+    "expires": 1735110000000,
+    "icon": "dorm3d/items/3ddrom_tianlangxing_premiumfurniture5",
+    "room_id": 1,
+    "furni_type": 5,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "201": {
+    "name": "Fluffy Futon",
+    "description": "A simple futon on the tatami. It's refreshing, soothing, soft, and comfortable.\nAll your fatigue fades away the moment you lie down.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 201,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture1",
+    "room_id": 2,
+    "furni_type": 4,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "202": {
+    "name": "Gentle Snack Time",
+    "description": "Two people sat across from each other. A carefree conversation. An appetizing smell.\nEven the passage of time seems to mellow in the grace of her smile.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 202,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture2",
+    "room_id": 2,
+    "furni_type": 6,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "203": {
+    "name": "Breezy Leisure",
+    "description": "The comforting, natural material invites you to a leisurely moment of rest.\nA refreshing breeze carries a delicate fragrance and the gentle jingle of wind chimes, weaving together a perfect afternoon.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 203,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture3",
+    "room_id": 2,
+    "furni_type": 5,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "204": {
+    "name": "A Branch of Spring",
+    "description": "This vase, with its fine porcelain and beautiful lines, is the perfect complement to flowers in bloom.\nThe fragrance of the blossoms and the vase's graceful shape come together brilliantly, exuding vitality and elegance.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 204,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture4",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "205": {
+    "name": "Manjuu Plushie",
+    "description": "This cuddly creature brings a smile to your face with its detailed craftsmanship that evokes special memories.\nEven when standing silently in a corner, it warms up the room more than anything else.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 205,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture5",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "206": {
+    "name": "Tea for the Pinkish Bloom",
+    "description": "The pink petals gently touch the tray's rim - a graceful spring sight.\nIt evokes memories of moments shared with her, amidst swirling cherry blossom breezes and the breath of fresh greenery.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 206,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture6",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "207": {
+    "name": "Blue Skies, Stout Pine",
+    "description": "Its barky arms extend toward the sky with grace.\nThe leaves and branches are exquisitely pruned, in the posture of a life yearning for contentment and ease.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 207,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture7",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "208": {
+    "name": "Tranquil Pause",
+    "description": "The understated ceramic and the verdant plant together display the art of simplicity.\nIts reserved vitality contributes a Zen-like serenity to the whole space.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 208,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture8",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "209": {
+    "name": "Vernal Vase",
+    "description": "The vase is vividly colored in the season's palette, and the branches are naturally spread out, flowing like in a picture scroll.\nEvery time flowers are arranged, their beauty is interpreted anew.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 209,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture9",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "210": {
+    "name": "Good Fortjuune Hanging Scroll",
+    "description": "May your wishes come true and good fortune grace you.\nThe manjuu's round, endearing shape warms your heart.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 210,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_nengdai_commonfurniture10",
+    "room_id": 2,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "221": {
+    "name": "Tanuki Cushion",
+    "description": "Its soft texture and pleasant warmth gently wrap around your body.\nWhether you choose to cuddle it or hug it, the cushion will accept you.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 5,
+    "id": 221,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_nengdai_premiumfurniture1",
+    "room_id": 2,
+    "furni_type": 4,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "222": {
+    "name": "Table for Two",
+    "description": "A spacious table full of joy and anticipation for great conversations.\nAll that remains is for two minds to meet.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 222,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_nengdai_premiumfurniture2",
+    "room_id": 2,
+    "furni_type": 6,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "251": {
+    "name": "Where Warmth Lingers",
+    "description": "The warmth of a kotatsu makes you think of a lazy afternoon in the winter.\nSunlight streams through the window and onto the tatami mat, mingling with the kotatsu's warmth to melt away all your stress.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 6,
+    "id": 251,
+    "purchaseable": true,
+    "expires": 1735714800000,
+    "icon": "dorm3d/items/3ddrom_nengdai_premiumfurniture251",
+    "room_id": 2,
+    "furni_type": 5,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "301": {
+    "name": "Beary Comfy Bed",
+    "description": "The headboard, shaped like a teddy bear cookie, is simple yet cute.\nWhen you lie down in this bed, you can practically smell sea salt cookies, forgetting your fatigue and falling into the sweetest of dreams.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 301,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture2",
+    "room_id": 3,
+    "furni_type": 4,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "302": {
+    "name": "Blue Corner",
+    "description": "The colorful decorations and imaginative design fill this little corner with wonder and adventure.\nEven if it rained outside, this would put you in a sunny mood.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 302,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture3",
+    "room_id": 3,
+    "furni_type": 6,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "303": {
+    "name": "Warm Sofa",
+    "description": "A couch with an aroma reminiscent of fresh-baked cookies.\nEvery nook and cranny is as adorable as can be, providing a truly comforting rest.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 4,
+    "id": 303,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture1",
+    "room_id": 3,
+    "furni_type": 5,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "304": {
+    "name": "Sacabambaspis Plushies",
+    "description": "Soft plushies modeled after an adorable aquatic creature.\nWhat could be more comforting?",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 304,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture5",
+    "room_id": 3,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "305": {
+    "name": "Breath of Fresh Air",
+    "description": "Layers on layers of little foliage.\nAnywhere you put it, natural comfort follows.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 305,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture4",
+    "room_id": 3,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "306": {
+    "name": "Records of Time",
+    "description": "Stylish picture frames hold whimsical artwork.\nSomeday, these frames may display the most precious memories of all.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 306,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture6",
+    "room_id": 3,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "307": {
+    "name": "Marine Adventure",
+    "description": "More than just a decoration, it's like a switch.\nOne touch turns the window into a magical portal into the sea.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 3,
+    "id": 307,
+    "purchaseable": false,
+    "expires": -1,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_commonfurniture7",
+    "room_id": 3,
+    "furni_type": 3,
+    "exclusive": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "321": {
+    "name": "Teatime Indulgence",
+    "description": "This coffee cup holds the contentment and comfort of indulging in a moment of fantasy.\nAnyone here can experience what it would be like to have a fairy-tale tea party.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 5,
+    "id": 321,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_premiumfurniture1",
+    "room_id": 3,
+    "furni_type": 6,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "322": {
+    "name": "Boat of the Starry Night",
+    "description": "This soft bed features beautiful curves and an ocean blue color scheme. \nIt floats off into the night sky, guiding you into exciting and romantic dreams.",
+    "type": 27,
+    "locations": [
+      "Dorm3D"
+    ],
+    "rarity": 5,
+    "id": 322,
+    "purchaseable": true,
+    "expires": 0,
+    "icon": "dorm3d/items/3ddrom_ankeleiqi_premiumfurniture2",
+    "room_id": 3,
+    "furni_type": 4,
+    "exclusive": true,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  }
+}

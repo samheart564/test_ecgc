@@ -1,0 +1,18 @@
+---
+interface Props {
+  page: string
+  title?: string
+}
+const { page, title } = Astro.props
+---
+
+<a
+  rel="noopener noreferrer"
+  target="_blank"
+  href={`https://azurlane.koumakan.jp/wiki/${page.replaceAll(" ", "_")}`}
+  title={title || page}
+  aria-label={page}
+  class="inline-block"
+>
+  <slot />
+</a>

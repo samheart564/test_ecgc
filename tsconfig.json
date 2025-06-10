@@ -1,0 +1,24 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist", "dev_tools/testing/_backup/*", "dev_tools/testing/barrage/*", "dev_tools/ENV/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@db/*": ["src/db/*"],
+      "@store/*": ["src/store/*"],
+      "@tools/*": ["dev_tools/*"],
+      "@ALData/*": ["AzurLaneData/*"]
+    }
+  }
+}

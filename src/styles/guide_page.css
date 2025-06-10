@@ -1,0 +1,249 @@
+@import "./global.css";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  background-color: #121212;
+}
+
+#main {
+  padding-top: 5px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: medium;
+  margin-bottom: 1rem;
+}
+
+/* headings */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+  font-size: min(2rem, calc(1.325rem + 0.9vw)) !important;
+}
+
+.h3,
+h3 {
+  font-size: min(calc(1.3rem + 0.6vw), 1.75em);
+}
+
+.h4,
+h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h4.farming_guide {
+  color: hsla(0, 0%, 100%, 0.6) !important;
+  text-decoration: underline;
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+/* links */
+a.none {
+  color: auto;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* lists */
+ol {
+  color: hsla(0, 0%, 100%, 0.9);
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+ul {
+  font-size: large;
+  padding-left: 2rem;
+  display: block;
+  list-style-type: disc;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /* padding-inline-start: 40px; */
+  unicode-bidi: isolate;
+}
+
+li {
+  color: hsla(0, 0%, 100%, 0.9);
+}
+
+:root {
+  --level-1: disc; /* Solid circle */
+  --level-2: circle; /* Empty circle */
+  --level-3: square; /* Square */
+}
+
+ul {
+  list-style-type: var(--level-1);
+}
+
+ul ul {
+  list-style-type: var(--level-2);
+}
+
+ul ul ul {
+  list-style-type: var(--level-3);
+}
+
+/* containers */
+.container {
+  padding-right: calc(1.5rem * 0.5);
+  padding-left: calc(1.5rem * 0.5);
+}
+
+.guide-content-body {
+  background-color: #1b1b1b;
+  border: 2px solid #252525;
+}
+
+/* For Table Links */
+a.in_hover:link {
+  color: #0047ab;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.in_hover:visited {
+  color: #0047ab;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.in_hover:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.in_hover:active {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Item Rarities */
+.rarity-5 {
+  background: linear-gradient(
+    120deg,
+    #fbffca,
+    #baffbf,
+    #a7efff,
+    #ffabff
+  ) !important;
+}
+
+.rarity-4 {
+  background-color: #ee9 !important;
+  border-color: #ee9 !important;
+}
+
+.rarity-3 {
+  background-color: #c4adff !important;
+  border-color: #c4adff !important;
+}
+
+.rarity-2 {
+  background-color: #9fe8ff !important;
+  border-color: #9fe8ff !important;
+}
+
+.rarity-1 {
+  background-color: #cdcdcd !important;
+  border-color: #cdcdcd !important;
+}
+
+/* Ship Skills */
+.red_skill {
+  background-color: #fba5bb;
+  color: black;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.yellow_skill {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.blue_skill {
+  background-color: #aaeeff;
+  color: black;
+  font-weight: bold;
+  padding: 1px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 0.2857rem;
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* iframe */
+iframe {
+  width: 100%;
+  height: 1000px !important;
+  overflow-x: scroll;
+  border: none;
+  zoom: 0.75;
+  margin-bottom: 2em;
+}

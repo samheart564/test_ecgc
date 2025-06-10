@@ -1,0 +1,33 @@
+/* .nav-logo-custom,
+.nav-logo-custom > a {
+  color: #fff !important;
+}
+
+.nav-logo-custom:hover {
+  background-color: hsla(0, 0%, 100%, 0.15);
+}
+
+a.nav-logo-custom.show {
+  background-color: hsla(0, 0%, 100%, 0.15) !important;
+}
+
+a.custom-nav-hover:hover {
+  background-color: hsla(0, 0%, 100%, 0.15) !important;
+  color: cyan;
+} */
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-link {
+  color: white !important;
+}
+.navbar-link:hover {
+  text-decoration: none !important;
+  background-color: rgb(255 255 255 / 0.15) !important;
+}
+
+.navbar-active {
+  background-color: #0d6efd !important;
+}

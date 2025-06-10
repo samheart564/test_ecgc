@@ -1,0 +1,6 @@
+dev_tools/testing
+
+.venv
+**/.venv
+node_modules
+dist
