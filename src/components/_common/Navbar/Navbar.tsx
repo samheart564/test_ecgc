@@ -68,11 +68,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage = "" }) => {
           <div className="flex h-[40px] items-center justify-between">
             <a
               aria-label="site-icon"
-              href={`/`}
+              href={`/test_ecgc/`}
               className="flex items-center text-white hover:bg-white/15"
             >
               <img
-                src="test_ecgc/images/misc/SiteIcon.png"
+                src="/test_ecgc/images/misc/SiteIcon.png"
                 width="40"
                 alt="ECGC"
                 className="mr-2"

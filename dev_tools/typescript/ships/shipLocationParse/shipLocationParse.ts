@@ -140,7 +140,7 @@ export const shipLocationParse = (
       permanent: [
         {
           name: "See Common Resource Guide",
-          href: "/common_resource",
+          href: "/test_ecgc/common_resource",
         },
       ],
     }

@@ -161,7 +161,7 @@ export const ShipModalInner: React.FC<ShipModalInner> = ({
                         <a
                           rel="noopener noreferrer"
                           target="_blank"
-                          href={`/equipment#${equipHref}`}
+                          href={`/test_ecgc_2/equipment#${equipHref}`}
                         >
                           {type}
                         </a>

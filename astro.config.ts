@@ -1,18 +1,15 @@
 // @ts-nocheck
 import { defineConfig } from "astro/config"
 
-import cloudflare from "@astrojs/cloudflare"
-import metaTags from "astro-meta-tags"
-
 import react from "@astrojs/react"
 import sitemap from "@astrojs/sitemap"
 import tailwindcss from "@tailwindcss/vite"
 
+import metaTags from "astro-meta-tags"
+
 // https://astro.build/config
 export default defineConfig({
-  // adapter: cloudflare({imageService: 'compile'}),
   site: "https://samheart564.github.io/test_ecgc/",
-  // site: "https://azurlaneecgc.com",
   integrations: [
     react(),
     sitemap(),
@@ -21,10 +18,7 @@ export default defineConfig({
     //   CSS: false,
     //   HTML: false,
     //   JavaScript: false,
-    //   Exclude: [
-    //     (File: string) =>
-    //       File.includes("SiteIcon"),
-    //   ],
+    //   Exclude: [(File: string) => File.includes("SiteIcon")],
     // }),
   ],
   base: "/test_ecgc/",

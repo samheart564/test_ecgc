@@ -1,26 +1,23 @@
 {
-  "name": "ecgc-dev",
+  "name": "test_ecgc",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "astro": "astro",
     "preview": "--bun astro preview",
-    "vite-dev": "bunx --bun astro dev",
-    "dev": "bunx wrangler dev",
+    "dev": "bunx --bun astro dev",
     "submodule": "git submodule update --recursive --remote",
     "imgur": "bash dev_tools/python/gsheets2imgur.sh",
     "build": "bunx --bun astro check && bunx --bun astro build",
     "smol_format": "bunx --bun prettier --write \"src/**/*.{astro,json}\" \"dev_tools/**/*.{astro,json}\" --ignore-path .prettierignore",
     "format": "bunx --bun prettier --write \"src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,json,css}\" \"dev_tools/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,json,css}\" --ignore-path .prettierignore",
     "devtools": "bun run submodule && bash dev_tools/runAllTools.sh && bun run smol_format",
-    "start": "bun run devtools && bun run build && bash dev_tools/open-link.sh http://127.0.0.1:8787/ && bunx --bun astro dev",
+    "start": "bun run devtools && bun run build && bash dev_tools/open-link.sh http://localhost:4321/test_ecgc/ && bunx --bun astro dev",
     "update": "bun upgrade && bun update && bun install",
-    "rebuild": "rm -rf node_modules && rm -rf .astro && rm -rf dist && bun run update",
-    "deploy": "bun run build && bunx wrangler deploy"
+    "rebuild": "rm -rf node_modules && rm -rf .astro && rm -rf dist && bun run update"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "^12.5.4",
     "@astrojs/react": "^4.3.0",
     "@astrojs/sitemap": "^3.4.1",
     "@playform/compress": "^0.1.9",
@@ -32,8 +29,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-intersection-observer-hook": "^4.0.0",
-    "tailwindcss": "^4.1.8",
-    "wrangler": "^4.19.1"
+    "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
     "@happy-dom/global-registrator": "^17.6.3",

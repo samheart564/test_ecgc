@@ -17,7 +17,7 @@
 //           <div className={`icon rarity-${rarity} border-radius-0`}>
 //             <img
 //               loading="lazy"
-//               src={`/images/${shipImg}`}
+//               src={`/test_ecgc/images/${shipImg}`}
 //               alt={`${ship}`}
 //             />
 //           </div>
