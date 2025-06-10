@@ -11,8 +11,8 @@ import tailwindcss from "@tailwindcss/vite"
 // https://astro.build/config
 export default defineConfig({
   // adapter: cloudflare({imageService: 'compile'}),
-  // site: "https://samheart564.github.io/ecgc-dev/",
-  site: "https://azurlaneecgc.com",
+  site: "https://samheart564.github.io/test_ecgc/",
+  // site: "https://azurlaneecgc.com",
   integrations: [
     react(),
     sitemap(),
@@ -27,8 +27,7 @@ export default defineConfig({
     //   ],
     // }),
   ],
-  // base: "/ecgc-dev/",
-  base: "/",
+  base: "/test_ecgc/",
   output: "static",
   trailingSlash: "ignore",
   vite: {
